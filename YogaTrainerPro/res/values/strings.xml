@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YogaTrainer</string>
+    <string name="alert_text">This is Free Version please purchase Paid version to avoid ads and to support further development. Please wait 15 seconds</string>
+    <string name="back">Back</string>
+    <string name="taking">Taking Position</string>
+    <string name="start">Start</string>
+    <string name="benefits">Benefits</string>
+    <string name="settime">Set Time</string>
+    <string name="stop">Stop</string>
+    <string name="releasing">Releasing Position</string>
+    <string name="take">Taking</string>
+    <string name="release">Releasing</string>
+    <string name="bt_ok_text">Enter Time and click Ok</string>
+    <string name="st_text">Select the time First</string>
+    <string name="timer_text">Enter time in minutes minimum 1 minute</string>
+    <string name="feed">Feedback</string>
+    <string name="poses">Practice Poses</string>
+    <string name="rate">Rate it!</string>
+    <string name="buy">Upgrade!</string>
+</resources>

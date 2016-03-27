@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Drum Pose -->
+	
+    <string-array name="drum_taking">
+		<item>1. 멀리 1-1.5 미터 거리에서 오른쪽 다리에서 측면으로 왼쪽 다리 단계</item>
+		<item>2. 서로에 맞게 하이힐을 유지, 최대한 바깥쪽 발가락 돌려</item>
+		<item>3. 당신은 의자에 앉아 갈있는 것처럼 무릎을 조금 구부</item>
+		<item>4. 떨어져 허리와 약간 앞으로 무기를 놓습니다. 그들은 드럼을 쥐고있는 것처럼 팔을 이러한 위치에 개최, 어떤은 약간 허리 아래에 와서</item>
+    </string-array>
+    <string-array name="drum_releasing">
+		<item>1. 신체의 양쪽에 다시 무기를 가지고</item>
+		<item>2.무릎을 직선화</item>
+		<item>3. 앞으로 발가락 포인트</item>
+		<item>4. 서 위치로 다시 왼발을 단계</item>
+    </string-array>
+    <string-array name="drum_benefits">
+		<item>1. 다리 근육을 강화</item>
+		<item>2. 에 혈액 공급을 증가하고 다리의 관절과 허리를 풀리고</item>
+    </string-array>
+    
+    <!-- Difficult Pose -->
+    
+    <string-array name="diffcult_taking">
+		<item>1.오른쪽 다리에 신체의 무게를 지탱하고 약간 그것을 굽힘, 무릎에 약간을 절곡하여 왼쪽 다리를 들어. 시체는 현재 오른쪽 다리에 전적으로 균형</item>
+		<item>2.오른쪽 다리 위에 왼쪽 다리를 건너 오른쪽 종아리 뒤쪽 왼발의 상단을 연결.왼쪽 다리의 발끝이 오른쪽 하단 다리의 왼쪽에서 표시해야합니다.오른쪽 다리는 무릎에서 약간 구부러진 상태</item>
+		<item>3. 가슴 앞에 입사 손을 플레이스</item>
+
+    </string-array>
+    <string-array name="difficult_releasing">
+		<item>1. 위치를 가입에서 손을 해제하고 신체의 측면에 무기를 반환</item>
+		<item>2. 왼쪽 다리를 풀어</item>
+		<item>3. 지상에 다시 왼발을 놓고 서있는 위치로 돌아와. 반대편에 연습</item>
+    </string-array>
+    <string-array name="difficult_benefits">
+    	<item>1. 다리 근육을 강화</item>
+		<item>2. 에 혈액 공급을 증가하고 다리 관절 풀리고</item>
+    </string-array>
+    
+    <!-- Eagle Pose -->
+    
+    <string-array name="eagle_taking">
+    	<item>1.오른쪽 다리에 신체의 무게를 지탱하고 약간 그것을 굽힘, 무릎에 약간을 절곡하여 왼쪽 다리를 들어. 시체는 현재 오른쪽 다리에 전적으로 균형</item>
+		<item>2.오른쪽 다리 위에 왼쪽 다리를 건너 오른쪽 종아리 뒤쪽 왼발의 상단을 연결.왼쪽 다리의 발끝이 오른쪽 하단 다리의 왼쪽에서 표시해야합니다.오른쪽 다리는 무릎에서 약간 구부러진 상태</item>
+		<item>3.팔꿈치에서 팔을 양쪽 벤드와 가슴 수준을 올립니다. 왼쪽 상단 팔 위에 오른쪽 팔 위쪽에 자리하고 팔 두개를 엮다로 진행합니다. 조인 함께 양손 터치 포즈</item>
+    </string-array>
+    <string-array name="eagle_releasing">
+    	<item>1.무기를 해제하고 신체의 측면에 반환</item>
+		<item>2. 왼쪽 다리를 풀어</item>
+		<item>3. 지상에 다시 왼발을 놓고 서있는 위치로 돌아와. 반대편에 연습</item>
+    </string-array>
+    <string-array name="eagle_benefits">
+    	<item>1. 다리 근육을 강화</item>
+		<item>2. 에 혈액 공급을 증가하고 다리와 팔에 관절 풀리고</item>
+    </string-array>
+    
+    <!-- Ferocious Pose -->
+    
+    <string-array name="ferocious_taking">
+    	<item>1. 3.5-3 미터 정도의 거리 간격 두 피트 단계</item>
+		<item>2. 흡입과 좀처럼 듣기 어려운, 엉덩이로부터 앞으로 구부 러. 바닥에 손바닥을 플레이스</item>
+		<item>3. 땅에 폰트넬 만져 봅니다. 바닥에 손을의 도움으로 유지되는 무기는 신체의 팔꿈치와 균형에 굽었</item>
+		<item>4.몸이 균형되면, 팔을 똑바로 유지, 큰 발가락 또는 각 손으로 발의 바깥쪽 양쪽을 잡고 잡아</item>
+    </string-array>
+    <string-array name="ferocious_releasing">
+    	<item>1. 지상에 다시 손을 모두 플레이스</item>
+		<item>2. 숨을 내쉬고 및 흡입하는 동안 머리와 팔을 들어올려</item>
+		<item>3.상체를 똑바로하고 신체의 측면에 다시 무기를 모두 가지고</item>
+		<item>4. 함께 피트 단계와 서 위치로 돌아와</item>
+    </string-array>
+    <string-array name="ferocious_benefits">
+    	<item>1.다리를 강화</item>
+		<item>2.소화의 기능, 복부 지역의 생식과 배설 기관을 향상</item>
+		<item>3. 두뇌에 혈액 공급을 증가</item>
+		<item>4.신경계의 균형을</item>
+		<item>5. 예비들이 제기 서 머리에 포즈로, 그것은 신체의 무게를 지원하기 위해 혈액의 유입 증가와 폰트넬에 두뇌를 만드는</item>
+    </string-array>
+    
+    <!-- Gracious Warrior Pose -->
+    
+    <string-array name="gracious_taking">
+    	<item>1. 멀리 오른쪽 다리에서 편안한으로 앞으로 왼쪽 다리 단계</item>
+		<item>2.90도 각도로 왼쪽 무릎을 구부와 무릎에 손을 얹어, 손바닥이 모여</item>
+		<item>3. 숨을 내쉬고과 무기가지면에 평행 때까지 앞으로 참가 손을 들어 흡입하는 동안</item>
+		<item>4. 숨을 내쉬고, 오른쪽 다리는 몸과 머리의 트렁크가 대각선을 형성하므로, 앞으로 45도 각도로 몸을 구부. 정상적으로 호흡, 포스를 유지하기 위해 계속</item>
+    </string-array>
+    <string-array name="gracious_releasing">
+    	<item>1. 숨을 내쉬고과 흡입은 천천히 몸을 펴</item>
+		<item>2. 숨을 내쉬고 다시 무릎을 꿇고 손을 장소</item>
+		<item>3.무릎을 직선화 및 손을 릴리스</item>
+		<item>4. 그 곳으로 왼쪽 다리를 복원하고 서있는 위치로 돌아갑니다</item>
+    </string-array>
+    <string-array name="gracious_benefits">
+    	<item>1.발목, 무릎, 엉덩이, 목재 지역 자궁 경부 지역 및 어깨와 같은 관절에 강도와 혈액 공급을 향상</item>
+		<item>2.척추의 유연성 향상</item>
+		<item>3. 소화 기관에 압박을 가중하고 효율성과 기능을 증가</item>
+		<item>4.다리를 강화하고 균형을 향상</item>
+		<item>5.골반 주변 지역 지방 감소</item>
+    </string-array>
+    
+    <!-- Hand to Leg Pose -->
+    
+    <string-array name="hand_taking">
+    	<item>1. 멀리 오른쪽 다리에서 측면으로 왼쪽 다리 단계</item>
+		<item>2. 왼쪽에있는 왼쪽 다리의 발을 돌려</item>
+		<item>3. 흡입하는 동안 무기 오버헤드를 높이</item>
+		<item>4.왼쪽 다리로 엉덩이를 광장, 앞으로 벤드 좀처럼 듣기 어려운 반면</item>
+		<item>5.왼쪽 다리가 똑바로 유지, 왼발의 측면에서 바닥에 두 손바닥을 플레이스</item>
+		<item>6. 무릎에 이마를 만지거나 정상적인 호흡을 계속</item>
+    </string-array>
+    <string-array name="hand_releasing">
+    	<item>1. 숨을 내쉬고 및 흡입하면서 이마를 들어올려</item>
+		<item>2. 천천히, 오버헤드 최대 무기를 데리고, 다시 펴</item>
+		<item>3. 앞 얼굴을 엉덩이와 왼쪽 다리를 돌려</item>
+		<item>4. 좀처럼 듣기 어려운 동안 신체의 양쪽으로 아래 팔을 낮출</item>
+		<item>5.오른쪽 다리 옆에 다시 왼쪽 다리 단계와 서 위치로 돌아와</item>
+
+    </string-array>
+    <string-array name="hand_benefits">
+    	<item>1.유연성과 다리의 모든 관절과 근육에 혈액 공급, 허리와 엉덩이를 향상</item>
+		<item>2. 척추의 신경 및 근육에 혈액 순환이 촉진</item>
+		<item>3. 색조와 마사지 복부 지방은 따라서 또한 혈액 공급을 증가</item>
+		<item>4.뇌에 혈액 공급 개선</item>
+    </string-array>
+    
+    <!-- Headstand Pose -->
+    
+    <string-array name="head_taking">
+    	<item>1. 서 위치에서, 발가락에 웅크려에 와서</item>
+		<item>2. 두 무릎을 직선화</item>
+		<item>3. 천천히 팔뚝과 머리에 균형을 유지하면서, 가슴을 향해 바닥에서 다리를 들어 올리고, 무릎을 구부</item>
+		<item>4.뒤로 직선화 천천히 천장을 향해 무릎을 지점</item>
+		<item>5.다리를 직선화 및 발가락을 가리킨 다음 정상적으로 호흡</item>
+    </string-array>
+    <string-array name="head_releasing">
+		<item>1.하이힐과 엉덩이를 만지고, 천천히 무릎을 구부</item>
+		<item>2.허리 벤드와 가슴 가까이에 무릎을 가져</item>
+		<item>3.다리를 직선화 부드럽게 땅에 발가락을 만지게</item>
+		<item>4.무릎을 구부와 이마 15 ~ 30 초 동안 지상에 휴식과 함께, 천천히 엉덩이를 내려</item>
+		<item>5.발가락에 손바닥을 출시하고 웅크려로 돌아와</item>
+		<item>6. 천천히 일어나</item>
+    </string-array>
+    <string-array name="head_benefits">
+		<item>1. 두뇌와 눈 향상된 혈액 순환은 그들의 효율성을 증가</item>
+		<item>2. 마음에서 부담을 덜어, 심장으로 신체의 낮은 지역에서 불순한 혈액을 가져다줍니다</item>
+		<item>3. 의 효율성을 향상하는 데 도움이 뇌하수체에 대한 압박을 증가시킵니다</item>
+		<item>4. 더 많은 이산화탄소 및 기타 독소가 폐에서 제거됩니다 있도록 피임에 복부 장기의 무게 깊이 발산을 장려</item>
+		<item>5. 불안을 해소</item>
+    </string-array>
+    
+    <!-- Kite Pose -->
+    
+    <string-array name="kite_taking">
+    	<item>1. 숨을 내쉬고 및 흡입, 양팔 사이드에게 어깨 수준으로 현명한를 높이</item>
+    	<item>2. 숨을 내쉬고하고지면과 평행하게 될 때까지 상체를 낮추십시오. 그것은 신체와 수평 직선을 형성까지 동시에 천천히 뒤에서 왼쪽 다리를 올립니다. 일반적으로 숨</item>
+    </string-array>
+    <string-array name="kite_releasing">
+    	<item>1. 숨을 내쉬고과 흡입은 천천히 몸을 제대로하고 오른쪽 다리 옆에 바닥에 왼쪽 다리를 내려</item>
+    	<item>2. 숨을 내쉬고 천천히 신체의 측면으로 무기를 릴리스</item>
+    </string-array>
+    <string-array name="kite_benefits">
+    	<item>1.다시, 허리와 다리를 강화</item>
+    	<item>2.신경 계통에 대한 압박을 증가시킵니다하고 근육 골격 시스템과 신경 계통의 조정을 향상시킵니다</item>
+    	<item>3. 균형을 향상</item>
+    </string-array>
+    
+    <!-- Tree Pose -->
+    
+    <string-array name="tree_taking">
+    	<item>1. 스탠딩 포지션을 가지고</item>
+    	<item>2. 몸을 스트레이트 스트레치</item>
+    	<item>3. 흡입, 그리고 좀처럼 듣기 어려운 양쪽에서 손을 모두를 가지고</item>
+    	<item>4. 몸을 스트레칭하여 구두 뒷굽을 올려</item>
+    </string-array>
+    <string-array name="tree_releasing">
+    	<item>1. 흡입, 그리고 좀처럼 듣기 어려운가 양쪽에서 손을 모두를 넘어뜨리고</item>
+    	<item>2. 바닥에 구두 뒷굽을 지참하고 서있는 위치를 차지</item>
+    </string-array>
+    <string-array name="tree_benefits">
+    	<item>1. 모든 레인스를 제거합니다</item>
+    	<item>2.근육이 휴식을</item>
+    </string-array>
+    
+    <!-- Triangle Pose -->
+    
+    <string-array name="triangle_taking">
+    	<item>1. 왼쪽 다리를 들고 왼쪽 방향의 최대 거리를 장소</item>
+    	<item>2. 왼쪽으로 왼발의 발가락을 켜고 흡입</item>
+    	<item>3. 숨을 내쉬고와 무릎의 왼쪽 다리를 구부과 왼발의 발가락 근처의 왼쪽 손바닥을 배치</item>
+    	<item>4. 바로 오른쪽 귀 위에 앞으로 오른손을 받아 원활한 호흡을 계속</item>
+    </string-array>
+    <string-array name="triangle_releasing">
+    	<item>1. 숨을 내쉬고과 흡입은 원래 장소에 오른손을 가지고</item>
+    	<item>2. 왼쪽 무릎을 똑바로하고 원래의 곳으로 왼손을 가지고</item>
+    	<item>3. 앞에 왼쪽 다리 발가락 턴</item>
+    	<item>4. 맞는 근처의 왼쪽 다리를 지참하고 서있는 위치를 차지</item>
+    </string-array>
+    <string-array name="triangle_benefits">
+    	<item>이 벤트 다리의 종아리와 바닥에 휴식 손을의 근육에 주로 신체의 무게를 와서 포즈, 그리고 그들에게 좋은 효과가있다.신체의 스트레칭 그 부분의 근육에 좋은 영향을 미치지하고 기능을 향상시킵니다. 이것은 허리의 관절에 유용 포스</item>
+    </string-array>
+    
+    <!-- Twisted Triangle Pose -->
+    
+    <string-array name="twisted_taking">
+    	<item>1. 멀리 오른쪽 다리에서 측면으로 왼쪽 다리 단계</item>
+    	<item>2. 왼쪽에있는 왼쪽 다리의 발을 돌려</item>
+    	<item>3. 흡입 및 좀처럼 듣기 어려운 동안 90도 각도를 만드는 무릎의 왼쪽 다리를 구부 왼쪽으로 상체를 비틀어</item>
+    	<item>4. 왼쪽 발에 맞춰 왼쪽 발, 손바닥 옆의 바닥에 오른쪽 손바닥을 플레이스</item>
+    	<item>5. 그것이 왼쪽 귀 근처에 있도록 머리 왼쪽 팔을 올립니다.목을 똑바로 유지하고 정상적으로 호흡의 포스를 유지하기 위해 계속</item>
+    </string-array>
+    <string-array name="twisted_releasing">
+    	<item>1. 숨을 내쉬고과 흡입은 신체의 측면으로 왼손을 해제하면서</item>
+    	<item>2. 지상에서 오른팔을 들어 몸을 펴, 트위스트를 풀어</item>
+    	<item>3. 왼쪽 무릎을 똑바로</item>
+    	<item>4. 앞 얼굴의 왼쪽 다리를 돌려</item>
+    	<item>5.오른쪽 다리 옆에 다시 왼쪽 다리 단계와 서 위치로 돌아와</item>
+    </string-array>
+    <string-array name="twisted_benefits">
+    	<item>1. 다리 근육을 강화</item>
+    	<item>2. , 신체의 적절한 균형을 유지하는 데 도움이 허리에서 지방 제거</item>
+    	<item>3.소화 시스템의 효율성을 향상</item>
+    	<item>4.신경 계통을 강화</item>
+    	<item>5. 색조 생식기</item>
+    </string-array>
+    
+    <!-- Warrior Pose -->
+    
+    <string-array name="warrior_taking">
+    	<item>1. 앞으로 왼발을 가지고 초기 위치에서 일 전자 최대 거리 바닥에 왼발을 놓으십시오.</item>
+    	<item>2. 두 손을 모아, 손바닥에 참여하고 왼쪽 다리의 무릎에 올려 놓으십시오.허벅지와 종아리가 90도에서 온 것과 같은 방식으로 무릎에 왼쪽 다리를 구부. 오른쪽 다리를 곧게</item>
+    	<item>3.팔꿈치에 손을 굽힘없이 입사 손 번쩍하고 머리 위에 그들을 돌려 받고, 역방향 머리를 구부과 광경을 뒤로 조용히</item>
+    </string-array>
+    <string-array name="warrior_releasing">
+    	<item>1. 앞으로 시체를 꺼내는 시작하고 무릎에 손을 얹어주십시오. 앞으로 시력을 유지</item>
+    	<item>2.무릎을 직선화 및 원래 장소로 손을 복원</item>
+    	<item>3. 그 곳으로 왼쪽 다리를 복원하고 서있는 위치를 차지</item>
+    </string-array>
+    <string-array name="warrior_benefits">
+    	<item>이 다리, 허리, 척추와 목을 반대 방향으로 곡선 타의 관절 이거지. 이 결과로, 이러한 관절에 혈액 순환이 규제됩니다.척추는 탄성되고 그 기능이 향상됩니다. 이 압력은 소화 기관에 있으며, 복부는 늘어 도착, 그들의 기능을 촉진하는</item>
+    </string-array>
+    
+    <!-- Auspicious Pose -->
+    
+    <string-array name="auspicious_taking">
+    	<item>1.다리를 펴고 1-1.5 피트의 거리에서 그들을 유지</item>
+    	<item>2. 무릎에서 왼쪽 다리를 구부와 오른쪽 넓적다리의 안쪽을 감동의 영혼을 장소</item>
+    	<item>3. 무릎에 오른쪽 다리를 구부와 허벅지와 다리의 종아리 사이에 그 발을 장소</item>
+    	<item>4.각각의 무릎에 손을 모두의 손목을 유지하고 명상 제스처 가져가라. 정상적인 호흡을 계속</item>
+    </string-array>
+    <string-array name="auspicious_releasing">
+    	<item>1. 허리 옆에 손을 가져와</item>
+    	<item>2. 무릎에 오른쪽 다리를 똑바로</item>
+    	<item>3. 무릎의 왼쪽 다리를 직선화</item>
+    	<item>4. 함께 다리를 잡아 앉아 자세를 취하다</item>
+    </string-array>
+    <string-array name="auspicious_benefits">
+    	<item>백본이 포스이 똑바로 유지되면서 그 기능이 크게 향상됩니다. 명상 제스쳐 추가 펄스 박동을 안정화에 도움이됩니다. 차례로 심장에 부담을 줄일 수있는 근육에 따라서 부담이 감소합니다.</item>
+    </string-array>
+    
+    <!-- Balance Pose -->
+    
+    <string-array name="balance_taking">
+    	<item>1.다리를 펴고 1-1.5 피트의 거리에서 그들을 유지</item>
+    	<item>2. 무릎에 왼쪽 다리를 구부하고는 뒤꿈치가 만드 장기에 붙어있는 방법으로 오른쪽 다리의 허벅지를 만지시 장소</item>
+    	<item>3. 무릎에 오른쪽 다리를 구부와 허벅지와 뒤꿈치 사이에 그 발을 장소는 왼쪽 다리의 위치</item>
+    	<item>4.각각의 무릎에 손을 모두의 손목을 유지하고 명상 제스처 가져가라. 정상적인 호흡을 계속</item>
+    </string-array>
+    <string-array name="balance_releasing">
+    	<item>1. 허리 옆에 손을 가져와</item>
+    	<item>2. 무릎에 오른쪽 다리를 똑바로</item>
+    	<item>3. 무릎의 왼쪽 다리를 직선화</item>
+    	<item>4. 함께 다리를 잡아 앉아 자세를 취하다</item>
+    </string-array>
+    <string-array name="balance_benefits">
+    	<item>백본이 포스이 똑바로 유지되면서 그 기능이 크게 향상됩니다. 명상 제스쳐 추가 펄스 박동을 안정화에 도움이됩니다. 차례로 심장에 부담을 줄일 수있는 근육에 따라서 부담이 감소합니다.</item>
+    </string-array>
+    
+    <!-- Bow Pose -->
+    
+    <string-array name="bow_taking">
+    	<item>1. 무릎의 왼쪽 다리를 구부와 오른쪽 다리의 허벅지에 발을 유지. 오른쪽 다리를 곧게</item>
+    	<item>2.오른손으로 큰 왼손으로 왼쪽 다리의 발가락, 오른쪽 다리의를 개최</item>
+    	<item>3. 숨을 내쉬고, 그리고 흡입 왼손으로 왼쪽 다리를 올려서 시작하고 왼쪽 귀에 세워, 그 시점에서 그것을 안정화</item>
+    	<item>4. 정상적인 호흡을 계속</item>
+    </string-array>
+    <string-array name="bow_releasing">
+    	<item>1. 흡입, 그리고 좀처럼 듣기 어려운 오른쪽 다리의 허벅지에 왼쪽 다리를 가지고</item>
+    	<item>2. 그 곳으로 모두 손을 복원</item>
+    	<item>3. 왼쪽 다리를 똑바로하고 앉아 위치을</item>
+    </string-array>
+    <string-array name="bow_benefits">
+    	<item>이 변형의 방향을 포스하면 허리의 관절을 향해있다</item>
+    </string-array>
+    
+    <!-- Cockerel Pose -->
+    
+    <string-array name="cock_taking">
+    	<item>1. 포스 로터스에 앉아.명상 제스처를 해제하고 왼쪽 다리의 허벅지와 종아리 사이의 왼팔을 삽입합니다. 서서히, 팔꿈치로 다리를 통해 팔을 밀어 올리다</item>
+    	<item>2. 마찬가지로 팔꿈치까지를 통해 팔을 밀어, 오른쪽 다리의 허벅지와 종아리 사이의 오른팔을 삽입</item>
+    	<item>3.손가락을 펴고 바닥에 양손을 배치에 대해 4-6인치 간격</item>
+    	<item>4. 바닥에 손을만을 손에 균형, 바닥에서 시체를 올립니다. 앞으로 시선과 정상적으로 숨을 쉴</item>
+    </string-array>
+    <string-array name="cock_releasing">
+    	<item>1. 천천히 바닥에 다리를 낮은</item>
+    	<item>2. 다리 사이에서 오른손 출시</item>
+    	<item>3. 다리 사이에서 왼손 출시</item>
+    	<item>4.무릎 명상 제스처에 두 손을 놓고 포스 로터스로 돌아와</item>
+    </string-array>
+    <string-array name="cock_benefits">
+    	<item>1.팔, 어깨, 팔꿈치와 손목을 강화</item>
+    	<item>2.복부 근육을 강화</item>
+    	<item>3.가슴 근육을 뻗어</item>
+    </string-array>
+    
+    <!-- Crow Pose -->
+    
+    <string-array name="crow_taking">
+    	<item>1. 위치 앉아부터, 다리를 잡아 몸을 가까이하고, 손을의 지원과 발가락에 와서</item>
+    	<item>2.손가락이 밖으로 확산과 함께 무릎 앞에 지상에 1.5ft 1에 대한 차별 손을 플레이스</item>
+    	<item>3. 약간 팔을 구부하고 각각의 상단 무기의 바깥쪽 양쪽에 무릎의 안쪽을 터치.</item>
+    	<item>4.무기와 무릎에 대해 밖으로 밀어내는 무기에 대해 무릎을 압박하면 천천히 조금씩 손에에 체중을 전송, 공기의 엉덩이를 리프팅, 앞으로 몸을 기대다. 다음 바닥에서 발 리프트</item>
+    </string-array>
+    <string-array name="crow_releasing">
+    	<item>1. 천천히 뒤로 몸을 이동하여 바닥에 다리를 내려</item>
+    	<item>2.무기에서 무릎을 릴리스</item>
+    	<item>3.발가락에 오세요</item>
+    	<item>4.엉덩이의 옆 바닥에 손을 얹어, 다리를 제대로하고 앉아 위치로 돌아와</item>
+    </string-array>
+    <string-array name="crow_benefits">
+    	<item>1.신경계의 균형을</item>
+    	<item>2.무기와 손목을 강화</item>
+    	<item>3. 신체 균형 감각을 개발</item>
+    </string-array>
+    
+    <!-- Foetus Pose -->
+    
+    <string-array name="foetus_taking">
+    	<item>1. 포스 로터스에 앉아.명상 제스처를 해제하고 왼쪽 다리의 허벅지와 종아리 사이의 왼팔을 삽입합니다. 서서히, 팔꿈치로 다리를 통해 팔을 밀어 올리다</item>
+    	<item>2. 마찬가지로 팔꿈치까지를 통해 팔을 밀어, 오른쪽 다리의 허벅지와 종아리 사이의 오른팔을 삽입</item>
+    	<item>3. 다리 들고 팔을 위쪽으로 접어 오른손과 왼손으로 오른쪽 귓불과 왼쪽 귓불을 잡고 잡아.손이 귀를에 도달할 수 있도록 당신의 목을 내밀어 할 수 있습니다</item>
+    </string-array>
+    <string-array name="foetus_releasing">
+    	<item>1. 손에를 풀어 천천히 바닥에 다리를 낮은</item>
+    	<item>2. 왼쪽 뒤에, 다리 사이에서 오른손 출시</item>
+    	<item>3. 명상 제스쳐에 두 손을 놓고 포스 로터스로 돌아와</item>
+    </string-array>
+    <string-array name="foetus_benefits">
+    	<item>1.부신 분비에 조절 효과를 보유하고 흥분 마음을 진정</item>
+    	<item>2. 불안 장애 완화</item>
+    	<item>3. 분노를 제어하는 ​​데 도움이됩니다</item>
+    	<item>4. 마사지와 색조 복부 장기</item>
+    	<item>5. 소화 화재를 자극하고 식욕을 증가</item>
+    	<item>6. 균형 감각을 향상</item>
+    </string-array>
+    
+    <!-- Forward Bend -->
+    
+    <string-array name="forward_taking">
+    	<item>1. 아래 굽힘 후, 하이힐, 송아지​​, 완전히 바닥에 감동 허벅지, 척추가 똑바로 유지, 무릎을 꿇고 이마를 휴식과 부드러운 호흡을 계속 유지</item>
+    	<item>2. 복부가 완전히 접힌 도착 여기 때문에, 완전 폭발 이후 구부 필요된다</item>
+    	<item>3. 하나는 호흡이 원활하게 유지, 그 시점에서 안정화 봅니다만큼 자기의 몸을 허락로 아래로 구부와해야</item>
+    	<item>4. 위치를 복용 후 전신에 긴장을 자동으로 머리, 어깨, 가슴은 자신의 체중과 휴식에 때문에 아래로 올 것이다</item>
+    </string-array>
+    <string-array name="forward_releasing">
+    	<item>1. 숨을 내쉬고, 그리고 흡입은 머리를 높여 시작</item>
+    	<item>2. 그 곳으로 손을 복원하고 앉아 위치를 차지</item>
+    </string-array>
+    <string-array name="forward_benefits">
+    	<item>1.서쪽의 전체가 늘어지면서, 그들은 정화하고 그들의 기능이 크게 향상됩니다. 동시에, 앞 쪽의 근육이 수축하고 폐, 창자와 선들을 생산하는 다른 내부 주스에 대한 압박이 있습니다. 이 그들의 기능의 결과도 향상으로</item>
+    	<item>2. 이것은 척수의 목재 부분 및 소화 시스템에 관한 권리 문제 설정에 매우 유용합니다</item>
+    	<item>3. 또한, 우리의 시체가 휴면 단계에 누워있는 매우 민감한 부분이있다. 이 포스는 그것을 활성화해야합니다</item>
+    </string-array>
+        
+    <!-- Half Lotus Bound Pose -->
+    
+    <string-array name="hlb_taking">
+    	<item>1. 왼쪽 다리를 구부와 오른쪽 넓적다리에 왼발의 상단에 배치</item>
+    	<item>2. 허리의 뒤로 왼쪽 팔을 싸서 왼쪽 발끝을 잡아</item>
+    	<item>3. 오른쪽 발끝을 잡으려고 앞으로 오른팔에 도달</item>
+    	<item>4. 흡입과 좀처럼 듣기 어려운 반면, 엉덩이에서 상체를 구부와 무릎에 이마를 만져보십시오. 일반적으로 숨</item>
+    </string-array>
+    <string-array name="hlb_releasing">
+    	<item>1. 숨을 내쉬고 및 흡입하는 동안 머리를 들고 상체를 바로 잡다</item>
+    	<item>2. 양손을 해제하고 바닥에 엉덩이의 측면에 반환</item>
+    	<item>3.왼발을 출시하고 앉아 위치로 돌아와</item>
+    </string-array>
+    <string-array name="hlb_benefits">
+    	<item>1.복부에 대해 눌러 벤트 다리의 발이 장의 연동을 자극하는 데 도움이 복부 장기에 강렬한 마사지를 제공하고 변비를 완화</item>
+    	<item>2.햄 문자열을 뻗어</item>
+    	<item>3.엉덩이 관절의 유연성 증가</item>
+    	<item>4.복부 및 골반 지역에서 초과 중량을 제거</item>
+    </string-array>
+    
+    
+    
+    <!-- Lifted Lotus Pose -->
+    
+    <string-array name="lifted_taking">
+    	<item>1. 손을의 명상 제스처를두고 앉는 자세처럼 허리 옆에 그들을 유지</item>
+    	<item>2. 숨을 내쉬고, 그리고 흡입, 호흡이 원활하게 유지하는이 자리를 손에의 도움으로 몸 전체를 들고 안정</item>
+    </string-array>
+    <string-array name="lifted_releasing">
+    	<item>1. 흡입, 그리고 좀처럼 듣기 어려운, 천천히 바닥에 시체를 얻을</item>
+    	<item>2. 무릎에 손을 모두 유지하고 명상 제스처를 복원</item>
+    </string-array>
+    <string-array name="lifted_benefits">
+    	<item>로터스의 장점 이외에 그것이 그들에 좋은 압력을함으로써 내장과 신체의 근육에 좋은 영향을 미치지 포스</item>
+    </string-array>
+    
+    <!-- Lion Pose -->
+    
+    <string-array name="lion_taking">
+    	<item>1. 오른쪽 다리를 구부와 왼쪽 엉덩이 밑에 발을 장소</item>
+    	<item>2. 왼쪽 다리를 구부하고 오른쪽 발목 위에 왼쪽 발목을 교차, 오른쪽 엉덩이에서 왼쪽 다리를 배치</item>
+    	<item>3.손가락으로 무릎에 손을 나머지는 밖으로 퍼졌다. 손에에 체중을 배치, 약간 앞에 몸을 기대다.손이 바로 보관해야합니다</item>
+    	<item>4. 머리에게 약간 아래쪽으로 기울이기, 입을 열고 혀를 내밀어 아래로 혀끝을 지적.눈과 시제 모든 안면 근육을 넓혀. 정상적으로 숨을.시선도 코 팁 또는 눈썹 중앙에 있어야</item>
+    </string-array>
+    <string-array name="lion_releasing">
+    	<item>1.얼굴 근육을 이완하고 목을을 평탄케하라 하였느니라</item>
+    	<item>2.엉덩이로, 시체를 제대로하고 바닥에 손을 얹어</item>
+    	<item>3. 왼쪽 다리를 직선화</item>
+    	<item>4. 오른쪽 다리를 똑바로하고 앉아 포즈로 돌아와</item>
+    </string-array>
+    <string-array name="lion_benefits">
+    	<item>1. 얼굴, 눈 그리고 혀 근육들은 효율성을 향상, 이러한 근육에 상쾌한 혈액 공급이 늘어 아르</item>
+    	<item>2.접힌 다리는 높은 차크라로 낮은 차크라에서 프라나의 흐름을 리디렉션</item>
+    </string-array>
+    
+    <!-- Lotus Pose -->
+    
+    <string-array name="lotus_taking">
+    	<item>1.다리를 펴고 1-1.5 피트의 거리에서 그들을 유지</item>
+    	<item>2. 무릎에서 왼쪽 다리를 구부와 왼쪽 다리의 사타구니 오른쪽 허벅지와 뒤꿈치의 발가락을 장소</item>
+    	<item>3. 무릎에 오른쪽 다리를 구부와 오른쪽 다리의 사타구니에서 왼쪽 허벅지와 뒤꿈치의 발가락을 장소</item>
+    	<item>4.각각의 무릎에 손을 모두의 손목을 유지하고 명상 제스처 가져가라. 정상적인 호흡을 계속</item>
+    </string-array>
+    <string-array name="lotus_releasing">
+    	<item>1. 허리 옆에 손을 가져와</item>
+    	<item>2. 무릎에 오른쪽 다리를 똑바로</item>
+    	<item>3. 무릎의 왼쪽 다리를 직선화</item>
+    	<item>4. 함께 다리를 잡아 앉아 자세를 취하다</item>
+    </string-array>
+    <string-array name="lotus_benefits">
+    	<item>백본이 포스이 똑바로 유지되면서 그 기능이 크게 향상됩니다. 명상 제스쳐 추가 펄스 박동을 안정화에 도움이됩니다. 차례로 심장에 부담을 줄일 수있는 근육에 따라서 부담이 감소합니다.</item>
+    </string-array>
+    
+    <!-- Mountain Pose -->
+    
+    <string-array name="mt_taking">
+    	<item>1. 앞으로 손을 모두를 가지고 함께 손을 모두의 손가락 잠금</item>
+    	<item>2.머리 위로 손을 타고 지붕 만나게 팜스 단점을 켜십시오. 하늘을 향해 뻗어 무기로 신체의 이상을 스트레치</item>
+    	<item>3. 위치를 안정화하고 정상적인 호흡을 계속</item>
+    </string-array>
+    <string-array name="mt_releasing">
+    	<item>1. 신체 긴장을 풀어 이상 그림 위치 1로 손을 가져</item>
+    	<item>2. 포스 로터스와 같이 위치를 가지고</item>
+    	<item>3. 무릎의 왼쪽 다리를 제대로 마우스 오른쪽 다리를 펴</item>
+    	<item>4. 함께 다리를 잡아 앉아 자세를 취하다</item>
+    </string-array>
+    <string-array name="mt_benefits">
+    	<item>팔을 뒤로하고 복부 근육을 스트레칭하면 신체의 논문 부품의 기능을 향상시킵니다. 이것은 척추와 코드의 특정 문제를 치료하는 데 도움이</item>
+    </string-array>
+    
+    <!-- Scale Pose -->
+    
+    <string-array name="scale_taking">
+    	<item>1.엉덩이의 측면에서, 로터스에서, 포즈, 바닥에 손을 얹어</item>
+    	<item>2. 천천히 뒤로 엎드려서 바닥에 팔꿈치를 놓으십시오. 손에 장소 주먹 (손바닥은 아래로 향하게), 엉덩이 아래로 폼 주먹</item>
+    	<item>3. 숨을 내쉬고 및 흡입하는 동안, 로터스를 리프트는 주먹 낮은 팔에 몸을 균형, 지상 45 도에 이거지. 일반적으로 숨</item>
+    </string-array>
+    <string-array name="scale_releasing">
+    	<item>1. 흡입과 좀처럼 듣기 어려운 동안 천천히 로터스가지면에 포스 릴리스</item>
+    	<item>2. 흡입하는 동안 손을의 지원으로 수직으로 다시 올려</item>
+    	<item>3. 로터스에 돌아옵니다 무릎에 다시 명상 제스처에 넣어 손을, 포즈</item>
+    </string-array>
+    <string-array name="scale_benefits">
+    	<item>1. 색조 복부 장기</item>
+    	<item>2. 강화 어깨, 뒤로 목</item>
+    	<item>3. 가슴을 엽니다</item>
+    </string-array>
+    
+    <!-- Single Leg to Head Pose -->
+    
+    <string-array name="slhp_taking">
+    	<item>1. 오른쪽 허벅지에 왼발을 플레이스</item>
+    	<item>2. 왼손과 오른손으로 왼쪽 발목의 외부로 왼쪽 송아지 근육을 잡아.무기를 사용하여 왼쪽 다리를 올려 앞으로 트렁크를 구부하고 오른쪽으로 약간 꼬임. 흡입과 좀처럼 듣기 어려운 반면, 왼쪽 어깨 위에 다리를 놓고 앞으로 얼굴 시체를 켜십시오. 곧장 앞으로 가즈</item>
+    	<item>3. 위치에 함께 두 손바닥에 참여하십시오. 일반적으로 숨</item>
+    </string-array>
+    <string-array name="slhp_releasing">
+    	<item>1. 위치에 합류에서 손을 출시</item>
+    	<item>2. 손을의 지원으로, 머리 뒤쪽에서 왼쪽 다리를 출시하고 오른쪽 허벅지에서 왼쪽 발을 장소</item>
+    	<item>3. 왼쪽 다리를 똑바로하고 앉아 위치로 돌아와</item>
+    </string-array>
+    <string-array name="slhp_benefits">
+    	<item>1.복부 지역에 마사지는 내부 장기</item>
+    	<item>2. 연동시키고 제거 변비를 촉진</item>
+    	<item>3. 색조 생식기</item>
+    	<item>4. 정맥류을 덜어, 다리의 혈액 순환을 향상</item>
+    	<item>5. 차크라의 에너지 수준을 증가, 척추의 혈액 순환을 향상</item>
+    	<item>6. 혈액에있는 헤모글로빈 수준을 향상, 몸과 마음을 생기를 불어 넣다</item>
+    </string-array>
+    
+    <!-- Single Toe Balance Pose -->
+    
+    <string-array name="stbp_taking">
+    	<item>1. 위치 앉아부터, 다리를 잡아 몸을 가까이하고, 발가락에 와서</item>
+    	<item>2. 왼쪽 다리를 들어올려와 오른쪽 넓적다리 위에 놓으십시오. 오른쪽 허벅지가 바닥에 평행하게되어 있는지 확인합니다. 오른쪽 뒤꿈치를 조정하는 회음부에 대한이 프레스 그럼. 전체 체중 이제 오른발의 발가락과 공을 부담입니다</item>
+    	<item>3. 균형이 달성되면, 위치를 가입 가슴 앞에 손을 가져</item>
+    </string-array>
+    <string-array name="stbp_releasing">
+    	<item>1. 시체 근처 바닥에 그들을 포즈과 장소에 합류에서 손을 출시</item>
+    	<item>2. 왼쪽 다리를 해제하고 오른쪽 옆에있는 왼쪽 다리를 장소</item>
+    	<item>3. 양손의 도움으로 다리를 똑바로하고 앉아 위치로 돌아와</item>
+    </string-array>
+    <string-array name="stbp_benefits">
+    	<item>1. 특히 다리의 발목과 발가락을 강화</item>
+    	<item>2. 생식을 조절</item>
+    	<item>3. 정자의 과도한 사고 사정을 방지</item>
+    	<item>4. Brahmacharya을 추진</item>
+    	<item>5. 신경계 기차</item>
+    </string-array>
+    
+    <!-- Swan Pose -->
+    
+    <string-array name="swan_taking">
+    	<item>1. 다른 후 다리를 구부와 쪼그리고 앉아서 다리에 와서</item>
+    	<item>2. 바닥에 무릎을 레스트</item>
+    	<item>3. 떨어져 무릎을 펴고 발을 향해 가리키는 손가락과 떨어져 3-4인치에 대한 바닥에 손을 얹어</item>
+    	<item>4. 그들이 직선 뒤로 때까지 다리를 스트레치</item>
+    	<item>5. 다시 어깨를 롤과 약간 그래서 머리, 목, 어깨, 뒤로 다리가 땅에 각도에서 직선을 형성하는 머리를 올립니다. 일반적으로 숨</item>
+    </string-array>
+    <string-array name="swan_releasing">
+    	<item>1.목 앞으로 어깨를 절곡하여 약간 상체를 직감</item>
+    	<item>2. 천천히 다른 전달 후 피트를 단계.무기를 직선화하고 웅크려에 와서</item>
+    	<item>3. 신체의 측면으로 무기를 놓고, 다리를 제대로하고 앉아 위치로 돌아와</item>
+    </string-array>
+    <string-array name="swan_benefits">
+    	<item>1.복부 장기 및 근육을 자극 마사지 및</item>
+    	<item>2.식욕을 자극</item>
+    	<item>3. 위장과 창자 벌레를 추방하는 데 도움이됩니다</item>
+    </string-array>
+    
+    <!-- Thunderbolt Pose -->
+    
+    <string-array name="th_taking">
+    	<item>1. 무릎의 왼쪽 다리를 접어 바닥에 발가락을 장소</item>
+    	<item>2. 무릎에 오른쪽 다리를 접어 바닥에 발가락을 배치하고 두 발가락 가입</item>
+    	<item>3.헤어진 하이힐에 의해 형성된 구덩이에 앉아</item>
+    	<item>4.무릎을 꿇고 손바닥을 플레이스</item>
+    </string-array>
+    <string-array name="th_releasing">
+    	<item>1. 무릎에서 손바닥을 제거하고 양쪽에 가져</item>
+    	<item>2. 왼쪽 다리를 꺼내 그것을 바로 잡다</item>
+    	<item>3. 오른쪽 다리를 꺼내 그것을 바로 잡다</item>
+    	<item>4.좌석 위치를 가지고</item>
+    </string-array>
+    <string-array name="th_benefits">
+    	<item>1. 본체와 함께 마음 또한 자태 안정옵니다. 따라서, 그것은이 자태 명상을 위해 좋습니다. 따라서, 그것은 명상과 집중에 대한 선호</item>
+    	<item>2.허리 아래 부분의 혈액 순환을 제어합니다</item>
+    </string-array>
+    
+    <!-- Tied Lotus -->
+    
+    <string-array name="tied_taking">
+    	<item>1.다리를 펴고 1-1.5 피트의 거리에서 그들을 유지</item>
+    	<item>2. 무릎에서 왼쪽 다리를 구부와 왼쪽 다리의 사타구니 오른쪽 허벅지와 뒤꿈치의 발가락을 장소</item>
+    	<item>3. 무릎에 오른쪽 다리를 구부와 오른쪽 다리의 사타구니에서 왼쪽 허벅지와 뒤꿈치의 발가락을 장소</item>
+    	<item>4.각각의 무릎에 손을 모두의 손목을 유지하고 명상 제스처 가져가라. 정상적인 호흡을 계속</item>
+    </string-array>
+    <string-array name="tied_releasing">
+    	<item>1. 허리 옆에 손을 가져와</item>
+    	<item>2. 무릎에 오른쪽 다리를 똑바로</item>
+    	<item>3. 무릎의 왼쪽 다리를 직선화</item>
+    	<item>4. 함께 다리를 잡아 앉아 자세을</item>
+    </string-array>
+    <string-array name="tied_benefits">
+    	<item>백본이 포스이 똑바로 유지되면서 그 기능이 크게 향상됩니다. 명상 제스쳐 추가 펄스 박동을 안정화에 도움이됩니다. 차례로 심장에 부담을 줄일 수있는 근육에 따라서 부담이 감소합니다.</item>
+    </string-array>
+    
+    <!-- Toe Balance Pose -->
+    
+    <string-array name="toe_taking">
+    	<item>1. 다른 후 몸 하나 가까이에있는 다리를 구부. 지상에서 두 손바닥을 휴식과 발가락에 와서</item>
+    	<item>2. 균형을 유지하면서, 다시 제대로하고 지상에서 두 손을 들고 무릎 (왼쪽 무릎에 오른쪽 무릎이 왼쪽 손바닥을 마우스 오른쪽 손바닥)에 그들을 놓으십시오. 이 위치에있는 신체의 균형을 유지하고 앞으로 시선</item>
+    </string-array>
+    <string-array name="toe_releasing">
+    	<item>1.발의 옆, 바닥에 손을 플레이스</item>
+    	<item>2. 두 다리를 똑바로하고 앉아있는 위치로 돌아와</item>
+    </string-array>
+    <string-array name="toe_benefits">
+    	<item>1. 집중력 향상</item>
+    	<item>2.발가락과 발목을 강화</item>
+    </string-array>
+    
+    <!-- Fish Pose -->
+    
+    <string-array name="fish_taking">
+    	<item>1. 다리에게 한발 간격을 벌리고</item>
+    	<item>2. 무릎의 왼쪽 다리를 접어 오른쪽 허벅지에 배치</item>
+    	<item>3. 무릎에 오른쪽 다리를 접어 왼쪽 허벅지에 배치</item>
+    	<item>4. 이제 팔꿈치의 도움으로 다시의 아치를 만드는 뒤로 뒤로 머리 곡선을 들어 바닥에 머리의 맨 위에 배치</item>
+    	<item>5. 손으로 다리의 발가락을 잡고 정상적인 호흡을 계속</item>
+    </string-array>
+    <string-array name="fish_releasing">
+    	<item>1.발의 발가락을 릴리스하고 팔꿈치와 어깨를 지원</item>
+    	<item>2. 천천히 머리에 무게를 감소, 목에 펴 바닥에 어깨를 가지고</item>
+    	<item>3. 오른쪽 다리를 똑바로</item>
+    	<item>4. 왼쪽 다리를 직선화</item>
+    	<item>5. 두 다리 정상 위치로 다시 돌려주고 부정사 입장을</item>
+    </string-array>
+    <string-array name="fish_benefits">
+    	<item>갑상선과 건강 기능을 확보 뇌하수체 분비에있는 순환을 개선하는 데 도움이. 또한 허벅지와 복부 근육을 체계적으로 뻗어있다.</item>
+    </string-array>
+    
+    <!-- Full Wheel Pose -->
+    
+    <string-array name="full_taking">
+    	<item>1. 나태한 자세로 시작합니다.무릎에서 구부와 차별 힙합 폭에 대한 엉덩이에 가까운 피트, 장소</item>
+    	<item>2. 어깨를 가리키는 손가락과 팔을 들어올려 그들이 어깨 아래 장소가</item>
+    	<item>3. 숨을 내쉬고 흡입하는 동안, 엉덩이, 허리, 절감하고 지상에서 중간 다시 리프트. 숨을 내쉬다</item>
+    	<item>4. 흡입하는 동안 손바닥 지상에 밀어 어깨를 들어올려.손이 무릎에서 직선 팔꿈치와 다리 때까지 허리와 전체 다시, 엉덩이 올려</item>
+    </string-array>
+    <string-array name="full_releasing">
+    	<item>1. 좀처럼 듣기 어려운 동안 흡입, 무릎에 팔꿈치와 다리 구부. 머리를 구부하고, 바닥에 머리, 어깨, 허리와 엉덩이 놓습니다. 바닥에 완전히 다시 나머지</item>
+    	<item>2. 떨어져 어깨에서 손바닥을 모두 지참하고 신체의 측면으로 무기를 가지고</item>
+    	<item>3. 다리를 똑바로하고 나태한 위치로 돌아와</item>
+    </string-array>
+    <string-array name="full_benefits">
+    	<item>1. 복부 근육의 위쪽 부분에 스트레칭으로 인해, 그것은 그들의 효율성을 증가, 따라서 내부 복부의 기관 및 압력을 제공합니다</item>
+    	<item>2.허벅지의 앞부분에있는 근육 스트레칭이며 순록하는 동안 강화하고 포즈를 개최</item>
+    	<item>3. 그들은 일반적으로 하루 종일 책상 위에 직감으로 포즈는 책상이나 컴퓨터 앞에서 오랜 시간을 앉아 사람들을 위해 매우 유용합니다</item>
+    	<item>4. 이것은 또한 전체 뒤 근육을 토닝과 강화에 도움이됩니다 포즈</item>
+    </string-array>
+    
+    <!-- Gas Release Pose -->
+    
+    <string-array name="gas_taking">
+    	<item>1. 숨을 내쉬고과 흡입은 다리를 모두 육아 시작하고 다리 훨훨 위치와</item>
+    	<item>2. 무릎에서 다리를 구부하고 배꼽에 주름을 유지. 함께 무릎 및 발가락을 유지</item>
+    	<item>3. 이제 허벅지와 함께 누르면 배를 유지하고 손을 모두 접은 다리를 접는</item>
+    	<item>4. 이제 목 절곡, 고개를 들라과 무릎 사이의 턱을 수정</item>
+    </string-array>
+    <string-array name="gas_releasing">
+    	<item>1.목 직선화 바닥에 머리를 가지고</item>
+    	<item>2.손을 펼쳐하고 이전 위치로 가져</item>
+    	<item>3. 흡입, 다리를 펴 다리 훨훨 위치와</item>
+    	<item>4. 좀처럼 듣기 어려운, 천천히 다리를 모두 쓰러 뜨리 바닥에 그들을 장소와 부정사 위치를 잡고</item>
+    </string-array>
+    <string-array name="gas_benefits">
+    	<item>배꼽에 좋은과 체계적인 압력으로 인해, 대장에 갇힌 가스가 출시됩니다. 이것은 소화 시스템을 개선하고 좋은 운동을하는 데 도움이</item>
+    </string-array>
+    
+    <!-- Inverted Pose -->
+    
+    <string-array name="in_taking">
+    	<item>1. 숨을 내쉬고 및 흡입 시작 위쪽 다리를 제기하고 그들은 바닥과 90도 각도를 만들 때 중지합니다.다리 자세를 길러 달성</item>
+    	<item>2. 허리를 인상하고 머리 뒤로 다리를 밀어 좀처럼 듣기 어려운</item>
+    	<item>3. 손에 모두 허리를 지원 흡입, 다리를 제대로하고 하늘을 향해 발가락을 스트레칭.발가락에있는 광경을 유지</item>
+    	<item>4. 정상적인 호흡을 계속</item>
+    </string-array>
+    <string-array name="in_releasing">
+    	<item>1. 흡입과 좀처럼 듣기 어려운, 약간 머리를 향해 다리를 낮추고 신체의 균형을 유지하는 것은 정상적인 위치로 돌려 허리를 지원하는 손을 제거</item>
+    	<item>2. 흡입, 바로 제기된 다리로 다리를 유지 바닥에 허리를 배치</item>
+    	<item>3. 좀처럼 듣기 어려운, 얼간이이나 속도없이 정상 위치로 돌려 다리를 가지고</item>
+    </string-array>
+    <string-array name="in_benefits">
+    	<item>시대의 대부분의 우리 위치를 서거나 앉아도 남아 있습니다. 확실히 반대 입장이 포스에서 찍은 것입니다. 이것은 불순한 혈액을 쉽게 마음을 도달로 혈액 순환을 개선하는 데 도움이됩니다. 어느 정도이 자세에서 포스 헤드 스탠드의 혜택을 얻을 수 있습니다</item>
+    </string-array>
+    
+    <!-- Leg Raised Pose -->
+    
+    <string-array name="leg_taking">
+    	<item>1. 숨을 내쉬고과 위쪽 다리를 모두 육아 흡입 시작하고 그들은 바닥과 90도 각도를 만들 때 중단</item>
+    	<item>2.피트의 발끝에서 시력을 유지</item>
+    	<item>3. 정상적인 호흡을 계속하고 자세가 안정 유지하려고</item>
+    </string-array>
+    <string-array name="leg_releasing">
+    	<item>흡입과 좀처럼 듣기 어려운, 다시 바닥에 두 다리를 내려 보내</item>
+    </string-array>
+    <string-array name="leg_benefits">
+    	<item>여기서, 허벅지의 근육을 포즈, 그리고 위 근육이 뻗어있다.변형은 작은 창자, 효소 생산 분비 및 기타 기관과 같은 내부 장기에 도달하고 용량을 증가하는 데 도움이됩니다.다리의 수직 위치는 혈액 순환을 개선하는 데 도움이</item>
+    </string-array>
+    
+    <!-- Boat Pose -->
+    
+    <string-array name="boat_taking">
+    	<item>1. 앞으로 무기를 모두 스트레치 함께 폐쇄 손바닥으로 바닥에 보관하십시오. 동시에 바닥에 이마를 배치</item>
+    	<item>2. 숨을 내쉬고과 흡입은 앞에 팔 목 리프트, 그리고 뒤쪽에 다리를 굽힘없이 가능한 한 많은 이상</item>
+    	<item>3. 정상적인 호흡을 계속하고 자세가 안정 유지하려고</item>
+    </string-array>
+    <string-array name="boat_releasing">
+    	<item>1. 흡입 및 가지고 좀처럼 듣기 어려운, 바닥에 천천히 무릎, 턱, 어깨 모두</item>
+    	<item>2.발목을두고 몸 옆에 손을 가져</item>
+    	<item>3.벤트 다리를 똑바로하고 쓰러진 자세로 가져</item>
+    </string-array>
+    <string-array name="boat_benefits">
+    	<item>여기서, 다리의 근육 포즈, 그리고 손에 활보다 더 있는것 뻗어있다.변형은 내부 장기에 도달하고 용량을 증가시킵니다. 또한 소화 시스템에 관련된 제거 불만을 돌려 근육에 따라 행동하고 도움이</item>
+    </string-array>
+    
+    <!-- Bent arm Cobra Pose -->
+    
+    <string-array name="bent_taking">
+    	<item>1. 함께 앞면과 몸에 대한 그려진 손가락을 가리키는 손가락으로 바닥에 가슴 근처에 가까이 손을 장소 팜스 모두 가져</item>
+    	<item>2. 손을 양쪽 팔꿈치가 하늘을 향해 제기 보관해야합니다. 이제 지상과 배출에 이마를 만져</item>
+    	<item>3. 흡입, 점차 먼저 이마를 인상 후 턱, 가슴과 목, 그리고 곡선 척수 칼럼. 바닥에 눌러 허리, 허벅지와 무릎 유지에만 해군 최대 개까지 신체의 상단 부분을 마련</item>
+    </string-array>
+    <string-array name="bent_releasing">
+    	<item>1. 흡입 및 척추 칼럼의 지원으로 좀처럼 듣기 어려운, 처음엔 바닥을 감동 복부와 가슴, 이마로 천천히 어깨를 낮추는 시작</item>
+    	<item>2. 원래 위치로 다시 바닥에 턱과 손을 얹어주십시오. 경향이 위치를 달성</item>
+    </string-array>
+    <string-array name="bent_benefits">
+    	<item>이것은 척수와 복부의 근육과 우려 이거지. 로 인해 소화 기관의 증가의 효율성을 스트레칭.혈액 순환이 개선으로 어느 정도의 뒤로 문제 감소</item>
+    </string-array>
+    
+    <!-- Crocodile Pose -->
+    
+    <string-array name="cro_taking">
+    	<item>1. 앞으로 무기를 가지고 그들을 접을. 다음 접힌 팔꿈치에 이마를 배치하고 목을을 완화</item>
+    	<item>2.다리를 펴고 내부의 격렬하고 외부 발가락과 발 정도의 거리에서 그들을 유지. 그런 다음 다리를 휴식</item>
+    	<item>3.온몸이 힘 빼. 가능한 한 바닥에 신체의 많은 부분을 만지지보십시오. 편안한 위치에 호흡 정상과 머리를 유지</item>
+    </string-array>
+    <string-array name="cro_releasing">
+    	<item>1.피트 모아</item>
+    	<item>2.팔을 펼쳐과 같은 전에 그들을 다시하고 쓰러진 자세에 와서</item>
+    </string-array>
+    <string-array name="cro_benefits">
+    	<item>모든 근육이 긴장함으로써, 적은 혈액과 산소 공급이 필요합니다. 따라서 심장 박동과 호흡도 천천히. 전체 기본 작업 속도가 느린 보니 이제 몸은 좋은 나머지를 얻을 수</item>
+    </string-array>
+</resources>

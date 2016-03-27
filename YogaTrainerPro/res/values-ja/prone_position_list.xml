@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prone_position">
+        <item>船のポーズ</item>
+        <item>ポーズおじぎを</item>
+        <item>ベントアームのコブラのポーズ</item>
+        <item>ポーズクロコダイル</item>
+    </string-array>
+    
+</resources>

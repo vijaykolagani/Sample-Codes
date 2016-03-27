@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="position">
+		<item>서있는 위치</item>
+		<item>앉는 자세</item>
+		<item>부정사 위치</item>
+		<item>쓰러진 자세</item>
+    </string-array>
+</resources>

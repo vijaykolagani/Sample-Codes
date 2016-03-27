@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Standing Pose Durations -->
+    
+    <string-array name="standing_durations">
+    	<item>Duration : 15 seconds. Over time it can be build upto 2 minutes</item>
+    	<item>Duration : Atleast 30 seconds oneach side</item>
+    	<item>Duration : Atleast 30 seconds on each side</item>
+    	<item>Duration : 30 seconds</item>
+    	<item>Duration : 2 to 3 minutes</item>
+    	<item>Duration : Atleast 1 minute on each side</item>
+    	<item>Duration : A daily practice of between 1 to 3 minutes. This can be held for upto 3o minutes</item>
+    	<item>Duration : 15 to 30 seconds</item>
+    	<item>Duration : It should be kept for 1 minute on each side</item>
+    	<item>Duration : Atleast 1 minute. One should increase this duration to 3 minutes</item>
+    	<item>Duration : Over time it can be build upto 1 minute</item>
+    	<item>Duration : Atleast 1 minute, can be increased upto 3 minutes</item>
+    </string-array>
+    
+    <!-- Sitting Pose Durations -->
+    
+    <string-array name="sitting_durations">
+    	<item>Duration : Atleast 10 minutes. After practice it can be extended upto 2 to 3 hours</item>
+    	<item>Duration : Atleast 10 minutes. After practice it can be extended upto 2 to 3 hours</item>
+    	<item>Duration : It Should be maintained atleast 30 seconds to experience its benefits</item>
+    	<item>Duration : This Pose should be held steady for at least 15 seconds, gradually increasing to 1 minute with practice</item>
+    	<item>Duration : A steady pose should be held for at least 30 seconds. With practice, a steady posture can be held for 1 minute</item>
+    	<item>Duration : This Pose should be held steady for at least 30 seconds to obtain the benefits, gradually increasing to 2 minutes with practice</item>
+    	<item>Duration : It can be maintained for thirty seconds. Later on the duration can be increased to 3 minutes</item>
+    	<item>Duration : The Pose should be held for at least 30 seconds to experience the benefits. With practice, the duration can be increased to 2 minutes on each side</item>
+    	<item>Duration : Initially 10 minutes. With practice, the duration can be increased to 2 to 3 hours</item>
+    	<item>Duration : This Pose should be maintained for thirty seconds or so. There is no point in increasing duration</item>
+    	<item>Duration : This Pose should be practiced for at least 30 seconds to gain the benefits and after some time can be extended up to 3 minutes</item>
+    	<item>Duration : You can maintain this Pose for long time without any problem</item>
+    	<item>Duration : At least 15 seconds so as to experience the benefits of the Pose. With daily practice, the duration can be extended up to 1 minute</item>
+    	<item>Duration : 15 to 20 seconds in order to reap the benefits. The duration may be increased to 1 minute with further practice</item>
+    	<item>Duration : 10 to 15 seconds in order to reap the benefits. The duration may be increased to 1 minute with further practice</item>
+    	<item>Duration : This Pose should be held for at least 30 seconds to reap the benefits. With further practice, duration of 3 to 5 minutes can be achieved</item>
+    	<item>Duration : At least 10 minutes to reap the benefits. Duration of 2 to 3 hours can be achieved</item>
+    	<item>Duration : The Pose should be held for 30 seconds to obtain the benefits</item>
+    	<item>Duration : Five minutes to experience good results. With more practice it can be kept for three hours</item>
+    </string-array>
+    
+    <!-- Supine Pose Durations -->
+    
+    <string-array name="supine_durations">
+    	<item>Duration : This Pose is complementary to Shoulder Stand and Plough Pose, so should be maintained for one tenth of the period of the Shoulder Stand or Plough Pose</item>
+    	<item>Duration : Pose is usually held for 15 seconds for beginners. With more practice of this pose, one can gradually increase the timing up to 2 minutes</item>
+    	<item>Duration : Generally it should be maintained for one minute. That way this Pose can be retained longer but that is not necessary</item>
+    	<item>Duration : This Pose should be maintained for 2 to 3 minutes after sufficient practice to get the desired results</item>
+    	<item>Duration : To start with try to maintain this for 5 to 10 seconds</item>
+    </string-array>
+    
+    <!-- Prone Pose Durations -->
+    
+    <string-array name="prone_durations">
+    	<item>Duration : initially, try to practice it for 5 to 10 second. After practicing it for few days you can increase the repetitions</item>
+    	<item>Duration : It Should be maintained atleast 30 seconds to experience its benefits</item>
+    	<item>Duration : Initially practice it for 5 to 10 second. After practicing it for few days you can increase the repetitions</item>
+    	<item>Duration : The aim of this Pose is to release the strain caused by other Poses. Therefore, this Pose should be maintained for two to three minutes</item>
+    </string-array>
+    
+</resources>

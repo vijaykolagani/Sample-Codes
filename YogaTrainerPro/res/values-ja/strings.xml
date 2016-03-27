@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ヨガのトレーナー</string>
+    <string name="alert_text">これは、広告を避けるために、さらなる発展をサポートするために購入有料バージョンを喜ば無料バージョンです。 15秒間お待ちください</string>
+    <string name="back">戻る</string>
+    <string name="taking">ポジションを取って</string>
+    <string name="start">開始</string>
+    <string name="benefits">メリット</string>
+    <string name="settime">時間を設定します。</string>
+    <string name="stop">停止</string>
+    <string name="releasing">位置の解放</string>
+    <string name="take">撮影</string>
+    <string name="release">解放</string>
+    <string name="bt_ok_text">時間を入力し、[OK]をクリックします。</string>
+    <string name="st_text">まず、時間を選択してください</string>
+    <string name="buy">今すぐ購入</string>
+    <string name="timer_text">分最小1分の時間を入力します。</string>
+    <string name="feed">フィードバック</string>
+    <string name="rate">率に</string>
+    <string name="poses">練習のヨガ</string>
+</resources>

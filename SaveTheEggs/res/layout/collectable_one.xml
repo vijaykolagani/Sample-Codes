@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal" >
+
+    <FrameLayout
+        android:layout_width="@dimen/shelf_width"
+        android:layout_height="@dimen/shelf_height"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/book_shelf" >
+
+        <ImageView
+            android:id="@+id/item_one"
+            android:layout_width="@dimen/lock_width"
+            android:layout_height="@dimen/lock_height"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="62dp"
+            android:src="@drawable/lock" />
+
+        <ImageView
+            android:id="@+id/item_two"
+            android:layout_width="@dimen/lock_width"
+            android:layout_height="@dimen/lock_height"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:src="@drawable/lock" />
+
+        <ImageView
+            android:id="@+id/item_three"
+            android:layout_width="@dimen/lock_width"
+            android:layout_height="@dimen/lock_height"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="70dp"
+            android:src="@drawable/lock" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/shelf_width"
+        android:layout_height="@dimen/shelf_height"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/book_shelf" >
+
+        <ImageView
+            android:id="@+id/item_four"
+            android:layout_width="@dimen/lock_width"
+            android:layout_height="@dimen/lock_height"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="62dp"
+            android:src="@drawable/lock" />
+
+        <ImageView
+            android:id="@+id/item_five"
+            android:layout_width="@dimen/lock_width"
+            android:layout_height="@dimen/lock_height"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:src="@drawable/lock" />
+
+        <ImageView
+            android:id="@+id/item_six"
+            android:layout_width="@dimen/lock_width"
+            android:layout_height="@dimen/lock_height"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="70dp"
+            android:src="@drawable/lock" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/shelf_width"
+        android:layout_height="@dimen/shelf_height"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/book_shelf" >
+
+        <ImageView
+            android:id="@+id/item_seven"
+            android:layout_width="@dimen/lock_width"
+            android:layout_height="@dimen/lock_height"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="62dp"
+            android:src="@drawable/lock" />
+
+        <ImageView
+            android:id="@+id/item_eight"
+            android:layout_width="@dimen/lock_width"
+            android:layout_height="@dimen/lock_height"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:src="@drawable/lock" />
+
+        <ImageView
+            android:id="@+id/item_nine"
+            android:layout_width="@dimen/lock_width"
+            android:layout_height="@dimen/lock_height"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="70dp"
+            android:src="@drawable/lock" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/shelf_width"
+        android:layout_height="@dimen/shelf_height"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/book_shelf" >
+
+        <ImageView
+            android:id="@+id/item_ten"
+            android:layout_width="@dimen/lock_width"
+            android:layout_height="@dimen/lock_height"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="62dp"
+            android:src="@drawable/lock" />
+
+        <ImageView
+            android:id="@+id/item_eleven"
+            android:layout_width="@dimen/lock_width"
+            android:layout_height="@dimen/lock_height"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:src="@drawable/lock" />
+
+        <ImageView
+            android:id="@+id/item_twelve"
+            android:layout_width="@dimen/lock_width"
+            android:layout_height="@dimen/lock_height"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="70dp"
+            android:src="@drawable/lock" />
+
+    </FrameLayout>
+
+</FrameLayout>

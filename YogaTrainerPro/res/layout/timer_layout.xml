@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:gravity="center" android:layout_height="wrap_content">
+    <TextView android:layout_width="fill_parent" android:id="@+id/description" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:gravity="center" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginTop="28dp" android:text="@string/timer_text"></TextView>
+    <EditText android:layout_width="wrap_content" android:inputType="phone" android:width="200dip" android:layout_height="wrap_content" android:id="@+id/time_input" android:layout_below="@+id/description" android:layout_centerHorizontal="true" android:layout_marginTop="42dp">
+        <requestFocus></requestFocus>
+    </EditText>
+    <Button android:layout_width="wrap_content" android:textColor="#FFFFFF" android:text="Cancel" android:id="@+id/button_cancel" android:layout_height="wrap_content" android:layout_below="@+id/time_input" android:layout_alignParentRight="true" android:layout_marginTop="32dp" android:width="150dip"></Button>
+    <Button android:layout_width="wrap_content" android:textColor="#FFFFFF" android:text="Ok" android:id="@+id/button_ok" android:layout_height="wrap_content" android:layout_alignTop="@+id/button_cancel" android:layout_alignParentLeft="true" android:width="150dip"></Button>
+    
+</RelativeLayout>

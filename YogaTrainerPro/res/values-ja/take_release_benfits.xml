@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Drum Pose -->
+	
+    <string-array name="drum_taking">
+        <item>1。離れて1〜1.5フィートの距離で右脚から、出力側に左脚をステップ</item>
+        <item>2。お互いに沿って、かかとを保ち、可能な限り外側につま先を回し</item>
+        <item>3。あなたが椅子に座ってしようとしているかのように膝を少し曲げる</item>
+        <item>4。離れて腰から、わずかに前方に腕を置きます。彼らはドラムを持っているかのように腕がこのような位置に保持され、これはわずかに腰の下まで来る</item>
+    </string-array>
+    <string-array name="drum_releasing">
+    	<item>1。体の側面に戻って腕をもたらす</item>
+    	<item>2。膝をまっすぐに</item>
+    	<item>3。前方につま先を指して</item>
+    	<item>4。立っている位置に戻って左足をステップ</item>	
+    </string-array>
+    <string-array name="drum_benefits">
+    	<item>1。脚の筋肉を強化</item>
+    	<item>2。への血液供給を増加させ、脚の関節と股関節を緩める</item>
+    </string-array>
+    
+    <!-- Difficult Pose -->
+    
+    <string-array name="diffcult_taking">
+    	<item>1。右脚に体重をシフトし、わずかにそれを曲げて、膝に少しそれを曲げて左脚を持ち上げる。ボディは、現在、右脚に完全にバランスが取れている</item>
+    	<item>2。右脚の上で左脚を渡り、右ふくらの後ろに左足の上部をフック。左脚のつま先は右下肢の左側から表示する必要があります。右脚は膝に少し曲がったまま</item>
+    	<item>3。胸の前で結合手を置き、</item>
+    </string-array>
+    <string-array name="difficult_releasing">
+    	<item>1。位置への参加から手を離し、体の側面に腕を返す</item>
+    	<item>2。左脚を離して</item>
+    	<item>3。地上に戻って左足を置き、立った姿勢に戻ってくる。反対側の練習</item>
+    </string-array>
+    <string-array name="difficult_benefits">
+    	<item>1。脚の筋肉を強化</item>
+    	<item>2。への血液供給を増加させ、脚の関節を緩める</item>
+    </string-array>
+    
+    <!-- Eagle Pose -->
+    
+    <string-array name="eagle_taking">
+    	<item>1。右脚に体重をシフトし、わずかにそれを曲げて、膝に少しそれを曲げて左脚を持ち上げる。ボディは、現在、右脚に完全にバランスが取れている</item>
+    	<item>2。右脚の上で左脚を渡り、右ふくらの後ろに左足の上部をフック。左脚のつま先は右下肢の左側から表示する必要があります。右脚は膝に少し曲がったまま</item>
+    	<item>3。肘で両腕を曲げ、胸のレベルにそれらを上げる。左上腕の上で右上腕を置き、両腕を絡ませるために引き続き。結合で一緒に両手を触れてポーズ</item>
+    </string-array>
+    <string-array name="eagle_releasing">
+    	<item>1。腕を放し、ボディの側面にそれらを戻す</item>
+    	<item>2。左脚を離して</item>
+    	<item>3。地上に戻って左足を置き、立った姿勢に戻ってくる。反対側の練習</item>
+    </string-array>
+    <string-array name="eagle_benefits">
+    	<item>1。脚の筋肉を強化</item>
+    	<item>2。への血液供給を増加させ、脚や腕の関節を緩める</item>
+    </string-array>
+    
+    <!-- Ferocious Pose -->
+    
+    <string-array name="ferocious_taking">
+    	<item>1。3.5から3フィートの距離に離れて両足をステップ</item>
+    	<item>2。吸い込むと息を吐き、腰から前方に曲げる。地面の上に手のひらを置き、</item>
+    	<item>3。地面に泉門に触れてみてください。地面に手の支援を受けて維持されて腕が体の肘とバランスで曲がっている</item>
+    	<item>4。ボディがバランスになると、腕がまっすぐに保ち、足の親指またはそれぞれの手で​​足の外側からホールドをキャッチ</item>
+    </string-array>
+    <string-array name="ferocious_releasing">
+    	<item>1。地上に戻って両手を置き、</item>
+    	<item>2。息を吐くと吸入しながら頭と腕を持ち上げる</item>
+    	<item>3。上体をまっすぐにし、体の側面に戻って両腕をもたらす</item>
+    	<item>4。一緒に足をステップし、立ち位置に戻ってくる</item>
+    </string-array>
+    <string-array name="ferocious_benefits">
+    	<item>1。足を強化</item>
+    	<item>2。消化器の機能、腹部領域における生殖と排泄器官を改善します</item>
+    	<item>3。脳への血液供給を増加させる</item>
+    	<item>4。神経系のバランスをとる</item>
+    	<item>5。予備的なポーズスタンドヘッドトゥーポーズとして、それはボディの重量を支えるために血液の増加流入と泉門に脳を行う</item>
+    </string-array>
+    
+    <!-- Gracious Warrior Pose -->
+    
+    <string-array name="gracious_taking">
+    	<item>1。遠くは右脚から快適であるように前方に左足をステップ</item>
+    	<item>2。90度の角度で左膝を曲げると膝の上に手を置く、ヤシの木が一緒に参加しました</item>
+    	<item>3。息を吐くと、腕が地面と平行になるまで前方に参加し、手を上げる吸入しながら</item>
+    	<item>4。息を吐く、右脚は、体と頭のトランクが対角線を形成するように、前方に45度程度身体を曲げる。通常、呼吸、ポーズを維持し続ける</item>
+    </string-array>
+    <string-array name="gracious_releasing">
+    	<item>1。息を吐くと吸入は、ゆっくりと体をまっすぐに</item>
+    	<item>2。吐き出すと戻って膝に手を置く</item>
+    	<item>3。膝をまっすぐにし、手を離します</item>
+    	<item>4。その場所に左脚を復元し、立ち姿勢に戻る</item>
+    </string-array>
+    <string-array name="gracious_benefits">
+    	<item>1。足首、膝、腰、木材の地域、頸部や肩などの関節の強度と血液供給を改善する</item>
+    	<item>2。脊柱の柔軟性を向上させる</item>
+    	<item>3。消化器官に負担がかかり、その効率性と機能を向上させます</item>
+    	<item>4。足を強化し、バランスを向上</item>
+    	<item>5。骨盤領域の周りに脂肪が減少</item>
+    </string-array>
+    
+    <!-- Hand to Leg Pose -->
+    
+    <string-array name="hand_taking">
+    	<item>1。離れて右脚から、出力側に左脚をステップ</item>
+    	<item>2。左に左脚の足を回して</item>
+    	<item>3。吸入しながら、腕のオーバーヘッドを発生させる</item>
+    	<item>4。左脚に腰を二乗し、前方に曲げて息を吐きながら、</item>
+    	<item>5。左脚はまっすぐに保ち、左足の側面の地面に、両方の手のひらを置き、</item>
+    	<item>6。膝に額をタッチし、正常な呼吸を続ける</item>
+    </string-array>
+    <string-array name="hand_releasing">
+    	<item>1。息を吐くと吸入しながら額を持ち上げる</item>
+    	<item>2。ゆっくりと、オーバーヘッドの上の腕を持って来る、背中をまっすぐに</item>
+    	<item>3。フロントに直面して戻って腰と左足を回し</item>
+    	<item>4。息を吐きながら、体の側面に戻ってダウン武器を下げる</item>
+    	<item>5。右脚の横に戻って左足をステップし、立ち位置に戻ってくる</item>
+    </string-array>
+    <string-array name="hand_benefits">
+    	<item>1。柔軟性と血液供給の脚のすべての関節と筋肉に、腰やヒップを向上させる</item>
+    	<item>2。脊椎の神経や筋肉への循環を刺激し</item>
+    	<item>3。トーンやマッサージ腹部領域は、それ故にまた血液供給を増加</item>
+    	<item>4。脳への改良された血液供給</item>
+    </string-array>
+    
+    <!-- Headstand Pose -->
+    
+    <string-array name="head_taking">
+    	<item>1。位置からでも立った位置からで、つま先に、スクワットに来る</item>
+    	<item>2。両膝をまっすぐに</item>
+    	<item>3。ゆっくりと腕と頭の上にバランスを保ちながら、胸に向かって地面から足を持ち上げ、膝を曲げる</item>
+    	<item>4。背中をまっすぐにゆっくりと天井に向かって膝を指して</item>
+    	<item>5。足をまっすぐにし、つま先を上向きに、通常は呼吸</item>
+    </string-array>
+    <string-array name="head_releasing">
+    	<item>1。かかとでお尻を触る、ゆっくり膝を曲げる</item>
+    	<item>2。腰を曲げると胸の近くに膝をもたらす</item>
+    	<item>3。足をまっすぐに、ゆっくりと地面につま先に触れる</item>
+    	<item>4。膝を曲げると額が15〜30秒間地面で休むと、ゆっくり腰を下に下げる</item>
+    	<item>5。つま先に、手のひらを離して、スクワットに戻ってくる</item>
+    	<item>6。徐々にスタンドアップ</item>
+    </string-array>
+    <string-array name="head_benefits">
+    	<item>1。脳や目に改良された血液循環は、彼らの効率性を高める</item>
+    	<item>2。心臓の負担を軽減、心にボディの下部領域から不純な血液をもたらすのに役立ちます</item>
+    	<item>3。その効率を高めるために役立つ下垂体に圧力をかける</item>
+    	<item>4。より多くの二酸化炭素および他の毒素が肺から除去されるように、ダイアフラム上腹部臓器の重量はより深い呼気を奨励</item>
+    	<item>5。不安を軽減</item>
+    </string-array>
+    
+    <!-- Kite Pose -->
+    
+    <string-array name="kite_taking">
+    	<item>1。息を吐くと吸入、肩のレベルに横ばい両腕を上げる</item>
+    	<item>2。吐き出すと、それが地面と平行になるまで上体を下げます。それは身体と水平に直線を形成するまで、同時に、ゆっくりと背後から左足を上げる。普通に呼吸</item>
+    </string-array>
+    <string-array name="kite_releasing">
+    	<item>1。息を吐くと吸入は、ゆっくりと体をまっすぐにし、右脚の横の地面に左脚を下に下げる</item>
+    	<item>2。吐き出すとゆっくりと身体の側に戻って腕を離して</item>
+    </string-array>
+    <string-array name="kite_benefits">
+    	<item>1。戻って、腰と脚を強化</item>
+    	<item>2。神経系に負担がかかり、筋骨格系と神経系の調整を改善</item>
+    	<item>3。バランスを改善する</item>
+    </string-array>
+    
+    <!-- Tree Pose -->
+    
+    <string-array name="tree_taking">
+    	<item>1。立ち位置を取る</item>
+    	<item>2。あなたの体をストレートストレッチ</item>
+    	<item>3。吸い込む、そして息を吐き両側から両手を持ち出す</item>
+    	<item>4。あなたの体を延伸してかかとを持ち上げます</item>
+    </string-array>
+    <string-array name="tree_releasing">
+    	<item>1。吸い込み、そして吐き出すは両側から両手をダウンさせる</item>
+    	<item>2。床にかかとを持参し、立ち位置を取る</item>
+    </string-array>
+    <string-array name="tree_benefits">
+    	<item>1。すべての菌株を削除します。</item>
+    	<item>2。筋肉は休息とリラクゼーションを得る</item>
+    </string-array>
+    
+    <!-- Triangle Pose -->
+    
+    <string-array name="triangle_taking">
+    	<item>1。左脚を持ち上げて、左に向かって最大距離でそれを置く</item>
+    	<item>2。左に向かって左足のつま先をオンにして吸い込む</item>
+    	<item>3。息を吐くと膝に左脚を曲げ、左足のつま先に近い左手の手のひらを置く</item>
+    	<item>4。まっすぐ右耳の上に前方に右手を取り、滑らかな呼吸を続ける</item>
+    </string-array>
+    <string-array name="triangle_releasing">
+    	<item>1。息を吐くと吸入は、元の場所に右手をもたらす</item>
+    	<item>2。左膝をまっすぐにし、元の場所に左手をもたらす</item>
+    	<item>3。正面に左脚のつま先を回す</item>
+    	<item>4。正しいものの近くに左脚を持参し、立ち位置を取る</item>
+    </string-array>
+    <string-array name="triangle_benefits">
+    	<item>このでは曲がった足のふくらはぎに、床で休む手の筋肉に主に身体の体重を来る姿勢とその上に素晴らしい効果を持っています。体のストレッチにはその部分の筋肉に良い効果があり、それらの機能を向上させます。これは、腰の関節に有用なポーズ</item>
+    </string-array>
+    
+    <!-- Twisted Triangle Pose -->
+    
+    <string-array name="twisted_taking">
+    	<item>1。離れて右脚から、出力側に左脚をステップ</item>
+    	<item>2。左に左脚の足を回して</item>
+    	<item>3。吸い込むと息を吐きながら、90度の角度を作る膝に左脚を曲げ、左に上体をひねっ</item>
+    	<item>4。左足に沿って左の足、手のひらの横の地面に右の手のひらを置き、</item>
+    	<item>5。それは左耳付近になるように頭の上に左腕を上げます。首をまっすぐにして正常に呼吸、ポーズを維持し続ける</item>
+    </string-array>
+    <string-array name="twisted_releasing">
+    	<item>1。息を吐くと吸入は、身体の側に左手を離しながら、</item>
+    	<item>2。地面から右腕を持ち上げ、体をまっすぐに、ねじれを解放</item>
+    	<item>3。左膝をまっすぐに</item>
+    	<item>4。フロントに直面する左足を回し</item>
+    	<item>5。右脚の横に戻って左足をステップし、立ち位置に戻ってくる</item>
+    </string-array>
+    <string-array name="twisted_benefits">
+    	<item>1。脚の筋肉を強化</item>
+    	<item>2。、体の適切なバランスを維持するのに役立ちます腰から脂肪が削除さ</item>
+    	<item>3。消化器系の効率を改善</item>
+    	<item>4。神経系を強化</item>
+    	<item>5。トーン生殖器官</item>
+    </string-array>
+    
+    <!-- Warrior Pose -->
+    
+    <string-array name="warrior_taking">
+    	<item>1。前方に左足を取ると初期位置から番目の電子の最大距離で床に左足を置きます。</item>
+    	<item>2。両手を一緒に、手のひらに参加し、左脚の膝の上に置きます。太ももやふくらは90度になるように膝に左脚を曲げてください。右脚をまっすぐに</item>
+    	<item>3。肘に手を曲げずにまで参加し、手を上げるし、頭の上にそれらを取り戻すと、後方に頭を曲げると視力を後方に抑える</item>
+    </string-array>
+    <string-array name="warrior_releasing">
+    	<item>1。前方に体をもたらす開始し、膝の上に手を置きます。前面に視力を保つ</item>
+    	<item>2。膝をまっすぐにし、元の場所に手を復元する</item>
+    	<item>3。その場所に左脚を復元し、立ち位置を取る</item>
+    </string-array>
+    <string-array name="warrior_benefits">
+    	<item>これでは足、腰、脊柱と首が反対方向に湾曲さのジョイントをポーズ。その結果として、これらの関節への血液循環が規制されています。脊柱は、弾性になり、その機能が向上します。そこに圧力が消化器官で、腹が引き伸ばされる、それらの機能を促進する</item>
+    </string-array>
+    
+    <!-- Auspicious Pose -->
+    
+    <string-array name="auspicious_taking">
+    	<item>1。両足を広げ、1〜1.5フィートの距離でそれらを保つ</item>
+    	<item>2。膝に左脚を曲げて、右大腿部の内側に触れ、その魂を配置</item>
+    	<item>3。膝に右脚を曲げ、太ももや足のふくらはぎの間でその足を置く</item>
+    	<item>4。それぞれの膝の上に両手の手首を保ち、瞑想のジェスチャーを取る。正常な呼吸を続ける</item>
+    </string-array>
+    <string-array name="auspicious_releasing">
+    	<item>1。腰の横に両手をもたらす</item>
+    	<item>2。膝に右脚をまっすぐに</item>
+    	<item>3。膝に左脚をまっすぐに</item>
+    	<item>4。一緒に足の両方を取得し、座った姿勢を取る</item>
+    </string-array>
+    <string-array name="auspicious_benefits">
+    	<item>バックボーンがポーズこれで直立保持されているとして、その機能が大幅に改善されています。瞑想のジェスチャーは、さらにパルスのビートを安定させるのに役立ちます。今度は心臓への負担を軽減さ筋肉で、その結果ひずみが低減される。</item>
+    </string-array>
+    
+    <!-- Balance Pose -->
+    
+    <string-array name="balance_taking">
+    	<item>1。両足を広げ、1〜1.5フィートの距離でそれらを保つ</item>
+    	<item>2。膝に左脚を曲げ、そのヒールはプロの作成臓器にかかるようにして、そのような方法で、右脚の大腿部に触れて置く</item>
+    	<item>3。膝に右脚を曲げ、太ももと、そのかかとの間にその足を置くが左脚の配置され</item>
+    	<item>4。それぞれの膝の上に両手の手首を保ち、瞑想のジェスチャーを取る。正常な呼吸を続ける</item>
+    </string-array>
+    <string-array name="balance_releasing">
+    	<item>1。腰の横に両手をもたらす</item>
+    	<item>2。膝に右脚をまっすぐに</item>
+    	<item>3。膝に左脚をまっすぐに</item>
+    	<item>4。一緒に足の両方を取得し、座った姿勢を取る</item>
+    </string-array>
+    <string-array name="balance_benefits">
+    	<item>バックボーンがポーズこれで直立保持されているとして、その機能が大幅に改善されています。瞑想のジェスチャーは、さらにパルスのビートを安定させるのに役立ちます。今度は心臓への負担を軽減さ筋肉で、その結果ひずみが低減される。</item>
+    </string-array>
+    
+    <!-- Bow Pose -->
+    
+    <string-array name="bow_taking">
+    	<item>1。膝に左脚を曲げ、右脚の大腿部に足を維持。右脚をまっすぐに</item>
+    	<item>2。右手に大きな左手と左足のつま先、そして右脚のことを保持する</item>
+    	<item>3。息を吐く、そして吸入左手と左脚を持ち上げる開始と左耳にそれをプルアップし、その時点でそれを安定化させる</item>
+    	<item>4。正常な呼吸を続ける</item>
+    </string-array>
+    <string-array name="bow_releasing">
+    	<item>1。吸い込む、そして息を吐き右脚の大腿部に左脚をもたらす</item>
+    	<item>2。その場所に両手を復元する</item>
+    	<item>3。左脚をまっすぐにし、座位を取る</item>
+    </string-array>
+    <string-array name="bow_benefits">
+    	<item>このでは歪の方向ポーズと腰の関節に向かってです。</item>
+    </string-array>
+    
+    <!-- Cockerel Pose -->
+    
+    <string-array name="cock_taking">
+    	<item>1。ポーズロータスに座っている。瞑想のジェスチャーを解放し、左脚の大腿部やふくらはぎの間に左腕を挿入します。徐々に、肘に足を通して腕を押し上げ</item>
+    	<item>2。同様に、肘まで、を通じて腕を押し、右脚の大腿部やふくらはぎの間に右腕を挿入</item>
+    	<item>3。指を広げて、床に両手を置き、約4〜6インチ離れて</item>
+    	<item>4。床に手で、手のみでのバランス、床から身体を上げる。前方に視線と普通に呼吸</item>
+    </string-array>
+    <string-array name="cock_releasing">
+    	<item>1。ゆっくりと地面に足を下げる</item>
+    	<item>2。足の間から右手を離すと</item>
+    	<item>3。足の間から左手を離して</item>
+    	<item>4。膝の上に瞑想のジェスチャーで両手を置き、ポーズロータスに戻って来る</item>
+    </string-array>
+    <string-array name="cock_benefits">
+    	<item>1。腕、肩、肘、手首を強化</item>
+    	<item>2。腹部の筋肉を強化</item>
+    	<item>3。胸の筋肉を伸ばす</item>
+    </string-array>
+    
+    <!-- Crow Pose -->
+    
+    <string-array name="crow_taking">
+    	<item>1。位置に座ってから、、足をもたらす身体に近く、手の支援をつま先の上に来る</item>
+    	<item>2。指が広がると、膝の前の地面に1.5フィート、約1〜離れて手を置き、</item>
+    	<item>3。少し腕を曲げると、それぞれの上腕の外側に膝の内側には触れない。</item>
+    	<item>4。腕と膝に対して押し出す腕に対して膝を絞ることは、徐々に徐々に手に体重を移す、空気中でお尻を持ち上げ、前方に体に傾く。その後、床から足を持ち上げ</item>
+    </string-array>
+    <string-array name="crow_releasing">
+    	<item>1。徐々に後方に身体を動かして、地面に足を下げる</item>
+    	<item>2。腕から膝を離して</item>
+    	<item>3。つま先の上に来る</item>
+    	<item>4。腰の側で地面に手を置き、脚を真っすぐ伸ばすと座っている位置に戻って来る</item>
+    </string-array>
+    <string-array name="crow_benefits">
+    	<item>1。神経系のバランスをとる</item>
+    	<item>2。腕と手首を強化</item>
+    	<item>3。物理的なバランス感覚を開発</item>
+    </string-array>
+    
+    <!-- Foetus Pose -->
+    
+    <string-array name="foetus_taking">
+    	<item>1。ポーズロータスに座っている。瞑想のジェスチャーを解放し、左脚の大腿部やふくらはぎの間に左腕を挿入します。徐々に、肘に足を通して腕を押し上げ</item>
+    	<item>2。同様に、肘まで、を通じて腕を押し、右脚の大腿部やふくらはぎの間に右腕を挿入</item>
+    	<item>3。足を上げて、腕を上に折り、右手と左手で右の耳たぶと左の耳たぶのホールドをキャッチ。手が耳に到達できるようにあなたの首を目立たせる必要があります</item>
+    </string-array>
+    <string-array name="foetus_releasing">
+    	<item>1。手を放し、ゆっくりと地面に足を下げる</item>
+    	<item>2。左側に続いて、足の間から右手を離すと</item>
+    	<item>3。瞑想のジェスチャーで両手を置き、ポーズロータスに戻って来る</item>
+    </string-array>
+    <string-array name="foetus_benefits">
+    	<item>1。副腎で規制する効果があり、興奮した心を静め</item>
+    	<item>2。神経障害を軽減する</item>
+    	<item>3。怒りを制御するのに役立ちます</item>
+    	<item>4。マッサージやトーン腹部臓器を</item>
+    	<item>5。消化器火災を刺激し、食欲を増加させる</item>
+    	<item>6。バランス感覚を向上させる</item>
+    </string-array>
+    
+    <!-- Forward Bend -->
+    
+    <string-array name="forward_taking">
+    	<item>1。ダウン曲げ加工後、かかと、ふくらはぎ、完全に床に触れる太もも、背骨をまっすぐに保ち、膝に額を休ませ、滑らかな呼吸を続けておく</item>
+    	<item>2。腹部が完全に折りたたまれるここにいるので、それは完全な呼気の後にのみ曲げることが必要となる</item>
+    	<item>3。同じくらい体が許せ\'の一つとして、次に、その時点で安定化しようとすると一つは、呼吸がスムーズに保ち、下方に曲がるはず</item>
+    	<item>4。ポジションを取った後、全身をリラックスして自動的にヘッドが、肩、胸は自分の体重と緩和に起因し降りてくる</item>
+    </string-array>
+    <string-array name="forward_releasing">
+    	<item>1。息を吐く、そして吸入は、頭を上げ始める</item>
+    	<item>2。その場所に手を復元し、座った姿勢を取る</item>
+    </string-array>
+    <string-array name="forward_benefits">
+    	<item>1。西側の全体が引き伸ばされるように、彼らは精製さとそれらの機能が大幅に改善されています。それと同時に、フロント側の筋肉が縮小さや肺、腸および腺を生産する他の内部ジュースへの圧力がある。この彼らの機能の結果も改善されている</item>
+    	<item>2。それは、脊髄の木材の一部と消化器系に関する権利トラブルを設定する際に非常に便利です。</item>
+    	<item>3。さらに、クンダリニーは休眠期に横たわっているとして知られている私たちの体に非常に敏感な部分があります。このポーズは、それを活性化することになっています</item>
+    </string-array>
+        
+    <!-- Half Lotus Bound Pose -->
+    
+    <string-array name="hlb_taking">
+    	<item>1。左脚を曲げ、右腿に左足の上に置く</item>
+    	<item>2。腰の背面の周囲に左腕をラップし、左足のつま先をつかむ</item>
+    	<item>3。右足のつま先をキャッチするために前方に右腕に達する</item>
+    	<item>4。吸い込むと息を吐きながら、腰から胴を曲げると膝に額に触れてみてください。普通に呼吸</item>
+    </string-array>
+    <string-array name="hlb_releasing">
+    	<item>1。吐き出すと吸入しながら、頭を持ち上げ、胴体をまっすぐに</item>
+    	<item>2。両手を離し、床に腰の両側にそれらを戻す</item>
+    	<item>3。左足を解放し、座った姿勢に戻って来る</item>
+    </string-array>
+    <string-array name="hlb_benefits">
+    	<item>1。腹部に押し付け曲がった足の足は、腸の蠕動運動を刺激するのに役立ちます腹部臓器への強烈なマッサージを与え、便秘を軽減する</item>
+    	<item>2。膝腱を伸ばす</item>
+    	<item>3。股関節の柔軟性が向上</item>
+    	<item>4。腹部および骨盤の領域から余分な重量を削除します</item>
+    </string-array>
+    
+    
+    
+    <!-- Lifted Lotus Pose -->
+    
+    <string-array name="lifted_taking">
+    	<item>1。手の瞑想のジェスチャーをそのままにして座っている位置のように腰の横にそれらを保つ</item>
+    	<item>2。息を吐く、そして吸入、呼吸がスムーズに維持するこの位置を手の助けを借りて全身を持ち上げ、安定</item>
+    </string-array>
+    <string-array name="lifted_releasing">
+    	<item>1。吸い込む、そして息を吐き、ゆっくりと床に体を得る</item>
+    	<item>2。膝の上に両手を保持し、瞑想のジェスチャーを復元する</item>
+    </string-array>
+    <string-array name="lifted_benefits">
+    	<item>ロータスの利点に加えてそれはそれで良い圧力を持つことで腸や体の筋肉に良い効果を持っているポーズ</item>
+    </string-array>
+    
+    <!-- Lion Pose -->
+    
+    <string-array name="lion_taking">
+    	<item>1。右脚を曲げ、左の尻の下に足を置く</item>
+    	<item>2。左脚を曲げ、右足首の上で左足首を渡り、右臀部の下に左足を置く</item>
+    	<item>3。指で膝の上に手を休まが広がる。手に体重をかける、少し前に体を傾く。両手をまっすぐに保つ必要があります</item>
+    	<item>4。頭を少し下向きに傾け、口を開いて舌を突き出す、ダウン舌の先端を指している。目と緊張したすべての顔面の筋肉を広げる。普通に呼吸。視線は、どちらnosetipや眉毛の中心になっているはず</item>
+    </string-array>
+    <string-array name="lion_releasing">
+    	<item>1。顔の筋肉をリラックスし、首をまっすぐに</item>
+    	<item>2。ヒップで、身体をまっすぐにし、地面に手を置く</item>
+    	<item>3。左脚をまっすぐに</item>
+    	<item>4。右脚をまっすぐにし、ポーズに座っに戻って来る</item>
+    </string-array>
+    <string-array name="lion_benefits">
+    	<item>1。フェイシャル、目と舌の筋肉は、その効率を向上させる、、これらの筋肉にさわやかな血液供給を伸ばしている</item>
+    	<item>2。折られた足は、より高いチャクラに低いチャクラからプラーナの流れをリダイレクトします。</item>
+    </string-array>
+    
+    <!-- Lotus Pose -->
+    
+    <string-array name="lotus_taking">
+    	<item>1。両足を広げ、1〜1.5フィートの距離でそれらを保つ</item>
+    	<item>2。膝に左脚を曲げ、左脚の脚の付け根に右太ももとかかとにそのつま先を置く</item>
+    	<item>3。膝に右脚を曲げ、右脚の脚の付け根に左太ももとかかとにそのつま先を置く</item>
+    	<item>4。それぞれの膝の上に両手の手首を保ち、ディアナムードラを取る。正常な呼吸を続ける</item>
+    </string-array>
+    <string-array name="lotus_releasing">
+    	<item>1。腰の横に両手をもたらす</item>
+    	<item>2。膝に右脚をまっすぐに</item>
+    	<item>3。膝に左脚をまっすぐに</item>
+    	<item>4。一緒に足の両方を取得し、座った姿勢を取る</item>
+    </string-array>
+    <string-array name="lotus_benefits">
+    	<item>バックボーンがポーズこれで直立保持されているとして、その機能が大幅に改善されています。瞑想のジェスチャーは、さらにパルスのビートを安定させるのに役立ちます。今度は心臓への負担を軽減さ筋肉で、その結果ひずみが低減される。</item>
+    </string-array>
+    
+    <!-- Mountain Pose -->
+    
+    <string-array name="mt_taking">
+    	<item>1。前方に両手を取ると一緒に両手の指をロックする</item>
+    	<item>2。頭の上に手を取ると、屋根が直面しているアップヤシの木の欠点を回します。空に向かって伸びた腕で体を上方に伸ばす</item>
+    	<item>3。位置を安定させ、正常な呼吸を続ける</item>
+    </string-array>
+    <string-array name="mt_releasing">
+    	<item>1。身体をリラックスして上図の位置1のように両手をもたらす</item>
+    	<item>2。ポーズロータスのように位置を取る</item>
+    	<item>3。膝に左脚をまっすぐにして右脚をまっすぐに</item>
+    	<item>4。一緒に足の両方を取得し、座った姿勢を取る</item>
+    </string-array>
+    <string-array name="mt_benefits">
+    	<item>腕、背中と腹部の筋肉をストレッチすると身体の論文の部分の機能を向上させます。これは、脊柱と脊髄の特定の問題を治すことができます</item>
+    </string-array>
+    
+    <!-- Scale Pose -->
+    
+    <string-array name="scale_taking">
+    	<item>1。腰の側で、ロータスから、ポーズ地面に手を置く</item>
+    	<item>2。徐々に後方に傾くと、地面に肘を置く。手や場所拳（手のひらを下に向けて）、お尻の下にあるフォームの拳</item>
+    	<item>3。息を吐くと吸入しながら、ロータスを持ち上げるには、拳と下腕に体のバランスをとる、地面に対して45度でポーズ。普通に呼吸</item>
+    </string-array>
+    <string-array name="scale_releasing">
+    	<item>1。吸い込むと息を吐きながら、ゆっくりとロータスが地面にポーズ放し</item>
+    	<item>2。吸入しながら、手のサポートで垂直にバックを持ち上げる</item>
+    	<item>3。ロータスに戻ってくる膝の上に戻って瞑想のジェスチャーで場所を手に、ポーズ</item>
+    </string-array>
+    <string-array name="scale_benefits">
+    	<item>1。トーン腹部臓器</item>
+    	<item>2。強化し、肩、背中と首</item>
+    	<item>3。胸を開きます</item>
+    </string-array>
+    
+    <!-- Single Leg to Head Pose -->
+    
+    <string-array name="slhp_taking">
+    	<item>1。右腿に左足を置き、</item>
+    	<item>2。左手と右手で左足首の外側で左ふくらはぎの筋肉をホールド。腕を使って左脚を上げ、前方にトランクを曲げると、少し右にひねります。吸い込むと息を吐きながら、左の肩の上に足を置いて前方に直面して体を回す。まっすぐ視線</item>
+    	<item>3。位置で両方の手のひらに参加。普通に呼吸</item>
+    </string-array>
+    <string-array name="slhp_releasing">
+    	<item>1。位置への参加から手を放す</item>
+    	<item>2。手の支援を受けて、頭の後ろから左脚を解放し、右腿に左足を置く</item>
+    	<item>3。左脚をまっすぐにして座っている位置に戻って来る</item>
+    </string-array>
+    <string-array name="slhp_benefits">
+    	<item>1。腹部領域でのマッサージは内臓</item>
+    	<item>2。蠕動運動とそれによって除去便秘を刺激する</item>
+    	<item>3。トーン生殖器官</item>
+    	<item>4。静脈瘤を和らげる、脚の血液循環を改善する</item>
+    	<item>5。チャクラのエネルギーのレベルを上げ、脊椎の血液循環を改善する</item>
+    	<item>6。心と体の活性化、血液中のヘモグロビンのレベルを向上させる</item>
+    </string-array>
+    
+    <!-- Single Toe Balance Pose -->
+    
+    <string-array name="stbp_taking">
+    	<item>1。位置に座ってから、、足をもたらす身体に近い、とつま先の上に来る</item>
+    	<item>2。左足を持ち上げ、右腿の上に置きます。右大腿部が地面と平行であることを確認してください。右のかかとを調整して、会陰部に対して、それを押したそう。全体の体重は現在、右足のつま先とボールが負担する</item>
+    	<item>3。バランスが達成されると、位置への参加に胸の前に両手をもたらす</item>
+    </string-array>
+    <string-array name="stbp_releasing">
+    	<item>1。体の近くに地面にそれらのポーズを設定し、配置に参加するから手を放す</item>
+    	<item>2。左脚を解放し、右横に左足を置く</item>
+    	<item>3。両手の助けを借りて足をまっすぐにして座った姿勢に戻って来る</item>
+    </string-array>
+    <string-array name="stbp_benefits">
+    	<item>1。特に足、足首、つま先を強化</item>
+    	<item>2。生殖システムを調節する</item>
+    	<item>3。精液漏を防ぐことができます</item>
+    	<item>4。禁欲を促進する</item>
+    	<item>5。神経系のトレーニングを</item>
+    </string-array>
+    
+    <!-- Swan Pose -->
+    
+    <string-array name="swan_taking">
+    	<item>1。他の後脚の一つを曲げるとスクワットで足の上来る</item>
+    	<item>2。地面に膝を休める</item>
+    	<item>3。離れて膝を広げ、足の方を向いて指を使って、離れて3〜4インチ約地面に手を置く</item>
+    	<item>4。彼らはまっすぐ後方にまで足を伸ばす</item>
+    	<item>5。バック肩をロールバックし、わずかに頭部、首、肩、背中と足が地面に斜めに直線を形成することが頭を上げる。普通に呼吸</item>
+    </string-array>
+    <string-array name="swan_releasing">
+    	<item>1。首と前方に肩を曲げて少し上体をかがみ込む</item>
+    	<item>2。徐々に他のフォワード後の足のいずれかの手順を実行します。腕をまっすぐにし、スクワットに来る</item>
+    	<item>3。体の側で腕を置き、脚を真っすぐ伸ばすと座っている位置に戻って来る</item>
+    </string-array>
+    <string-array name="swan_benefits">
+    	<item>1。腹部の臓器や筋肉を刺激し、マッサージや</item>
+    	<item>2。食欲を刺激する</item>
+    	<item>3。胃と腸内寄生虫を追放するのに役立ちます</item>
+    </string-array>
+    
+    <!-- Thunderbolt Pose -->
+    
+    <string-array name="th_taking">
+    	<item>1。膝に左脚を折って、床につま先を置く</item>
+    	<item>2。膝に右脚を折って、床につま先を置き、上に2つま先を結合</item>
+    	<item>3。かかとによって形成されたピットの上に座る</item>
+    	<item>4。膝の上に手のひらを置き、</item>
+    </string-array>
+    <string-array name="th_releasing">
+    	<item>1。膝から手のひらを取り外し、側面にそれらをもたらす</item>
+    	<item>2。左脚を取り出し、それをまっすぐに</item>
+    	<item>3。右脚を取り出し、それをまっすぐに</item>
+    	<item>4。座位を取る</item>
+    </string-array>
+    <string-array name="th_benefits">
+    	<item>1。本文と一緒に、心にもこのポーズで安定化される。したがって、それはこのポーズで瞑想に適しています。したがって、それは瞑想と集中に適しています</item>
+    	<item>2。腰下に部品の血液循環が制御されます。</item>
+    </string-array>
+    
+    <!-- Tied Lotus -->
+    
+    <string-array name="tied_taking">
+    	<item>1。両足を広げ、1〜1.5フィートの距離でそれらを保つ</item>
+    	<item>2。膝に左脚を曲げ、左脚の脚の付け根に右太ももとかかとにそのつま先を置く</item>
+    	<item>3。膝に右脚を曲げ、右脚の脚の付け根に左太ももとかかとにそのつま先を置く</item>
+    	<item>4。それぞれの膝の上に両手の手首を保ち、瞑想のジェスチャーを取る。正常な呼吸を続ける</item>
+    </string-array>
+    <string-array name="tied_releasing">
+    	<item>1。腰の横に両手をもたらす</item>
+    	<item>2。膝に右脚をまっすぐに</item>
+    	<item>3。膝に左脚をまっすぐに</item>
+    	<item>4。一緒に足の両方を取得し、座ってポーズを取る</item>
+    </string-array>
+    <string-array name="tied_benefits">
+    	<item>バックボーンがポーズこれで直立保持されているとして、その機能が大幅に改善されています。瞑想のジェスチャーは、さらにパルスのビートを安定させるのに役立ちます。今度は心臓への負担を軽減さ筋肉で、その結果ひずみが低減される。</item>
+    </string-array>
+    
+    <!-- Toe Balance Pose -->
+    
+    <string-array name="toe_taking">
+    	<item>1。他の後のボディが1に近いの足を曲げる。地面に両方の手のひらを置き、つま先の上に来る</item>
+    	<item>2。バランスを維持しながら、背中をまっすぐにし、地上から両手を持ち上げ、膝（左膝上で右膝と左の手のひらに右手のひら）の上に置きます。この位置で体のバランスを維持し、前方に視線</item>
+    </string-array>
+    <string-array name="toe_releasing">
+    	<item>1。足の側面で、地面に手を置き、</item>
+    	<item>2。両方の脚を真っすぐ伸ばすと座った姿勢に戻ってくる</item>
+    </string-array>
+    <string-array name="toe_benefits">
+    	<item>1。濃度を向上させる</item>
+    	<item>2。つま先と足首を強化</item>
+    </string-array>
+    
+    <!-- Fish Pose -->
+    
+    <string-array name="fish_taking">
+    	<item>1。足を離れて片足を広げる</item>
+    	<item>2。膝に左脚を折ると、右腿の上に置きます</item>
+    	<item>3。膝に右脚を折ると左太ももの上に置きます</item>
+    	<item>4。今すぐ肘の助けを借りてバックのアーチを作る、バック後方ヘッド、曲線を上げると床に頭のてっぺんを配置</item>
+    	<item>5。手で足のつま先を持ち、正常な呼吸を続ける</item>
+    </string-array>
+    <string-array name="fish_releasing">
+    	<item>1。足のつま先を解放し、肘と肩をサポート</item>
+    	<item>2。ゆっくりと頭の上に重量を減らすこと、首をまっすぐにし、床に肩をもたらす</item>
+    	<item>3。右脚をまっすぐに</item>
+    	<item>4。左脚をまっすぐに</item>
+    	<item>5。両足通常の位置に戻すと仰臥位をとる</item>
+    </string-array>
+    <string-array name="fish_benefits">
+    	<item>甲状腺と健全な機能を確保する下垂体の循環を改善するのに役立ちます。また、大腿部と腹部の筋肉は、体系的に引き伸ばされている。</item>
+    </string-array>
+    
+    <!-- Full Wheel Pose -->
+    
+    <string-array name="full_taking">
+    	<item>1。仰臥位で開始します。膝を曲げると離れてヒップ幅約尻に近い足を、配置</item>
+    	<item>2。肩を指している指で、腕を持ち上げて、それらが肩の下に置く必要があります</item>
+    	<item>3。呼気吸入しながら、臀部、腰、下と地面を離れて中央の背部を持ち上げる。吐き出す</item>
+    	<item>4。吸入しながら、手のひらで地面に押して、肩を持ち上げます。手が膝をまっすぐ肘や脚になるまで腰と全体のバック、お尻を持ち上げ</item>
+    </string-array>
+    <string-array name="full_releasing">
+    	<item>1。息を吐きながら、吸い込む、膝で肘や足で曲げる。頭部を曲げ、地面に頭、肩、腰と臀部を離します。地面に完全にバックを置き、</item>
+    	<item>2。離れて肩から手のひらの両方を持参し、体の側面で武器を持っている</item>
+    	<item>3。脚を真っすぐ伸ばすと仰臥位に戻って来る</item>
+    </string-array>
+    <string-array name="full_benefits">
+    	<item>1。腹部の筋肉の上部のストレッチのために、それは彼らの効率を高め、したがって、内部腹部の臓器とのいくつかのプレッシャーを与える</item>
+    	<item>2。太ももの前部の筋肉が伸びており、子牛は、作業中に強化し、ポーズを保持している</item>
+    	<item>3。彼らは通常、一日中机の前にかがみ込むようにこのポーズは、机やコンピューターの前で長い時間を座っている人にとって非常に有益です。</item>
+    	<item>4。また、これは全体の背筋を整えると強化に役立つポーズ</item>
+    </string-array>
+    
+    <!-- Gas Release Pose -->
+    
+    <string-array name="gas_taking">
+    	<item>1。息を吐くと吸入は、両足を上げ始めると脚上昇位置に来る</item>
+    	<item>2。膝に両足を曲げ、腹に折り目を保つ。一緒に膝とつま先を保つ</item>
+    	<item>3。今すぐ太ももを押すと腹を保持し、両手で折られた足を留め金</item>
+    	<item>4。今すぐ首を曲げ、頭を上げると膝の間に顎を修正</item>
+    </string-array>
+    <string-array name="gas_releasing">
+    	<item>1。首をまっすぐにし、床に頭をもたらす</item>
+    	<item>2。手を広げると、その前の位置にそれらをもたらす</item>
+    	<item>3。吸入、両足をまっすぐにし、足を上げる位置にくる</item>
+    	<item>4。息を吐き、ゆっくりと足の両方を停止し、フロア上に配置して仰臥位をとる</item>
+    </string-array>
+    <string-array name="gas_benefits">
+    	<item>腹上で良いと体系的な圧力に起因する、大腸に捕捉されたガスが放出される。これは、消化のシステムを改善し、良い動きを持つことができます</item>
+    </string-array>
+    
+    <!-- Inverted Pose -->
+    
+    <string-array name="in_taking">
+    	<item>1。息を吐くと吸入スタートが上向きに両足を上げ、彼らは床と90度の角度を作るときに停止します。脚の姿勢を調達達成</item>
+    	<item>2。腰を上げ、頭の上後方の脚をプッシュ吐き出す</item>
+    	<item>3。両手で腰をサポートして吸入、足をまっすぐと空に向かってつま先を伸ばす。つま先で視力を保つ</item>
+    	<item>4。正常な呼吸を続ける</item>
+    </string-array>
+    <string-array name="in_releasing">
+    	<item>1。吸い込むと息を吐き、少し頭に向かって足を下げて、身体のバランスを維持することは通常の位置に戻って腰を支える手を削除する</item>
+    	<item>2。吸入、まっすぐ上げる脚のように脚を保つ地面に腰を置く</item>
+    	<item>3。息を吐き、ジャークや速度を行わずに、通常の位置に戻って足をもたらす</item>
+    </string-array>
+    <string-array name="in_benefits">
+    	<item>時間のほとんどは、我々は位置を立ったり、座ってのどちらかに残る。全く逆の位置は、このポーズで撮影されています。これは不純な血液が容易に心臓に達すると、血液の循環を向上させることができます。ある程度するには、この姿勢でポーズ倒立のメリットを得ることができます</item>
+    </string-array>
+    
+    <!-- Leg Raised Pose -->
+    
+    <string-array name="leg_taking">
+    	<item>1。息を吐くと上向きの足の両方を高め吸入開始、彼らは床と90度の角度を作るときに停止する</item>
+    	<item>2。足のつま先で視力を保つ</item>
+    	<item>3。正常な呼吸を続けると、姿勢が安定した維持しようと</item>
+    </string-array>
+    <string-array name="leg_releasing">
+    	<item>吸い込むと息を吐き、バック床に、両足をダウンさせる</item>
+    </string-array>
+    <string-array name="leg_benefits">
+    	<item>この中で、太ももの筋肉を姿勢と胃の筋肉が引き伸ばされている。株は小腸、酵素産生腺や他の臓器のような内部の臓器に到達し、彼らの能力を高めるのに役立ちます。足の垂直位置は、血液の循環を改善</item>
+    </string-array>
+    
+    <!-- Boat Pose -->
+    
+    <string-array name="boat_taking">
+    	<item>1。、前方に両腕を伸ばして一緒に閉じて手のひらを床に保管して下さい。同時に、床に額を置く</item>
+    	<item>2。息を吐くと吸入は、フロントで腕と首を持ち上げ、そして後ろの足はそれらを曲げずに、できるだけ多くの上方へ</item>
+    	<item>3。正常な呼吸を続けると、姿勢が安定した維持しようと</item>
+    </string-array>
+    <string-array name="boat_releasing">
+    	<item>1。吸い込むと持って息を吐き、地面にゆっくりと膝、顎と肩の両方</item>
+    	<item>2。足首のままにして、体の横に両手をもたらす</item>
+    	<item>3。曲がった足をまっすぐにし、腹臥位として、それらをもたらす</item>
+    </string-array>
+    <string-array name="boat_benefits">
+    	<item>この中で、足の筋肉を姿勢と手が弓よりもポーズに引き伸ばされている。ひずみは、内側の臓器に達し、彼らの能力を向上させます。また、消化器系に関連した条件を除く苦情を背中の筋肉に作用し、支援</item>
+    </string-array>
+    
+    <!-- Bent arm Cobra Pose -->
+    
+    <string-array name="bent_taking">
+    	<item>1。一緒にフロントと体に向かって描かれた親指を指している指で床に胸の近くに近い手と場所の手のひらの両方をもたらす</item>
+    	<item>2。両手の肘は、空に向かって上昇に保つ必要があります。今すぐグランドと吐くために額に手を触れない</item>
+    	<item>3。吸入、徐々に第一の額を上げるし、あご、胸や首、そしてカーブ脊柱。床に押されたウエスト、太ももと膝に保つ、唯一の海軍件まで本体の上部を上げる</item>
+    </string-array>
+    <string-array name="bent_releasing">
+    	<item>1。吸い込むと脊柱の支援を受けて、息を吐き、その後一階に触れて腹部や胸部、額にゆっくりと肩を下げ始める</item>
+    	<item>2。元の位置に戻って床の上あごと手を置きます。腹臥位を達成</item>
+    </string-array>
+    <string-array name="bent_benefits">
+    	<item>これは、脊髄と胃の筋肉と懸念しているポーズ。による消化器官の増加の効率をストレッチ。血液循環が改善されるように、ある程度のバックの問題に還元される</item>
+    </string-array>
+    
+    <!-- Crocodile Pose -->
+    
+    <string-array name="cro_taking">
+    	<item>1。前方に腕を持参し、それらを折る。その後、折り返し肘で額を置き、首をリラックス</item>
+    	<item>2。足を広げ、内側のかかとと外側のつま先で、足程度の距離でそれらを保つ。その後、足をリラックス</item>
+    	<item>3。全身がリラックスしてください。可能な限り床に体のような多くの部品に触れないようにしてみてください。快適な位置で呼吸正常と頭を保つ</item>
+    </string-array>
+    <string-array name="cro_releasing">
+    	<item>1。足を一堂に</item>
+    	<item>2。腕を展開し、以前のようにそれらを取り戻すと腹臥位になる</item>
+    </string-array>
+    <string-array name="cro_benefits">
+    	<item>すべての筋肉が緩和されると、彼らは以下の血液と酸素の供給を必要とする。その結果、心拍や呼吸も遅くなる。全体の基本的な操作が遅いターンとして今、体は十分に休息を取得</item>
+    </string-array>
+</resources>

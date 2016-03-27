@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="logo_width">300dp</dimen>
+    <dimen name="logo_height">124dp</dimen>
+    <dimen name="button_width">128dp</dimen>
+    <dimen name="button_height">54dp</dimen>
+    <dimen name="track_width">174dp</dimen>
+	<dimen name="track_height">196dp</dimen>
+	<color name="textcolor">#FFFFFF</color>
+	<color name="options_textcolor">#E6E6E6</color>
+	<dimen name="option_width">128dp</dimen>
+	<dimen name="option_height">34dp</dimen>
+	<dimen name="option_on_width">60dp</dimen>
+	<dimen name="option_on_height">34dp</dimen>
+    <dimen name="help_width">187dp</dimen>
+    <dimen name="help_height">224dp</dimen>
+</resources>

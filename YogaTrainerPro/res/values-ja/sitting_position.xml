@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sitting_position">
+        <item>ポーズ幸先の良い</item>
+        <item>ポーズのバランスをとる</item>
+        <item>ポーズおじぎを</item>
+        <item>若いおんどりのポーズ</item>
+        <item>カラスのポーズ</item>
+        <item>胎児のポーズ</item>
+        <item>前かがみになる</item>
+        <item>ハーフロータスバインドポーズ</item>
+        <item>ロータスポーズ</item>
+        <item>ロータスを解除</item>
+        <item>ライオンのポーズ</item>
+        <item>山のポーズ</item>
+        <item>単一の足のバランスのポーズ</item>
+        <item>頭部姿勢に単脚</item>
+        <item>白鳥のポーズ</item>
+        <item>ポーズをスケール</item>
+        <item>ロータスを結んだ</item>
+        <item>つま先バランスのポーズ</item>
+        <item>サンダーボルトのポーズ</item>
+    </string-array>
+    
+</resources>

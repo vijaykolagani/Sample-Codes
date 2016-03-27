@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/halloween_bg_two"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="@dimen/bg_dialog_width"
+        android:layout_height="@dimen/bg_dialog_height"
+        android:layout_margin="10dp"
+        android:background="@drawable/blank"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/gravity"
+            android:layout_width="@dimen/gravity_width"
+            android:layout_height="@dimen/gravity_height"
+            android:layout_margin="5dp"
+            android:src="@drawable/help_phone" />
+
+        <TextView
+            android:id="@+id/tv_gravity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gravity"
+            android:textColor="@color/textcolor"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/bg_dialog_width"
+        android:layout_height="@dimen/bg_dialog_height"
+        android:layout_margin="10dp"
+        android:background="@drawable/blank"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/touch"
+            android:layout_width="@dimen/gravity_width"
+            android:layout_height="@dimen/gravity_height"
+            android:layout_margin="5dp"
+            android:src="@drawable/hand" />
+
+        <TextView
+            android:id="@+id/tv_touch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/touch"
+            android:textColor="@color/textcolor"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

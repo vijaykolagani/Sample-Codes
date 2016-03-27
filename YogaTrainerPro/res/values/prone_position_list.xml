@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prone_position">
+        <item>Boat Pose</item>
+        <item>Bow Pose</item>
+        <item>Bent arm Cobra Pose</item>
+        <item>Crocodile Pose</item>
+    </string-array>
+    
+</resources>

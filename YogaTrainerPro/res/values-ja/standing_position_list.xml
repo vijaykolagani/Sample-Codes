@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="standing_position">
+        <item>ポーズドラム</item>
+        <item>ポーズ難しい</item>
+        <item>イーグルのポーズ</item>
+        <item>猛烈なポーズ</item>
+        <item>優雅な戦士のポーズ</item>
+        <item>脚に手のポーズ</item>
+        <item>倒立のポーズ</item>
+        <item>カイトのポーズ</item>
+        <item>三角形のポーズ</item>
+        <item>木のポーズ</item>
+        <item>ねじれた三角のポーズ</item>
+        <item>戦士のポーズ</item>
+    </string-array>
+    
+</resources>

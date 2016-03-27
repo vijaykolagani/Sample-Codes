@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="position">
+        <item>立ち位置</item>
+        <item>座位</item>
+        <item>仰臥位</item>
+        <item>腹臥位</item>
+    </string-array>
+    
+</resources>

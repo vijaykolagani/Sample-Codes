@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="supine_position">
+        <item>Fish Pose</item>
+        <item>Full Wheel Pose</item>
+        <item>Gas Release Pose</item>
+        <item>Inverted Pose</item>
+        <item>Leg Raised Pose</item>
+    </string-array>
+    
+</resources>

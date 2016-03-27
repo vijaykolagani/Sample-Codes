@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texture_4"
+    android:orientation="vertical" >
+
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+
+	   	<RelativeLayout
+	   	    android:layout_width="match_parent"
+	   	    android:layout_height="469dp" >
+
+	   		<TextView
+	   		    android:id="@+id/pose_name"
+	   		    android:layout_width="wrap_content"
+	   		    android:layout_height="wrap_content"
+	   		    android:layout_alignParentTop="true"
+	   		    android:layout_centerHorizontal="true"
+	   		    android:layout_marginTop="10dp"
+	   		    android:text="Large Text"
+	   		    android:textAppearance="?android:attr/textAppearanceLarge"
+	   		    android:textColor="#FFFFFF"
+	   		    android:textSize="25sp" />
+
+	   		<ImageView
+	   		    android:id="@+id/pose_image"
+	   		    android:layout_width="256dp"
+	   		    android:layout_height="256dp"
+	   		    android:layout_below="@+id/pose_name"
+	   		    android:layout_centerHorizontal="true"
+	   		    android:layout_marginBottom="20dp"
+	   		    android:layout_marginTop="25dp"
+	   		    android:src="@drawable/ic_launcher" />
+
+	   		<LinearLayout
+	   		    android:layout_width="wrap_content"
+	   		    android:layout_height="wrap_content" >
+	   		</LinearLayout>
+
+	   		<Button
+	   		    android:id="@+id/taking"
+	   		    android:layout_width="wrap_content"
+	   		    android:layout_height="wrap_content"
+	   		    android:layout_alignParentLeft="true"
+	   		    android:layout_below="@+id/pose_image"
+	   		    android:layout_marginTop="40dp"
+	   		    android:text="@string/taking"
+	   		    android:textColor="#FFFFFF" />
+
+	   		<Button
+	   		    android:id="@+id/releasing"
+	   		    android:layout_width="wrap_content"
+	   		    android:layout_height="wrap_content"
+	   		    android:layout_alignBottom="@+id/taking"
+	   		    android:layout_alignParentRight="true"
+	   		    android:text="@string/releasing"
+	   		    android:textColor="#FFFFFF" />
+
+	   		<Button
+	   		    android:id="@+id/timer"
+	   		    android:layout_width="wrap_content"
+	   		    android:layout_height="wrap_content"
+	   		    android:layout_alignLeft="@+id/releasing"
+	   		    android:layout_alignParentRight="true"
+	   		    android:layout_below="@+id/releasing"
+	   		    android:text="@string/settime" android:textColor="#FFFFFF"/>
+
+	   		<Button
+	   		    android:id="@+id/benefits"
+	   		    android:layout_width="wrap_content"
+	   		    android:layout_height="wrap_content"
+	   		    android:layout_alignParentLeft="true"
+	   		    android:layout_alignRight="@+id/taking"
+	   		    android:layout_below="@+id/taking"
+	   		    android:text="@string/benefits" android:textColor="#FFFFFF"/>
+
+	   		<Button
+	   		    android:id="@+id/stop"
+	   		    android:layout_width="wrap_content"
+	   		    android:layout_height="wrap_content"
+	   		    android:layout_below="@+id/timer"
+	   		    android:text="@string/stop"
+	   		    android:layout_alignParentRight="true"
+	   		    android:textColor="#FFFFFF"
+	   		    android:layout_marginTop="25dp" />
+
+	   		<Chronometer
+	   		    android:id="@+id/clock"
+	   		    android:layout_width="wrap_content"
+	   		    android:layout_height="wrap_content"
+	   		    android:layout_alignBottom="@+id/stop"
+	   		    android:layout_centerHorizontal="true"
+	   		    android:layout_marginTop="26dp"
+	   		    android:text="Chronometer"
+	   		    android:textColor="#FFFFFF" />
+
+	   		<TextView
+	   		    android:id="@+id/pose_duration"
+	   		    android:layout_width="wrap_content"
+	   		    android:layout_height="wrap_content"
+	   		    android:layout_alignParentLeft="true"
+	   		    android:layout_below="@+id/start"
+	   		    android:layout_marginTop="30dp"
+	   		    android:text="TextView"
+	   		    android:textColor="#FFFFFF" />
+
+	   		<Button
+	   		    android:id="@+id/start"
+	   		    android:layout_width="wrap_content"
+	   		    android:layout_height="wrap_content"
+	   		    android:layout_below="@+id/benefits"
+	   		    android:layout_alignParentLeft="true"
+	   		    android:text="@string/start"
+	   		    android:layout_marginTop="25dp"
+	   		    android:textColor="#FFFFFF" />
+
+	   		<LinearLayout
+	   		    android:id="@+id/banner"
+	   		    android:layout_width="match_parent"
+	   		    android:layout_height="wrap_content"
+	   		    android:layout_below="@+id/pose_duration"
+	   		    android:layout_marginTop="20dp"
+	   		    android:gravity="center_horizontal" >
+	   		</LinearLayout>
+
+	   	</RelativeLayout>
+
+	</ScrollView>
+</RelativeLayout>

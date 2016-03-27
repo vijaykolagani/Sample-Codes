@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="supine_position">
+        <item>魚のポーズ</item>
+        <item>フルホイールポーズ</item>
+        <item>ガスのリリースでは、ポーズ</item>
+        <item>ポーズ反転</item>
+        <item>足はポーズに発生</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prone_position">
+		<item>보트 포즈</item>
+		<item>포스 바우</item>
+		<item>벤트 암 코브라 포즈</item>
+		<item>포스 악어</item>    
+	</string-array>
+</resources>

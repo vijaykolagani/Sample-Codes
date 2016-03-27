@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="play_width">160dp</dimen>
+    <dimen name="play_height">40dp</dimen>
+    <dimen name="level_width">64dp</dimen>
+    <dimen name="level_height">64dp</dimen>
+    <dimen name="button_width">46dp</dimen>
+    <dimen name="button_height">42dp</dimen>
+    <dimen name="dialog_width">262dp</dimen>
+    <dimen name="dialog_height">212dp</dimen>
+    <dimen name="egg_width">24dp</dimen>
+    <dimen name="egg_height">24dp</dimen>
+    <dimen name="star_width">48dp</dimen>
+    <dimen name="star_height">48dp</dimen>
+    <dimen name="world_width">262dp</dimen>
+    <dimen name="world_height">280dp</dimen>
+    <dimen name="world_image_width">196dp</dimen>
+    <dimen name="world_image_height">0dp</dimen>
+    <dimen name="lock_width">26dp</dimen>
+    <dimen name="lock_height">42dp</dimen>
+    <dimen name="shelf_height">64dp</dimen>
+    <dimen name="shelf_width">320dp</dimen>
+    <dimen name="rate_width">120dp</dimen>
+    <dimen name="rate_height">30dp</dimen>
+    <dimen name="gravity_width">189dp</dimen>
+    <dimen name="gravity_height">86dp</dimen>
+    <dimen name="bg_dialog_width">212dp</dimen>
+    <dimen name="bg_dialog_height">160dp</dimen>
+
+</resources>

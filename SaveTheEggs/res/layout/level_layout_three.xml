@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/level_select"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_fourty_nine"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_fourty_nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="49"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_fifty"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_fifty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="50"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_fifty_one"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_fifty_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="51"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_fifty_two"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_fifty_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="52"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_fifty_three"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_fifty_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="53"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_fifty_four"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_fifty_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="54"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_fifty_five"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_fifty_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="55"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_fifty_six"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_fifty_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="56"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_fifty_seven"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_fifty_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="57"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_fifty_eight"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_fifty_eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="58"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_fifty_nine"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_fifty_nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="59"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_sixty"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_sixty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="60"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_sixty_one"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_sixty_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="61"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_sixty_two"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_sixty_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="62"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_sixty_three"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_sixty_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="63"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_sixty_four"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_sixty_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="64"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_sixty_five"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_sixty_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="65"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_sixty_six"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_sixty_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="66"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_sixty_seven"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_sixty_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="67"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_sixty_eight"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_sixty_eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="68"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_sixty_nine"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_sixty_nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="69"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_seventy"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_seventy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="70"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_seventy_one"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_seventy_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="71"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/level_seventy_two"
+                android:layout_width="@dimen/level_width"
+                android:layout_height="@dimen/level_height"
+                android:src="@drawable/level_locked" />
+
+            <TextView
+                android:id="@+id/tv_level_seventy_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"
+                android:text="72"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+    
+
+</LinearLayout>

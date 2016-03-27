@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="position">
+        <item>Standing Position</item>
+        <item>Sitting Position</item>
+        <item>Supine Position</item>
+        <item>Prone Position</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/roads" >
+
+    <TextView
+        android:id="@+id/help_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="--- Quick Help  Road Rush ---"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_width="64dp"
+        android:layout_height="24dp"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="10dp"
+        android:background="@drawable/ok" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/help_one"
+                android:layout_width="@dimen/help_width"
+                android:layout_height="@dimen/help_height"
+                android:layout_gravity="left|center_vertical"
+                android:layout_margin="15dp"
+                android:src="@drawable/help_one" />
+
+            <ImageView
+                android:id="@+id/help_two"
+                android:layout_width="@dimen/help_width"
+                android:layout_height="@dimen/help_height"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="15dp"
+                android:src="@drawable/help_two" />
+
+            <ImageView
+                android:id="@+id/help_three"
+                android:layout_width="@dimen/help_width"
+                android:layout_height="@dimen/help_height"
+                android:layout_gravity="right|center_vertical"
+                android:layout_margin="15dp"
+                android:src="@drawable/help_three" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</FrameLayout>

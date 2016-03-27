@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="10dp" >
+
+        <ImageView
+            android:id="@+id/halloween_world"
+            android:layout_width="@dimen/world_width"
+            android:layout_height="@dimen/world_height"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:src="@drawable/world_unlocked_new" />
+
+        <TextView
+            android:id="@+id/halloween_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="40dp"
+            android:text="465600"
+            android:textColor="@color/textcolor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/halloween_levels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="55dp"
+            android:text="0/99"
+            android:textColor="@color/textcolor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/world_image"
+            android:layout_width="@dimen/world_image_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/halloween_world" />
+
+    </FrameLayout>
+
+</FrameLayout>

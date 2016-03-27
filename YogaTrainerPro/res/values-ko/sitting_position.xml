@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sitting_position">
+  		<item>포스 길조</item>
+        <item>포스의 균형</item>
+        <item>포스 바우</item>
+        <item>코커렐 포즈</item>
+        <item>크로 포스</item>
+        <item>포이터스 포즈</item>
+        <item>쏟다</item>
+        <item>하프 로터스 바운드 포즈</item>
+        <item>로터스 포즈</item>
+        <item>로터스를 해제</item>
+        <item>사자 포즈</item>
+        <item>산 포즈</item>
+        <item>단일 토프트 잔액 포즈</item>
+        <item>포스를 머리로 싱글 레그</item>
+        <item>스완 포즈</item>
+        <item>포스를 스케일</item>
+        <item>로터스을 묶었는데</item>
+        <item>토프트 잔액 포즈</item>
+        <item>썬더볼트 포즈</item>
+    </string-array>
+</resources>

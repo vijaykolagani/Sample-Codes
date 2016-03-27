@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="standing_position">
+        <item>Drum Pose</item>
+        <item>Difficult Pose</item>
+        <item>Eagle Pose</item>
+        <item>Ferocious Pose</item>
+        <item>Gracious Warrior Pose</item>
+        <item>Hand to Leg Pose</item>
+        <item>Headstand Pose</item>
+        <item>Kite Pose</item>
+        <item>Triangle Pose</item>
+        <item>Tree Pose</item>
+        <item>Twisted Triangle Pose</item>
+        <item>Warrior Pose</item>
+    </string-array>
+    
+</resources>

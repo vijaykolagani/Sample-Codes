@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="supine_position">
+		<item>피시 포스</item>
+		<item>전체 휠 포즈</item>
+		<item>가스 릴리스 포즈</item>
+		<item>포스 거꾸로</item>
+		<item>다리 포즈 훨훨</item>
+    </string-array>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/point_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginBottom="125dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/point_one"
+        android:textColor="@color/textcolor"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/point_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginBottom="75dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/point_two"
+        android:textColor="@color/textcolor"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/point_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/point_three"
+        android:textColor="@color/textcolor"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/point_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/point_four"
+        android:textColor="@color/textcolor"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/point_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="75dp"
+        android:text="@string/point_five"
+        android:textColor="@color/textcolor"
+        android:textSize="17sp" />
+
+</FrameLayout>

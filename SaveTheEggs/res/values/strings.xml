@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Save the Eggs</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="heading">Objectives</string>
+    <string name="cross">x</string>
+    <string name="page_indicator">○</string>
+    <string name="page_indicator_normal">•</string>
+    <string name="level_failed">Level Failed!</string>
+    <string name="level_cleared">Level Cleared!</string>
+    <string name="exit_message">Are you sure you want to Exit?</string>
+    <string name="help_one">Tilt your phone to move the nest</string>
+    <string name="point_one">Catch all white eggs</string>
+    <string name="point_two">Violet egg reduces the score by 150</string>
+    <string name="point_three">Collect green eggs to increase lives</string>
+    <string name="point_four">Avoid taking red eggs, it will reduces lives</string>
+    <string name="point_five">On completion of every 8 levels with 3 stars, one collectable is unlocked</string>
+    <string name="gravity">Gravity</string>
+    <string name="touch">Touch</string>
+
+</resources>

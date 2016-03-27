@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="standing_position">
+	  	<item>포스 드럼</item>
+        <item>포스 곤란</item>
+        <item>이글 포스</item>
+        <item>사나운 포즈</item>
+        <item>그레이셔스 워리어 포즈</item>
+        <item>다리 핸드 포스</item>
+        <item>머리 포즈 스탠드</item>
+        <item>연 포즈</item>
+        <item>삼각형 포즈</item>
+        <item>트리 포스</item>
+        <item>트위스티드 트라이앵글 포즈</item>
+        <item>전사 포즈</item>
+   	</string-array>
+</resources>

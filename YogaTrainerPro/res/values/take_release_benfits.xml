@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Drum Pose -->
+	
+    <string-array name="drum_taking">
+        <item>♦ Step the left leg out to the side, away from the right leg at a distance of 1 to 1.5 feet</item>
+        <item>♦ Turn the toes outward as far as possible, keeping the heels in line with each other</item>
+        <item>♦ Bend the knees a little as though you are going to sit down on a chair</item>
+        <item>♦ Place the arms away from the waist and slightly forward. The arms are held in such a position as if they are holding a drum, which comes up to slightly below your waist</item>
+    </string-array>
+    <string-array name="drum_releasing">
+    	<item>♦ Bring the arms back to the sides of the body</item>
+    	<item>♦ Straighten the knees</item>
+    	<item>♦ Point the toes forward</item>
+    	<item>♦ Step the left foot back to standing position</item>	
+    </string-array>
+    <string-array name="drum_benefits">
+    	<item>♦ Strengthens the leg muscles</item>
+    	<item>♦ Increases the blood supply to and loosens the joints in the legs and hip</item>
+    </string-array>
+    
+    <!-- Difficult Pose -->
+    
+    <string-array name="diffcult_taking">
+    	<item>♦ Shifting the weight of the body onto the right leg and bending it slightly, lift the left leg up by bending it slightly at the knee. The body is now balanced entirely on the right leg</item>
+    	<item>♦ Cross the left leg over the right leg and hook the top of the left foot behind the right calf. The toes of the left leg should be showing from the left side of the right lower leg. The right leg remains slightly bent at the knee</item>
+    	<item>♦ Place the hands joined in front of the chest</item>
+    </string-array>
+    <string-array name="difficult_releasing">
+    	<item>♦ Release the hands from join position and return the arms to the side of the body</item>
+    	<item>♦ Release the left leg</item>
+    	<item>♦ Place the left foot back onto the ground and come back to standing position. Practice on the other side</item>
+    </string-array>
+    <string-array name="difficult_benefits">
+    	<item>♦ Strengthens the leg muscles</item>
+    	<item>♦ Increases the blood supply to and loosens the leg joints</item>
+    </string-array>
+    
+    <!-- Eagle Pose -->
+    
+    <string-array name="eagle_taking">
+    	<item>♦ Shifting the weight of the body onto the right leg and bending it slightly, lift the left leg up by bending it slightly at the knee. The body is now balanced entirely on the right leg</item>
+    	<item>♦ Cross the left leg over the right leg and hook the top of the left foot behind the right calf. The toes of the left leg should be showing from the left side of the right lower leg. The right leg remains slightly bent at the knee</item>
+    	<item>♦ Bend both arms at the elbows and raise them to chest level. Place the right upper arm over the left upper arm, and continue to entwine the two arms. Touch both hands together in a join pose</item>
+    </string-array>
+    <string-array name="eagle_releasing">
+    	<item>♦ Release the arms and return them to the side of the body</item>
+    	<item>♦ Release the left leg</item>
+    	<item>♦ Place the left foot back onto the ground and come back to standing position. Practice on the other side</item>
+    </string-array>
+    <string-array name="eagle_benefits">
+    	<item>♦ Strengthens the leg muscles</item>
+    	<item>♦ Increases the blood supply to and loosens the joints in the legs and arms</item>
+    </string-array>
+    
+    <!-- Ferocious Pose -->
+    
+    <string-array name="ferocious_taking">
+    	<item>♦ Step both feet apart to a distance of about 3 to 3.5 feet</item>
+    	<item>♦ Inhale and exhaling, bend forward from the hips. Place the palms onto the ground</item>
+    	<item>♦ Try to touch the fontanelle to the ground. The arms are bent at the elbows and balance of the body is maintained with the assistance of the hands on the ground</item>
+    	<item>♦ Once the body is in balance, catch hold of the big toes or outer sides of the feet with the respective hands, keeping the arms straight</item>
+    </string-array>
+    <string-array name="ferocious_releasing">
+    	<item>♦ Place both the hands back onto the ground</item>
+    	<item>♦ Exhale and while inhaling lift up the head and the arms</item>
+    	<item>♦ Straighten the upper body and bring both the arms back to the sides of the body</item>
+    	<item>♦ Step the feet together and come back to the standing position</item>
+    </string-array>
+    <string-array name="ferocious_benefits">
+    	<item>♦ Strengthens the legs</item>
+    	<item>♦ Improves the functioning of the digestive, reproductive and excretory organs in the abdominal area</item>
+    	<item>♦ Increases blood supply to the brain</item>
+    	<item>♦ Balances the nervous system</item>
+    	<item>♦ As a preliminary pose to Headstand Pose, it accustoms the brain to the increased influx of blood and the fontanelle to supporting the weight of the body</item>
+    </string-array>
+    
+    <!-- Gracious Warrior Pose -->
+    
+    <string-array name="gracious_taking">
+    	<item>♦ Step the left leg forward as far away from the right leg as is comfortable</item>
+    	<item>♦ Bend the left knee at a 90 degree angle and place the hands on the knee, palms joined together</item>
+    	<item>♦ Exhale and while inhaling raise the joined hands forward until the arms are parallel to the ground</item>
+    	<item>♦ Exhale, bend the body forward about 45 degrees, so that the right leg, the trunk of the body and the head forms a diagonal line. Continue to maintain the Pose, breathing normally</item>
+    </string-array>
+    <string-array name="gracious_releasing">
+    	<item>♦ Exhale and inhaling, slowly straighten the body</item>
+    	<item>♦ Exhale and place the hands back on the knees</item>
+    	<item>♦ Straighten the knee and release the hands</item>
+    	<item>♦ Restore the left leg to its place and return to standing position</item>
+    </string-array>
+    <string-array name="gracious_benefits">
+    	<item>♦ Improves the strength and blood supply to the joints like the ankles, knees, hips, lumber region, cervical region and shoulders</item>
+    	<item>♦ Improves the flexibility of the spinal column</item>
+    	<item>♦ Puts pressure on the digestive organs and increases their efficiency and function</item>
+    	<item>♦ Strengthens the legs and Improves balance</item>
+    	<item>♦ Reduces fat around the pelvic region</item>
+    </string-array>
+    
+    <!-- Hand to Leg Pose -->
+    
+    <string-array name="hand_taking">
+    	<item>♦ Step the left leg out to the side, away from the right leg</item>
+    	<item>♦ Turn the foot of the left leg to the left</item>
+    	<item>♦ While inhaling, raise the arms overhead</item>
+    	<item>♦ Square the hips to the left leg, and while exhaling bend forward</item>
+    	<item>♦ Place both palms on the ground on the sides of the left foot, keeping the left leg straight</item>
+    	<item>♦ Touch the forehead to the knee and continue normal breathing</item>
+    </string-array>
+    <string-array name="hand_releasing">
+    	<item>♦ Exhale and while inhaling lift up the forehead</item>
+    	<item>♦ Slowly, straighten the back, bringing the arms up overhead</item>
+    	<item>♦ Turn the hips and left foot back to face the front</item>
+    	<item>♦ While exhaling, lower the arms back down to the sides of the body</item>
+    	<item>♦ Step the left leg back beside the right leg and come back to the standing position</item>
+    </string-array>
+    <string-array name="hand_benefits">
+    	<item>♦ Improves the flexibility and blood supply to all the joints and muscles of the leg, lower back and hip</item>
+    	<item>♦ Stimulates circulation to the nerves and muscles of the spine</item>
+    	<item>♦ Tones and massages the abdominal region, hence also increasing the blood supply</item>
+    	<item>♦ Improved blood supply to the brain</item>
+    </string-array>
+    
+    <!-- Headstand Pose -->
+    
+    <string-array name="head_taking">
+    	<item>♦ From standing position, come into a squat, on the toes</item>
+    	<item>♦ Straighten both knees</item>
+    	<item>♦ Slowly bend the knees, lifting the legs off the ground towards the chest, while keeping balance on the forearms and head</item>
+    	<item>♦ Straighten the back and slowly point the knees towards the ceiling</item>
+    	<item>♦ Straighten the legs and point the toes up, breathing normally</item>
+    </string-array>
+    <string-array name="head_releasing">
+    	<item>♦ Bend the knees slowly, touching the buttocks with the heels</item>
+    	<item>♦ Bend at the waist and bring the knees close to the chest</item>
+    	<item>♦ Straighten the legs and touch the toes to the ground gently</item>
+    	<item>♦ Bend the knees and lower the hips down slowly, with the forehead resting on the ground for 15 to 30 seconds</item>
+    	<item>♦ Release the palms and come back into a squat, on the toes</item>
+    	<item>♦ Stand up slowly</item>
+    </string-array>
+    <string-array name="head_benefits">
+    	<item>♦ Improved blood circulation to the brain and eyes, increasing their efficiency</item>
+    	<item>♦ Helps to bring the impure blood from the lower region of the body to the heart, relieving strain from the heart</item>
+    	<item>♦ Puts pressure on the pituitary gland which helps to increase its efficiency</item>
+    	<item>♦ The weight of the abdominal organs on the diaphragm encourages deeper exhalation so that more carbon dioxide and other toxins are removed from the lungs</item>
+    	<item>♦ Relieves anxiety</item>
+    </string-array>
+    
+    <!-- Kite Pose -->
+    
+    <string-array name="kite_taking">
+    	<item>♦ Exhale and inhaling, raise both arms sidewise to shoulder level</item>
+    	<item>♦ Exhale and lower the upper body until it becomes parallel with the ground. At the same time, slowly raise the left leg from behind until it forms a straight line horizontally with the body. Breathe normally</item>
+    </string-array>
+    <string-array name="kite_releasing">
+    	<item>♦ Exhale and inhaling, slowly straighten the body and lower the left leg down to the ground beside the right leg</item>
+    	<item>♦ Exhale and slowly release the arms back to the side of the body</item>
+    </string-array>
+    <string-array name="kite_benefits">
+    	<item>♦ Strengthens the back, hips and legs</item>
+    	<item>♦ Puts pressure on the nervous system and improves coordination of the nervous system with the musculoskeletal system</item>
+    	<item>♦ Improves balance</item>
+    </string-array>
+    
+    <!-- Tree Pose -->
+    
+    <string-array name="tree_taking">
+    	<item>♦ Take Standing Position</item>
+    	<item>♦ Stretch your body Straight</item>
+    	<item>♦ Inhale, and exhaling bring both the hands up from the sides</item>
+    	<item>♦ Lift the heels up by stretching your body</item>
+    </string-array>
+    <string-array name="tree_releasing">
+    	<item>♦ Inhale, and exhaling bring both the hands down from the sides</item>
+    	<item>♦ Bring the heels on the floor and take up standing position</item>
+    </string-array>
+    <string-array name="tree_benefits">
+    	<item>♦ Removes all Strains</item>
+    	<item>♦ The Muscles get rest and relaxation</item>
+    </string-array>
+    
+    <!-- Triangle Pose -->
+    
+    <string-array name="triangle_taking">
+    	<item>♦ Lift the left leg and place it at a maximum distance towards the left</item>
+    	<item>♦ Turn the toe of the left foot towards the left and inhale</item>
+    	<item>♦ Exhale and bend the left leg in the knee and place the left hand palm near the left foot toe</item>
+    	<item>♦ Take the right hand forward straight above the right ear and continue smooth breathing</item>
+    </string-array>
+    <string-array name="triangle_releasing">
+    	<item>♦ Exhale and inhaling, bring the right hand to its original place</item>
+    	<item>♦ Straighten the left knee and bring the left hand to its original place</item>
+    	<item>♦ Turn the left leg toe to front</item>
+    	<item>♦ Bring the left leg near the right one and take up the standing position</item>
+    </string-array>
+    <string-array name="triangle_benefits">
+    	<item>In this Pose the weight of the body comes chiefly on the calves of the bent legs and on the muscles of the hand resting on the floor and has nice effect on them. The stretching of the body has good effect on the muscles of those parts and improves their functioning. This Pose is useful for the joints of the waist</item>
+    </string-array>
+    
+    <!-- Twisted Triangle Pose -->
+    
+    <string-array name="twisted_taking">
+    	<item>♦ Step the left leg out to the side, away from the right leg</item>
+    	<item>♦ Turn the foot of the left leg to the left</item>
+    	<item>♦ Inhale and while exhaling bend the left leg in the knee creating a 90 degree angle and twist the upper body to the left</item>
+    	<item>♦ Place the right palm on the ground beside the left foot, palm in line with the left foot</item>
+    	<item>♦ Raise the left arm over the head so that it is near the left ear. Keep the neck straight and continue to maintain the Pose, breathing normally</item>
+    </string-array>
+    <string-array name="twisted_releasing">
+    	<item>♦ Exhale and while inhaling release the left hand to the side of the body</item>
+    	<item>♦ Lift the right arm from ground and straighten the body, releasing the twist</item>
+    	<item>♦ Straighten the left knee</item>
+    	<item>♦ Turn the left foot to face the front</item>
+    	<item>♦ Step the left leg back beside the right leg and come back to the standing position</item>
+    </string-array>
+    <string-array name="twisted_benefits">
+    	<item>♦ Strengthens the leg muscles</item>
+    	<item>♦ Helps maintain proper balance of the body, removes fat from the waist</item>
+    	<item>♦ Improves the efficiency of the digestive system</item>
+    	<item>♦ Strengthens the nervous system</item>
+    	<item>♦ Tones the reproductive organs</item>
+    </string-array>
+    
+    <!-- Warrior Pose -->
+    
+    <string-array name="warrior_taking">
+    	<item>♦ Take the left foot forward and place the left foot on the floor at th e maximum distance from the initial position.</item>
+    	<item>♦ Bring both the hands together, join the palms and place them on the knees of the left leg. Bend the left leg in the knee in such a way that the thigh and the calf come in 90 degrees. Keep the right leg straight</item>
+    	<item>♦ Raise the joined hands up and take them back above the head and then without bending the hands in the elbows, bend the head backward and keep the sight backward down</item>
+    </string-array>
+    <string-array name="warrior_releasing">
+    	<item>♦ Start bringing the body forward and place the hands on the knee. Keep sight to the front</item>
+    	<item>♦ Straighten the knee and restore the hands to their original place</item>
+    	<item>♦ Restore the left leg to its place and take up standing position</item>
+    </string-array>
+    <string-array name="warrior_benefits">
+    	<item>In this Pose the joints of the legs, the waist, the spinal column and the neck get curved in opposite direction. As a result of this, the blood circulation to these joints is regulated. The spinal column becomes elastic and its functioning improves. There is pressure on the digestive organs and the belly gets stretched, which promotes their functioning</item>
+    </string-array>
+    
+    <!-- Auspicious Pose -->
+    
+    <string-array name="auspicious_taking">
+    	<item>♦ Spread both the legs and keep them at a distance of 1 to 1.5 feet</item>
+    	<item>♦ Bend left leg in knee and place its soul touching inner side of the right thigh</item>
+    	<item>♦ Bend right leg in knee and place its foot in between the thigh and the calf of the leg</item>
+    	<item>♦ Keep the wrists of both the hands on the respective knees and take Meditation Gesture. Continue normal breathing</item>
+    </string-array>
+    <string-array name="auspicious_releasing">
+    	<item>♦ Bring the hands beside the waist</item>
+    	<item>♦ Straighten the right leg in the knee</item>
+    	<item>♦ Straighten the left leg in the knee</item>
+    	<item>♦ Get both the legs together, take the sitting posture</item>
+    </string-array>
+    <string-array name="auspicious_benefits">
+    	<item>As the backbone is kept erect in this Pose, its functioning is greatly improved. Meditation Gesture further helps in stabilizing pulse beats. Consequently strain on muscles is reduced, which in turn reduces strain on heart.
+Also breathing slows down, collective effect of all this is one can achieve concentration of mind</item>
+    </string-array>
+    
+    <!-- Balance Pose -->
+    
+    <string-array name="balance_taking">
+    	<item>♦ Spread both the legs and keep them at a distance of 1 to 1.5 feet</item>
+    	<item>♦ Bend left leg in knee and place it touching the thigh of the right leg in such a way that its heel rests on the procreating organ</item>
+    	<item>♦ Bend right leg in knee and place its foot in between the thigh and its heel is placed of the left leg</item>
+    	<item>♦ Keep the wrists of both the hands on the respective knees and take Meditation Gesture. Continue normal breathing</item>
+    </string-array>
+    <string-array name="balance_releasing">
+    	<item>♦ Bring the hands beside the waist</item>
+    	<item>♦ Straighten the right leg in the knee</item>
+    	<item>♦ Straighten the left leg in the knee</item>
+    	<item>♦ Get both the legs together, take the sitting posture</item>
+    </string-array>
+    <string-array name="balance_benefits">
+    	<item>	As the backbone is kept erect in this Pose, its functioning is greatly improved. Meditation Gesture further helps in stabilizing pulse beats. Consequently strain on muscles is reduced, which in turn reduces strain on heart.
+Also breathing slows down, collective effect of all this is one can achieve concentration of mind</item>
+    </string-array>
+    
+    <!-- Bow Pose -->
+    
+    <string-array name="bow_taking">
+    	<item>♦ Bend the left leg in knee and keep the foot on the thigh of right leg. Keep the right leg straight</item>
+    	<item>♦ Hold the big toe of the left leg with left hand, and that of the right leg with the right hand</item>
+    	<item>♦ Exhale, and inhaling start lifting the left leg with the left hand and pull it up to the left ear, and stabilize it at that point</item>
+    	<item>♦ Continue normal breathing</item>
+    </string-array>
+    <string-array name="bow_releasing">
+    	<item>♦ Inhale, and exhaling bring the left leg on the thigh of the right leg</item>
+    	<item>♦ Restore both the hands to their place</item>
+    	<item>♦ Straighten the left leg and take the sitting position</item>
+    </string-array>
+    <string-array name="bow_benefits">
+    	<item>In this Pose the direction of strain is towards the joints of the waist</item>
+    </string-array>
+    
+    <!-- Cockerel Pose -->
+    
+    <string-array name="cock_taking">
+    	<item>♦ Sit in Lotus Pose. Release the Meditation Gesture and insert the left arm between the thigh and calf of the left leg. Gradually, push the arm through the legs up to the elbow</item>
+    	<item>♦ Similarly, insert the right arm between the thigh and calf of the right leg, pushing the arm through, up to the elbow</item>
+    	<item>♦ Spread the fingers and place both hands on the floor, about 4 to 6 inches apart</item>
+    	<item>♦ With the hands on the floor, raise the body from the floor, balancing only on the hands. Gaze forward and breathe normally</item>
+    </string-array>
+    <string-array name="cock_releasing">
+    	<item>♦ Slowly lower the legs onto the ground</item>
+    	<item>♦ Release the right hand from between the legs</item>
+    	<item>♦ Release the left hand from between the legs</item>
+    	<item>♦ Place both hands in Meditation Gesture on the knees and come back into Lotus Pose</item>
+    </string-array>
+    <string-array name="cock_benefits">
+    	<item>♦ Strengthens the arms, shoulders, elbows and wrists</item>
+    	<item>♦ Strengthens the abdominal muscles</item>
+    	<item>♦ Stretches the chest muscles</item>
+    </string-array>
+    
+    <!-- Crow Pose -->
+    
+    <string-array name="crow_taking">
+    	<item>♦ From sitting position, bring the feet in, close to the body, and come onto the toes with the support of the hands</item>
+    	<item>♦ Place the hands about 1 to 1.5ft apart on the ground in front of the knees, with the fingers spread out</item>
+    	<item>♦ Bend the arms slightly and touch the inner side of the knees to the outer sides of the respective upper arms.</item>
+    	<item>♦ Squeezing the knees against the arms and the arms pushing out against the knees, slowly lean the body forward, lifting the buttocks in the air, gradually transferring the body weight onto the hands. Then lift the feet off the floor</item>
+    </string-array>
+    <string-array name="crow_releasing">
+    	<item>♦ Slowly lower the feet to the ground by moving the body backwards</item>
+    	<item>♦ Release the knees from the arms</item>
+    	<item>♦ Come onto the toes</item>
+    	<item>♦ Place the hands on the ground by the side of the hips, straighten out the legs and come back into sitting position</item>
+    </string-array>
+    <string-array name="crow_benefits">
+    	<item>♦ Balances the nervous system</item>
+    	<item>♦ Strengthens the arms and wrists</item>
+    	<item>♦ Develops sense of physical balance</item>
+    </string-array>
+    
+    <!-- Foetus Pose -->
+    
+    <string-array name="foetus_taking">
+    	<item>♦ Sit in Lotus Pose. Release the Meditation Gesture and insert the left arm between the thigh and calf of the left leg. Gradually, push the arm through the legs up to the elbow</item>
+    	<item>♦ Similarly, insert the right arm between the thigh and calf of the right leg, pushing the arm through, up to the elbow</item>
+    	<item>♦ Raise the legs and fold the arms upwards and catch hold of the left earlobe with the right hand and the right earlobe with the left hand. You may have to stick your neck out so that the hands can reach the ears</item>
+    </string-array>
+    <string-array name="foetus_releasing">
+    	<item>♦ Release the hands and slowly lower the legs to the ground</item>
+    	<item>♦ Release the right hand from between the legs, followed by the left</item>
+    	<item>♦ Place both hands in Meditation Gesture and come back into Lotus Pose</item>
+    </string-array>
+    <string-array name="foetus_benefits">
+    	<item>♦ Has a regulating effect on the adrenal glands and calms an excited mind</item>
+    	<item>♦ Alleviates nervous disorders</item>
+    	<item>♦ Helps to control anger</item>
+    	<item>♦ Massages and tones the abdominal organs</item>
+    	<item>♦ Stimulates the digestive fire and increases the appetite</item>
+    	<item>♦ Improves sense of balance</item>
+    </string-array>
+    
+    <!-- Forward Bend -->
+    
+    <string-array name="forward_taking">
+    	<item>♦ After bending down, keep the heels, calves, thighs completely touching to the floor, keeping the spine straight, rest the forehead on the knees and continue smooth breathing</item>
+    	<item>♦ Since here the abdomen gets completely folded, it becomes necessary to bend only after complete exhalation</item>
+    	<item>♦ One should bend downward as much as one\'s body permits and then try to stabilize at that point, keeping the breathing smooth</item>
+    	<item>♦ After taking the position, relax the whole body and automatically the head, shoulder, chest will come down owing to their weight and relaxation</item>
+    </string-array>
+    <string-array name="forward_releasing">
+    	<item>♦ Exhale, and inhaling, start raising the head</item>
+    	<item>♦ Restore the hands to their place and take up the sitting position</item>
+    </string-array>
+    <string-array name="forward_benefits">
+    	<item>♦ As the whole of the west side gets stretched, they get purified and their functioning is greatly improved. At the same time, the muscles of the front side get contracted and there is pressure on the lungs, intestines and other internal juice producing glands. As a result of this their functioning is also improved</item>
+    	<item>♦ It is very useful in setting right the troubles concerning the lumber part of the spinal cord and the digestive system</item>
+    	<item>♦ Further, there is very sensitive part in our body known as Kundalini lying in dormant stage. This Pose is supposed to activate it</item>
+    </string-array>
+        
+    <!-- Half Lotus Bound Pose -->
+    
+    <string-array name="hlb_taking">
+    	<item>♦ Bend the left leg and place the top of the left foot on the right thigh</item>
+    	<item>♦ Wrap the left arm around the back of the waist and grab the toes of the left foot</item>
+    	<item>♦ Reach the right arm forward to catch the toes of the right foot</item>
+    	<item>♦ Inhale and while exhaling, bend the torso from the hips and try to touch the forehead to the knee. Breathe normally</item>
+    </string-array>
+    <string-array name="hlb_releasing">
+    	<item>♦ Exhale and while inhaling, lift the head and straighten the torso</item>
+    	<item>♦ Release both hands and return them to the sides of the hips on the floor</item>
+    	<item>♦ Release the left foot and come back into sitting position</item>
+    </string-array>
+    <string-array name="hlb_benefits">
+    	<item>♦ The foot of the bent leg pressing against the abdomen gives an intense massage to the abdominal organs, which helps to stimulate intestinal peristalsis and alleviates constipation</item>
+    	<item>♦ Stretches the hamstrings</item>
+    	<item>♦ Increases flexibility in the hip joints</item>
+    	<item>♦ Removes excess weight from the abdominal and pelvic areas</item>
+    </string-array>
+    
+    
+    
+    <!-- Lifted Lotus Pose -->
+    
+    <string-array name="lifted_taking">
+    	<item>♦ Leave the Meditation Gesture of the hands and keep them beside the waist as in the sitting position</item>
+    	<item>♦ Exhale, and inhaling, lift the whole body with the help of the hands and stabilize this position keeping the breathing smooth</item>
+    </string-array>
+    <string-array name="lifted_releasing">
+    	<item>♦ Inhale, and exhaling, get the body on the floor slowly</item>
+    	<item>♦ Keep both the hands on the knees and restore Meditation Gesture</item>
+    </string-array>
+    <string-array name="lifted_benefits">
+    	<item>In addition to the advantages of Lotus Pose it has good effect on the intestines and the muscles of the body by having good pressure on them</item>
+    </string-array>
+    
+    <!-- Lion Pose -->
+    
+    <string-array name="lion_taking">
+    	<item>♦ Bend the right leg and place the foot under the left buttock</item>
+    	<item>♦ Bend the left leg and cross the left ankle over the right ankle, placing the left foot under the right buttock</item>
+    	<item>♦ Rest the hands onto the knees with the fingers spread out. Lean the body to the front slightly, placing the body weight onto the hands. The hands should be kept straight</item>
+    	<item>♦ Tilt the head slightly downwards, open the mouth and stick the tongue out, pointing the tip of the tongue down. Widen the eyes and tense all facial muscles. Breathe normally. The gaze should either be at the nosetip or eyebrow centre</item>
+    </string-array>
+    <string-array name="lion_releasing">
+    	<item>♦ Relax the facial muscles and straighten out the neck</item>
+    	<item>♦ Straighten out the body and place the hands on the ground, by the hips</item>
+    	<item>♦ Straighten out the left leg</item>
+    	<item>♦ Straighten out the right leg and come back into the sitting pose</item>
+    </string-array>
+    <string-array name="lion_benefits">
+    	<item>♦ Facial, eye and tongue muscles are stretched, refreshing the blood supply to these muscles, improving their efficiency</item>
+    	<item>♦ The folded legs redirects the flow of prana from the lower chakras to the higher chakras</item>
+    </string-array>
+    
+    <!-- Lotus Pose -->
+    
+    <string-array name="lotus_taking">
+    	<item>♦ Spread both the legs and keep them at a distance of 1 to 1.5 feet</item>
+    	<item>♦ Bend left leg in knee and place its toe on the right thigh and heel on the groin of the left leg</item>
+    	<item>♦ Bend right leg in knee and place its toe on the left thigh and heel on the groin of the right leg</item>
+    	<item>♦ Keep the wrists of both the hands on the respective knees and take Dnyana Mudra. Continue normal breathing</item>
+    </string-array>
+    <string-array name="lotus_releasing">
+    	<item>♦ Bring the hands beside the waist</item>
+    	<item>♦ Straighten the right leg in the knee</item>
+    	<item>♦ Straighten the left leg in the knee</item>
+    	<item>♦ Get both the legs together, take the sitting posture</item>
+    </string-array>
+    <string-array name="lotus_benefits">
+    	<item>As the backbone is kept erect in this Pose, its functioning is greatly improved. Meditation Gesture further helps in stabilizing pulse beats. Consequently strain on muscles is reduced, which in turn reduces strain on heart.
+Also breathing slows down, collective effect of all this is one can achieve concentration of mind</item>
+    </string-array>
+    
+    <!-- Mountain Pose -->
+    
+    <string-array name="mt_taking">
+    	<item>♦ Take both the hands forward and lock the fingers of both the hands together</item>
+    	<item>♦ Take the hands over the head and turn the palms downside up facing the roof. Stretch the body upwards with the arms stretched towards the sky</item>
+    	<item>♦ Stabilize the position and continue normal breathing</item>
+    </string-array>
+    <string-array name="mt_releasing">
+    	<item>♦ Relax the body and bring the hands as in position 1 in figure above</item>
+    	<item>♦ Take the position as in Lotus Pose</item>
+    	<item>♦ Straighten the left leg in the knee then straighten right leg</item>
+    	<item>♦ Get both the legs together, take the sitting posture</item>
+    </string-array>
+    <string-array name="mt_benefits">
+    	<item>Stretching the arm, back and abdominal muscles improves the functioning of theses parts of the body. This helps cure certain problems of spinal column and cord</item>
+    </string-array>
+    
+    <!-- Scale Pose -->
+    
+    <string-array name="scale_taking">
+    	<item>♦ From Lotus Pose, place the hands on the ground, by the side of the hips</item>
+    	<item>♦ Slowly lean backwards and place the elbows on the ground. Form fists with the hands and place the fists (palms facing down), under the buttocks</item>
+    	<item>♦ Exhale and while inhaling, lift the Lotus Pose at 45 degrees to the ground, balancing the body on the fists and lower arms. Breathe normally</item>
+    </string-array>
+    <string-array name="scale_releasing">
+    	<item>♦ Inhale and while exhaling, slowly release the Lotus Pose to the the ground</item>
+    	<item>♦ While inhaling, lift the back up vertically with the support of the hands</item>
+    	<item>♦ Place hands back in Meditation Gesture on the knees, coming back into Lotus Pose</item>
+    </string-array>
+    <string-array name="scale_benefits">
+    	<item>♦ Tones the abdominal organs</item>
+    	<item>♦ Strengthens the shoulders, back and neck</item>
+    	<item>♦ Opens up the chest</item>
+    </string-array>
+    
+    <!-- Single Leg to Head Pose -->
+    
+    <string-array name="slhp_taking">
+    	<item>♦ Place the left foot on the right thigh</item>
+    	<item>♦ Hold the left calf muscle with the left hand and the outside of the left ankle with the right hand. Raise the left leg using the arms, bend the trunk forward and twist slightly to the right. Inhale and while exhaling, place the leg on top of the left shoulder and turn the body to face forward. Gaze straight ahead</item>
+    	<item>♦ Join both palms together in position. Breathe normally</item>
+    </string-array>
+    <string-array name="slhp_releasing">
+    	<item>♦ Release the hands from joining position</item>
+    	<item>♦ With the support of the hands, release the left leg from behind the head and place the left foot on the right thigh</item>
+    	<item>♦ Straighten the left leg and come back into sitting position</item>
+    </string-array>
+    <string-array name="slhp_benefits">
+    	<item>♦ Massages the internal organs at the abdominal area</item>
+    	<item>♦ Stimulates peristalsis and thereby removing constipation</item>
+    	<item>♦ Tones the reproductive organs</item>
+    	<item>♦ Improves blood circulation in the legs, relieving varicose veins</item>
+    	<item>♦ Improves blood circulation in the spine, increasing the level of energy in the chakras</item>
+    	<item>♦ Improves the level of heomoglobin in the blood, vitalizing the body and mind</item>
+    </string-array>
+    
+    <!-- Single Toe Balance Pose -->
+    
+    <string-array name="stbp_taking">
+    	<item>♦ From sitting position, bring the feet in, close to the body, and come onto the toes</item>
+    	<item>♦ Lift the left foot up and place it on the right thigh. Make sure that the right thigh is parallel to the ground. Adjust the right heel so that it presses against the perineum. The entire body weight is now borne by the toes and ball of the right foot</item>
+    	<item>♦ Once balance is achieved, bring the hands to the front of the chest in joining position</item>
+    </string-array>
+    <string-array name="stbp_releasing">
+    	<item>♦ Release the hands from joining pose and place them on the ground near the body</item>
+    	<item>♦ Release the left leg and place the left foot next to the right</item>
+    	<item>♦ Straighten out the legs with the help of both hands and come back into sitting position</item>
+    </string-array>
+    <string-array name="stbp_benefits">
+    	<item>♦ Strengthens the legs, especially the ankles and toes</item>
+    	<item>♦ Regulates the reproductive system</item>
+    	<item>♦ Prevents Spermatorrhea</item>
+    	<item>♦ Promotes Brahmacharya</item>
+    	<item>♦ Trains the nervous system</item>
+    </string-array>
+    
+    <!-- Swan Pose -->
+    
+    <string-array name="swan_taking">
+    	<item>♦ Bend the legs one after the other and come onto the feet in a squat</item>
+    	<item>♦ Rest the knees to the ground</item>
+    	<item>♦ Spread the knees apart and place the hands on the ground about 3 to 4 inches apart, with the fingers pointing towards the feet</item>
+    	<item>♦ Stretch the legs backward until they are straight</item>
+    	<item>♦ Roll the shoulders back and raise the head slightly so that the head, neck, shoulders, back and legs form a straight line at an angle to the ground. Breathe normally</item>
+    </string-array>
+    <string-array name="swan_releasing">
+    	<item>♦ Hunch the upper body slightly by bending the neck and the shoulders forward</item>
+    	<item>♦ Slowly step the feet one after the other forward. Straighten the arms and come into a squat</item>
+    	<item>♦ Place the arms by the side of the body, straighten out the legs and come back into the sitting position</item>
+    </string-array>
+    <string-array name="swan_benefits">
+    	<item>♦ Massages and stimulates the abdominal organs and muscles</item>
+    	<item>♦ Stimulates the appetite</item>
+    	<item>♦ Helps to expel stomach and intestinal worms</item>
+    </string-array>
+    
+    <!-- Thunderbolt Pose -->
+    
+    <string-array name="th_taking">
+    	<item>♦ Fold the left leg in the knee and place the toe on the floor</item>
+    	<item>♦ Fold the right leg in the knee and place the toe on the floor and join the two toes</item>
+    	<item>♦ Sit on the pit formed by the parted heels</item>
+    	<item>♦ Place the palms on the knees</item>
+    </string-array>
+    <string-array name="th_releasing">
+    	<item>♦ Remove the palms from the knees and bring them to the sides</item>
+    	<item>♦ Take out the left leg and straighten it</item>
+    	<item>♦ Take out the right leg and straighten it</item>
+    	<item>♦ Take the sitting position</item>
+    </string-array>
+    <string-array name="th_benefits">
+    	<item>♦ Along with the body, the mind also gets stabilized in this Pose. Hence, it is preferred for meditation in this Pose. Hence, it is preferred for meditation and concentration</item>
+    	<item>♦ The blood circulation in the waist-downward parts is controlled</item>
+    </string-array>
+    
+    <!-- Tied Lotus -->
+    
+    <string-array name="tied_taking">
+    	<item>♦ Spread both the legs and keep them at a distance of 1 to 1.5 feet</item>
+    	<item>♦ Bend left leg in knee and place its toe on the right thigh and heel on the groin of the left leg</item>
+    	<item>♦ Bend right leg in knee and place its toe on the left thigh and heel on the groin of the right leg</item>
+    	<item>♦ Keep the wrists of both the hands on the respective knees and take Meditation Gesture. Continue normal breathing</item>
+    </string-array>
+    <string-array name="tied_releasing">
+    	<item>♦ Bring the hands beside the waist</item>
+    	<item>♦ Straighten the right leg in the knee</item>
+    	<item>♦ Straighten the left leg in the knee</item>
+    	<item>♦ Get both the legs together, take the sitting postures</item>
+    </string-array>
+    <string-array name="tied_benefits">
+    	<item>As the backbone is kept erect in this Pose, its functioning is greatly improved. Meditation Gesture further helps in stabilizing pulse beats. Consequently strain on muscles is reduced, which in turn reduces strain on heart.
+Also breathing slows down, collective effect of all this is one can achieve concentration of mind</item>
+    </string-array>
+    
+    <!-- Toe Balance Pose -->
+    
+    <string-array name="toe_taking">
+    	<item>♦ Bend the legs in close to the body one after the other. Rest both palms on the ground and come onto the toes</item>
+    	<item>♦ While maintaining balance, straighten the back and lift both hands from the ground and place them on the knees (Right palm on the right knee and left palm on the left knee). Maintain the balance of the body in this position and gaze forward</item>
+    </string-array>
+    <string-array name="toe_releasing">
+    	<item>♦ Place the hands on the ground, by the side of the feet</item>
+    	<item>♦ Straighten out both legs and come back to sitting position</item>
+    </string-array>
+    <string-array name="toe_benefits">
+    	<item>♦ Improves concentration</item>
+    	<item>♦ Strengthens the toes and ankles</item>
+    </string-array>
+    
+    <!-- Fish Pose -->
+    
+    <string-array name="fish_taking">
+    	<item>♦ Spread the legs one foot apart</item>
+    	<item>♦ Fold the left leg in the knee and place it on the right thigh</item>
+    	<item>♦ Fold the right leg in the knee and place it on left thigh</item>
+    	<item>♦ Now with the help of the elbows raise the head, curve the back backwards and place the top of the head on the floor, making the arch of the back</item>
+    	<item>♦ Hold the toes of the feet with hands and continue normal breathing</item>
+    </string-array>
+    <string-array name="fish_releasing">
+    	<item>♦ Release the toes of the feet and support the shoulders with the elbows</item>
+    	<item>♦ Slowly reducing the weight on the head, straighten the neck and bring the shoulders on the floor</item>
+    	<item>♦ Straighten the right leg</item>
+    	<item>♦ Straighten the left leg</item>
+    	<item>♦ Bring back both the legs to normal position and take supine position</item>
+    </string-array>
+    <string-array name="fish_benefits">
+    	<item>Help improve the circulation in thyroid and pituitary glands assuring healthy functioning. Also the thigh and abdomen muscles are stretched systematically.</item>
+    </string-array>
+    
+    <!-- Full Wheel Pose -->
+    
+    <string-array name="full_taking">
+    	<item>♦ Start in supine position. Bend at the knees and place the feet close to the buttock, about hip-width apart</item>
+    	<item>♦ Lift the arms up and have them place beneath the shoulders, with the fingers pointing to the shoulder</item>
+    	<item>♦ Exhale while inhaling; lift the buttock, waist, lower and middle back off the ground. Exhale</item>
+    	<item>♦ While inhaling, lift the shoulders up by pushing onto the ground with the palms. Lift up the buttock; waist and the whole back until the hands are straight at elbows and legs at the knees</item>
+    </string-array>
+    <string-array name="full_releasing">
+    	<item>♦ Inhale while exhaling, bend at the elbows and legs at knees. Bend the head, and release the head, shoulders, waist and buttock onto the ground. Rest the back entirely on the ground</item>
+    	<item>♦ Bring both the palms away from the shoulders and have the arms down by the side of the body</item>
+    	<item>♦ Straighten out the legs and come back into supine position</item>
+    </string-array>
+    <string-array name="full_benefits">
+    	<item>♦ Due to the stretch at the upper part of the abdomen muscles, it gives some pressure on the internal organs of the abdomen and therefore, increasing their efficiency</item>
+    	<item>♦ The muscles on the front part of the thighs are stretch and the calves are strengthening while doing and holding the pose</item>
+    	<item>♦ This pose is extremely beneficial for those who sit long hours in front of the desk or computer as they usually hunch over the desk all day long</item>
+    	<item>♦ This pose will also help in toning and strengthening the entire back muscles</item>
+    </string-array>
+    
+    <!-- Gas Release Pose -->
+    
+    <string-array name="gas_taking">
+    	<item>♦ Exhale and inhaling, start raising both the legs and come to Leg Raised Position</item>
+    	<item>♦ Bend both the legs in the knees and keep the folds on the belly. Keep the knees and toes together</item>
+    	<item>♦ Now keep the belly pressed with the thighs and clasp the folded legs with both the hands</item>
+    	<item>♦ Now bending the neck, raise the head and fix the chin between the knees</item>
+    </string-array>
+    <string-array name="gas_releasing">
+    	<item>♦ Straighten the neck and bring the head on the floor</item>
+    	<item>♦ Unfold the hands and bring them to their earlier position</item>
+    	<item>♦ Inhaling, straighten both the legs and come to Leg Raised Position</item>
+    	<item>♦ Exhaling, slowly bring both the legs down and place them on the floor and take Supine Position</item>
+    </string-array>
+    <string-array name="gas_benefits">
+    	<item>Due to the nice and systematic pressure on the belly, the trapped gases in large intestine are released. This improves the digestion system and helps have good motion</item>
+    </string-array>
+    
+    <!-- Inverted Pose -->
+    
+    <string-array name="in_taking">
+    	<item>♦ Exhale and inhaling start raising both the legs upward and stop when they make angle of 90 degree with the floor. Attain the Leg Raised posture</item>
+    	<item>♦ Exhaling raise the waist and push the legs backward over the head</item>
+    	<item>♦ Inhaling support the waist with both the hands, straighten the legs and stretch the toes towards sky. Keep the sight on the toes</item>
+    	<item>♦ Continue normal breathing</item>
+    </string-array>
+    <string-array name="in_releasing">
+    	<item>♦ Inhale and exhaling, slightly lower the legs towards head and maintaining the balance of the body remove the hands supporting the waist back to the normal position</item>
+    	<item>♦ Inhaling, place the waist on the ground keeping legs straight as in the Leg Raised</item>
+    	<item>♦ Exhaling, bring legs back to the normal position without jerk or speed</item>
+    </string-array>
+    <string-array name="in_benefits">
+    	<item>Most of the times we remain either in standing or sitting position. Quite opposite position is taken in this Pose. This helps improve the blood circulation as impure blood easily reaches the heart. To some extent you can get the benefits of Headstand Pose in this posture</item>
+    </string-array>
+    
+    <!-- Leg Raised Pose -->
+    
+    <string-array name="leg_taking">
+    	<item>♦ Exhale and inhaling start raising both the legs upward and stop when they make angle of 90 degree with the floor</item>
+    	<item>♦ Keep the sight at the toes of the feet</item>
+    	<item>♦ Continue normal breathing and try to maintain the posture steady</item>
+    </string-array>
+    <string-array name="leg_releasing">
+    	<item>Inhale and exhaling, bring both the legs down, back on to the floor</item>
+    </string-array>
+    <string-array name="leg_benefits">
+    	<item>In this Pose, thigh muscles and stomach muscles are stretched. The strain reaches inner organs like small intestines, enzyme producing glands and other organs and helps increases their capacity. The vertical position of the legs help improve the blood circulation</item>
+    </string-array>
+    
+    <!-- Boat Pose -->
+    
+    <string-array name="boat_taking">
+    	<item>♦ Stretch both the arms forward, keep them on the floor with palms closed together. At the same time place the forehead on the floor</item>
+    	<item>♦ Exhale and inhaling, lift the arms and neck in the front, and legs in the back upwards as much as possible without bending them</item>
+    	<item>♦ Continue normal breathing and try to maintain the posture steady</item>
+    </string-array>
+    <string-array name="boat_releasing">
+    	<item>♦ Inhale and exhaling bring, both the knees, chin and shoulders slowly on the ground</item>
+    	<item>♦ Leave the ankles and bring the hands beside the body</item>
+    	<item>♦ Straighten the bent legs and bring them as in the prone position</item>
+    </string-array>
+    <string-array name="boat_benefits">
+    	<item>In this Pose, muscles of legs and hands are stretched more than Bow Pose. The strain reaches inner organs and increases their capacity. It also acts on back muscles and helps remove complaints related to digestive system</item>
+    </string-array>
+    
+    <!-- Bent arm Cobra Pose -->
+    
+    <string-array name="bent_taking">
+    	<item>♦ Bring both the hands close near chest and place palms on the floor with fingers together pointing to the front and the thumbs drawn towards the body</item>
+    	<item>♦ Elbows of both the hands should be kept raised towards the sky. Now touch the forehead to the ground and exhale</item>
+    	<item>♦ Inhaling, gradually first raise the forehead and then the chin, chest and neck, and curve the spinal column. Keeping the waist, thighs and knees pressed to the floor, raise the upper part of the body only upto the naval</item>
+    </string-array>
+    <string-array name="bent_releasing">
+    	<item>♦ Inhale and exhaling, with the support of the spinal column, start lowering the shoulders slowly with first abdomen touching the floor and then chest, forehead</item>
+    	<item>♦ Place the chin on floor and hands back to the original position. Attain prone position</item>
+    </string-array>
+    <string-array name="bent_benefits">
+    	<item>This Pose is concerned with the spinal cord and the muscles of the stomach. Due to the stretching the efficiency of the digestive organs increases. To some extent back problems are reduced as the blood circulation is improved</item>
+    </string-array>
+    
+    <!-- Crocodile Pose -->
+    
+    <string-array name="cro_taking">
+    	<item>♦ Bring the arms forward and fold them. Then place the forehead on the folded elbows and relax the neck</item>
+    	<item>♦ Spread the legs and keep them at a distance of a foot or so, with the heels inside and the toes outside. Then relax the legs</item>
+    	<item>♦ Keep the whole body relaxed. Try to touch as many parts of the body to the floor as possible. Keep the breathing normal and the head in a positoin which is comfortable</item>
+    </string-array>
+    <string-array name="cro_releasing">
+    	<item>♦ Bring the feet together</item>
+    	<item>♦ Unfold the arms and get them back as before and come to the Prone Position</item>
+    </string-array>
+    <string-array name="cro_benefits">
+    	<item>As all the muscles are relaxed, they need less blood and oxygen supply. Consequently, the heart beats and the breathing also slow down. Now as the whole basic operation turns slow, the body gets good rest</item>
+    </string-array>
+</resources>

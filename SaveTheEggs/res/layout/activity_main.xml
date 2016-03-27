@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/forest_bg"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/bt_play"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="@dimen/play_width"
+        android:layout_height="@dimen/play_height"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/play"
+        android:width="100dp" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="5dp"
+        android:background="@drawable/question" />
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="5dp"
+        android:background="@drawable/gears" />
+
+    <Button
+        android:id="@+id/rate_us"
+        android:layout_width="@dimen/rate_width"
+        android:layout_height="@dimen/rate_height"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/rate_us" />
+
+</FrameLayout>
