@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="banana_width">24dp</dimen>
+    <dimen name="banana_height">24dp</dimen>
+    <dimen name="tick_width">14dp</dimen>
+    <dimen name="tick_height">14dp</dimen>
+    <dimen name="star_width">20dp</dimen>
+    <dimen name="start_height">20dp</dimen>
+    <dimen name="medal_width">26dp</dimen>
+    <dimen name="medal_height">26dp</dimen>
+    <dimen name="wrong_width">12dp</dimen>
+    <dimen name="wrong_height">12dp</dimen>
+    <dimen name="next_width">128dp</dimen>
+    <dimen name="next_height">128dp</dimen>
+
+</resources>

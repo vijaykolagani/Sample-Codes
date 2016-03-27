@@ -1,0 +1,4567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maths For Kids Pro</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="addition">Addition</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="puzzles">Puzzles</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="division">Division</string>
+    <string name="games">Games</string>
+    <string name="age_three_six">Age 3 - 6</string>
+    <string name="age_nine_twelve">Age 9 - 12</string>
+    <string name="age_six_nine">Age 6 - 9</string>
+    <string name="age_nine_above">Age  9 - above</string>
+    <string name="age_zero_four">Age  0 - 4</string>
+    <string name="age_seven_nine">Age  7 - 9</string>
+    <string name="age_four_seven">Age  4 - 7</string>
+    <string name="plus">+</string>
+    <string name="equals">=</string>
+    <string name="two">2</string>
+    <string name="five">5</string>
+    <string name="one">1</string>
+    <string name="seven">7</string>
+    <string name="success_message">Congrats! That\'s right.</string>
+    <string name="next">Next</string>
+    <string name="failure_message">Sorry! Try again.</string>
+    <string name="ok">OK</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="six">6</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ten">10</string>
+    <string name="eleven">11</string>
+    <string name="twleve">12</string>
+    <string name="thirteen">13</string>
+    <string name="fourteen">14</string>
+    <string name="fifteen">15</string>
+    <string name="sixteen">16</string>
+    <string name="seventeen">17</string>
+    <string name="eighteen">18</string>
+    <string name="nineteen">19</string>
+    <string name="twenty">20</string>
+    <string name="twentyone">21</string>
+    <string name="twentytwo">22</string>
+    <string name="twentythree">23</string>
+    <string name="twentyfour">24</string>
+    <string name="twentyfive">25</string>
+    <string name="twentysix">26</string>
+    <string name="twentyseven">27</string>
+    <string name="twentyeight">28</string>
+    <string name="twentynine">29</string>
+    <string name="thirty">30</string>
+    <string name="thirtyone">31</string>
+    <string name="thirtytwo">32</string>
+    <string name="thirtythree">33</string>
+    <string name="thirtyfour">34</string>
+    <string name="thirtyfive">35</string>
+    <string name="thirtysix">36</string>
+    <string name="thirtyseven">37</string>
+    <string name="thirtyeight">38</string>
+    <string name="thirtynine">39</string>
+    <string name="fourty">40</string>
+    <string name="fourtyone">41</string>
+    <string name="fourtytwo">42</string>
+    <string name="fourtythree">43</string>
+    <string name="fourtyfour">44</string>
+    <string name="fourtyfive">45</string>
+    <string name="fourtysix">46</string>
+    <string name="fourtyseven">47</string>
+    <string name="fourtyeight">48</string>
+    <string name="fourtynine">49</string>
+    <string name="fifty">50</string>
+    <string name="fiftyone">51</string>
+    <string name="fiftytwo">52</string>
+    <string name="fiftythree">53</string>
+    <string name="fiftyfour">54</string>
+    <string name="fiftyfive">55</string>
+    <string name="fiftysix">56</string>
+    <string name="fiftyseven">57</string>
+    <string name="fiftyeight">58</string>
+    <string name="fiftynine">59</string>
+    <string name="sixty">60</string>
+    <string name="sixtyone">61</string>
+    <string name="sixtytwo">62</string>
+    <string name="sixtythree">63</string>
+    <string name="sixtyfour">64</string>
+    <string name="sixtyfive">65</string>
+    <string name="sixtysix">66</string>
+    <string name="sixtyseven">67</string>
+    <string name="sixtyeight">68</string>
+    <string name="sixtynine">69</string>
+    <string name="seventy">70</string>
+    <string name="seventyone">71</string>
+    <string name="seventytwo">72</string>
+    <string name="seventythree">73</string>
+    <string name="seventyfour">74</string>
+    <string name="seventyfive">75</string>
+    <string name="seventysix">76</string>
+    <string name="seventyseven">77</string>
+    <string name="seventyeight">78</string>
+    <string name="seventynine">79</string>
+    <string name="eighty">80</string>
+    <string name="eightyone">81</string>
+    <string name="eightytwo">82</string>
+    <string name="eightythree">83</string>
+    <string name="eightyfour">84</string>
+    <string name="eightyfive">85</string>
+    <string name="eightysix">86</string>
+    <string name="eightyseven">87</string>
+    <string name="eightyeight">88</string>
+    <string name="eightynine">89</string>
+    <string name="ninety">90</string>
+    <string name="ninetyone">91</string>
+    <string name="ninetytwo">92</string>
+    <string name="ninetythree">93</string>
+    <string name="ninetyfour">94</string>
+    <string name="ninetyfive">95</string>
+    <string name="ninetysix">96</string>
+    <string name="ninetyseven">97</string>
+    <string name="ninetyeight">98</string>
+    <string name="ninetynine">99</string>
+    <string name="hundred">100</string>
+    
+    <!-- Addition Age 7 to 9 Start -->
+    <!-- Answer 1 -->
+    <integer-array name="addition_nine_level_one">
+        <item >1</item>
+        <item >20</item>
+        <item >21</item>
+        <item >23</item>
+        <item >24</item>
+        <item >22</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="addition_nine_level_two">
+        <item >5</item>
+        <item >26</item>
+        <item >33</item>
+        <item >35</item>
+        <item >31</item>
+        <item >32</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="addition_nine_level_three">
+        <item >7</item>
+        <item >19</item>
+        <item >24</item>
+        <item >26</item>
+        <item >23</item>
+        <item >25</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="addition_nine_level_four">
+        <item >8</item>
+        <item >29</item>
+        <item >35</item>
+        <item >34</item>
+        <item >36</item>
+        <item >37</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="addition_nine_level_five">
+        <item >6</item>
+        <item >23</item>
+        <item >31</item>
+        <item >27</item>
+        <item >29</item>
+        <item >30</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="addition_nine_level_six">
+        <item >9</item>
+        <item >25</item>
+        <item >34</item>
+        <item >36</item>
+        <item >37</item>
+        <item >35</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="addition_nine_level_seven">
+        <item >4</item>
+        <item >21</item>
+        <item >26</item>
+        <item >27</item>
+        <item >25</item>
+        <item >24</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="addition_nine_level_eight">
+        <item >24</item>
+        <item >3</item>
+        <item >26</item>
+        <item >25</item>
+        <item >28</item>
+        <item >27</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="addition_nine_level_nine">
+        <item >34</item>
+        <item >7</item>
+        <item >43</item>
+        <item >41</item>
+        <item >40</item>
+        <item >42</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="addition_nine_level_ten">
+        <item >22</item>
+        <item >7</item>
+        <item >27</item>
+        <item >29</item>
+        <item >31</item>
+        <item >28</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="addition_nine_level_eleven">
+        <item >1</item>
+        <item >17</item>
+        <item >21</item>
+        <item >39</item>
+        <item >36</item>
+        <item >37</item>
+        <item >38</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="addition_nine_level_twelve">
+        <item >16</item>
+        <item >22</item>
+        <item >4</item>
+        <item >46</item>
+        <item >43</item>
+        <item >42</item>
+        <item >44</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="addition_nine_level_thirteen">
+        <item >21</item>
+        <item >3</item>
+        <item >11</item>
+        <item >38</item>
+        <item >36</item>
+        <item >37</item>
+        <item >35</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="addition_nine_level_fourteen">
+        <item >5</item>
+        <item >23</item>
+        <item >12</item>
+        <item >39</item>
+        <item >42</item>
+        <item >43</item>
+        <item >40</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="addition_nine_level_fifteen">
+        <item >29</item>
+        <item >6</item>
+        <item >13</item>
+        <item >46</item>
+        <item >51</item>
+        <item >48</item>
+        <item >49</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="addition_nine_level_sixteen">
+        <item >19</item>
+        <item >7</item>
+        <item >26</item>
+        <item >51</item>
+        <item >52</item>
+        <item >55</item>
+        <item >53</item>
+    </integer-array>
+ 
+    <!-- Answer 1 -->
+    <integer-array name="addition_nine_level_seventeen">
+        <item >7</item>
+        <item >25</item>
+        <item >10</item>
+        <item >42</item>
+        <item >43</item>
+        <item >41</item>
+        <item >39</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="addition_nine_level_eighteen">
+        <item >4</item>
+        <item >27</item>
+        <item >17</item>
+        <item >49</item>
+        <item >46</item>
+        <item >47</item>
+        <item >48</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="addition_nine_level_nineteen">
+        <item >27</item>
+        <item >6</item>
+        <item >14</item>
+        <item >47</item>
+        <item >46</item>
+        <item >49</item>
+        <item >48</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="addition_nine_level_twenty">
+        <item >18</item>
+        <item >26</item>
+        <item >9</item>
+        <item >51</item>
+        <item >50</item>
+        <item >53</item>
+        <item >55</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="addition_nine_level_twentyone">
+        <item >1</item>
+        <item >12</item>
+        <item >21</item>
+        <item >9</item>
+        <item >39</item>
+        <item >41</item>
+        <item >44</item>
+        <item >43</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="addition_nine_level_twentytwo">
+        <item >16</item>
+        <item >5</item>
+        <item >23</item>
+        <item >2</item>
+        <item >47</item>
+        <item >46</item>
+        <item >44</item>
+        <item >43</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="addition_nine_level_twentythree">
+        <item >25</item>
+        <item >3</item>
+        <item >6</item>
+        <item >11</item>
+        <item >45</item>
+        <item >41</item>
+        <item >44</item>
+        <item >43</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="addition_nine_level_twentyfour">
+        <item >2</item>
+        <item >29</item>
+        <item >9</item>
+        <item >14</item>
+        <item >49</item>
+        <item >51</item>
+        <item >54</item>
+        <item >53</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="addition_nine_level_twentyfive">
+        <item >5</item>
+        <item >17</item>
+        <item >22</item>
+        <item >3</item>
+        <item >49</item>
+        <item >47</item>
+        <item >44</item>
+        <item >43</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="addition_nine_level_twentysix">
+        <item >13</item>
+        <item >4</item>
+        <item >24</item>
+        <item >7</item>
+        <item >49</item>
+        <item >47</item>
+        <item >44</item>
+        <item >48</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="addition_nine_level_twentyseven">
+        <item >7</item>
+        <item >1</item>
+        <item >15</item>
+        <item >27</item>
+        <item >50</item>
+        <item >51</item>
+        <item >54</item>
+        <item >53</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="addition_nine_level_twentyeight">
+        <item >19</item>
+        <item >3</item>
+        <item >22</item>
+        <item >4</item>
+        <item >47</item>
+        <item >48</item>
+        <item >44</item>
+        <item >43</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="addition_nine_level_twentynine">
+        <item >6</item>
+        <item >9</item>
+        <item >14</item>
+        <item >21</item>
+        <item >49</item>
+        <item >51</item>
+        <item >50</item>
+        <item >53</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="addition_nine_level_thirty">
+        <item >15</item>
+        <item >9</item>
+        <item >27</item>
+        <item >8</item>
+        <item >59</item>
+        <item >54</item>
+        <item >57</item>
+        <item >58</item>
+    </integer-array>
+     <!-- Addition Age 7 to 9 End -->
+    
+    <!-- Addition Age 9 above Start -->
+    <!-- Answer 3 -->
+    <integer-array name="addition_above_level_one">
+        <item >10</item>
+        <item >10</item>
+        <item >21</item>
+        <item >23</item>
+        <item >20</item>
+        <item >22</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="addition_above_level_two">
+        <item >14</item>
+        <item >12</item>
+        <item >26</item>
+        <item >28</item>
+        <item >25</item>
+        <item >24</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="addition_above_level_three">
+        <item >11</item>
+        <item >13</item>
+        <item >25</item>
+        <item >26</item>
+        <item >23</item>
+        <item >24</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="addition_above_level_four">
+        <item >15</item>
+        <item >16</item>
+        <item >33</item>
+        <item >31</item>
+        <item >35</item>
+        <item >37</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="addition_above_level_five">
+        <item >10</item>
+        <item >17</item>
+        <item >27</item>
+        <item >25</item>
+        <item >29</item>
+        <item >30</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="addition_above_level_six">
+        <item >21</item>
+        <item >16</item>
+        <item >34</item>
+        <item >36</item>
+        <item >37</item>
+        <item >35</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="addition_above_level_seven">
+        <item >25</item>
+        <item >13</item>
+        <item >38</item>
+        <item >37</item>
+        <item >35</item>
+        <item >34</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="addition_above_level_eight">
+        <item >29</item>
+        <item >19</item>
+        <item >46</item>
+        <item >48</item>
+        <item >43</item>
+        <item >47</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="addition_above_level_nine">
+        <item >17</item>
+        <item >27</item>
+        <item >43</item>
+        <item >41</item>
+        <item >40</item>
+        <item >44</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="addition_above_level_ten">
+        <item >18</item>
+        <item >26</item>
+        <item >43</item>
+        <item >47</item>
+        <item >41</item>
+        <item >44</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="addition_above_level_eleven">
+        <item >10</item>
+        <item >20</item>
+        <item >30</item>
+        <item >50</item>
+        <item >40</item>
+        <item >60</item>
+        <item >70</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="addition_above_level_twelve">
+        <item >14</item>
+        <item >23</item>
+        <item >36</item>
+        <item >73</item>
+        <item >76</item>
+        <item >72</item>
+        <item >74</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="addition_above_level_thirteen">
+        <item >21</item>
+        <item >32</item>
+        <item >41</item>
+        <item >96</item>
+        <item >94</item>
+        <item >97</item>
+        <item >95</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="addition_above_level_fourteen">
+        <item >45</item>
+        <item >36</item>
+        <item >19</item>
+        <item >104</item>
+        <item >100</item>
+        <item >103</item>
+        <item >102</item>
+        </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="addition_above_level_fifteen">
+        <item >27</item>
+        <item >32</item>
+        <item >44</item>
+        <item >103</item>
+        <item >101</item>
+        <item >108</item>
+        <item >109</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="addition_above_level_sixteen">
+        <item >17</item>
+        <item >31</item>
+        <item >49</item>
+        <item >96</item>
+        <item >92</item>
+        <item >95</item>
+        <item >97</item>
+    </integer-array>
+ 
+    <!-- Answer 3 -->
+    <integer-array name="addition_above_level_seventeen">
+        <item >24</item>
+        <item >32</item>
+        <item >16</item>
+        <item >71</item>
+        <item >73</item>
+        <item >72</item>
+        <item >77</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="addition_above_level_eighteen">
+        <item >18</item>
+        <item >27</item>
+        <item >48</item>
+        <item >95</item>
+        <item >93</item>
+        <item >91</item>
+        <item >94</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="addition_above_level_nineteen">
+        <item >42</item>
+        <item >39</item>
+        <item >23</item>
+        <item >107</item>
+        <item >106</item>
+        <item >104</item>
+        <item >108</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="addition_above_level_twenty">
+        <item >47</item>
+        <item >24</item>
+        <item >38</item>
+        <item >109</item>
+        <item >110</item>
+        <item >107</item>
+        <item >108</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="addition_above_level_twentyone">
+        <item >10</item>
+        <item >30</item>
+        <item >50</item>
+        <item >70</item>
+        <item >150</item>
+        <item >160</item>
+        <item >140</item>
+        <item >170</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="addition_above_level_twentytwo">
+        <item >23</item>
+        <item >61</item>
+        <item >79</item>
+        <item >36</item>
+        <item >197</item>
+        <item >196</item>
+        <item >194</item>
+        <item >199</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="addition_above_level_twentythree">
+        <item >42</item>
+        <item >81</item>
+        <item >53</item>
+        <item >67</item>
+        <item >245</item>
+        <item >241</item>
+        <item >243</item>
+        <item >244</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="addition_above_level_twentyfour">
+        <item >33</item>
+        <item >46</item>
+        <item >62</item>
+        <item >29</item>
+        <item >170</item>
+        <item >171</item>
+        <item >174</item>
+        <item >173</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="addition_above_level_twentyfive">
+        <item >69</item>
+        <item >46</item>
+        <item >21</item>
+        <item >83</item>
+        <item >213</item>
+        <item >217</item>
+        <item >214</item>
+        <item >219</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="addition_above_level_twentysix">
+        <item >94</item>
+        <item >73</item>
+        <item >86</item>
+        <item >54</item>
+        <item >309</item>
+        <item >307</item>
+        <item >304</item>
+        <item >308</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="addition_above_level_twentyseven">
+        <item >59</item>
+        <item >67</item>
+        <item >83</item>
+        <item >97</item>
+        <item >300</item>
+        <item >301</item>
+        <item >306</item>
+        <item >303</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="addition_above_level_twentyeight">
+        <item >87</item>
+        <item >74</item>
+        <item >93</item>
+        <item >54</item>
+        <item >307</item>
+        <item >303</item>
+        <item >304</item>
+        <item >308</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="addition_above_level_twentynine">
+        <item >78</item>
+        <item >49</item>
+        <item >63</item>
+        <item >92</item>
+        <item >282</item>
+        <item >281</item>
+        <item >280</item>
+        <item >283</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="addition_above_level_thirty">
+        <item >99</item>
+        <item >87</item>
+        <item >74</item>
+        <item >67</item>
+        <item >329</item>
+        <item >324</item>
+        <item >327</item>
+        <item >328</item>
+    </integer-array>
+     <!-- Addition Age 9 above End -->
+        <string name="minus">-</string>
+        <string name="zero">0</string>
+
+    <!-- Subtraction Age 7 to 9 Start -->
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_nine_level_one">
+        <item >20</item>
+        <item >14</item>
+        <item >6</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_nine_level_two">
+        <item >26</item>
+        <item >13</item>
+        <item >11</item>
+        <item >15</item>
+        <item >13</item>
+        <item >12</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_nine_level_three">
+        <item >19</item>
+        <item >7</item>
+        <item >14</item>
+        <item >12</item>
+        <item >13</item>
+        <item >15</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_nine_level_four">
+        <item >29</item>
+        <item >17</item>
+        <item >15</item>
+        <item >14</item>
+        <item >13</item>
+        <item >12</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_nine_level_five">
+        <item >23</item>
+        <item >6</item>
+        <item >16</item>
+        <item >15</item>
+        <item >17</item>
+        <item >18</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_nine_level_six">
+        <item >25</item>
+        <item >8</item>
+        <item >17</item>
+        <item >16</item>
+        <item >14</item>
+        <item >15</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_nine_level_seven">
+        <item >21</item>
+        <item >7</item>
+        <item >16</item>
+        <item >17</item>
+        <item >14</item>
+        <item >15</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_nine_level_eight">
+        <item >24</item>
+        <item >13</item>
+        <item >12</item>
+        <item >9</item>
+        <item >13</item>
+        <item >11</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_nine_level_nine">
+        <item >34</item>
+        <item >17</item>
+        <item >16</item>
+        <item >17</item>
+        <item >18</item>
+        <item >15</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_nine_level_ten">
+        <item >22</item>
+        <item >7</item>
+        <item >17</item>
+        <item >15</item>
+        <item >11</item>
+        <item >16</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_nine_level_eleven">
+        <item >34</item>
+        <item >21</item>
+        <item >9</item>
+        <item >4</item>
+        <item >6</item>
+        <item >3</item>
+        <item >5</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_nine_level_twelve">
+        <item >41</item>
+        <item >11</item>
+        <item >16</item>
+        <item >16</item>
+        <item >13</item>
+        <item >14</item>
+        <item >12</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_nine_level_thirteen">
+        <item >49</item>
+        <item >11</item>
+        <item >9</item>
+        <item >28</item>
+        <item >26</item>
+        <item >27</item>
+        <item >29</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_nine_level_fourteen">
+        <item >43</item>
+        <item >12</item>
+        <item >17</item>
+        <item >16</item>
+        <item >12</item>
+        <item >13</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_nine_level_fifteen">
+        <item >38</item>
+        <item >9</item>
+        <item >11</item>
+        <item >17</item>
+        <item >15</item>
+        <item >18</item>
+        <item >14</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_nine_level_sixteen">
+        <item >46</item>
+        <item >12</item>
+        <item >11</item>
+        <item >24</item>
+        <item >23</item>
+        <item >25</item>
+        <item >22</item>
+    </integer-array>
+ 
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_nine_level_seventeen">
+        <item >39</item>
+        <item >12</item>
+        <item >11</item>
+        <item >16</item>
+        <item >13</item>
+        <item >15</item>
+        <item >17</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_nine_level_eighteen">
+        <item >49</item>
+        <item >27</item>
+        <item >8</item>
+        <item >18</item>
+        <item >16</item>
+        <item >17</item>
+        <item >14</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_nine_level_nineteen">
+        <item >47</item>
+        <item >14</item>
+        <item >17</item>
+        <item >16</item>
+        <item >17</item>
+        <item >19</item>
+        <item >18</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_nine_level_twenty">
+        <item >41</item>
+        <item >26</item>
+        <item >9</item>
+        <item >7</item>
+        <item >4</item>
+        <item >6</item>
+        <item >5</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_nine_level_twentyone">
+        <item >39</item>
+        <item >11</item>
+        <item >9</item>
+        <item >7</item>
+        <item >13</item>
+        <item >11</item>
+        <item >14</item>
+        <item >12</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_nine_level_twentytwo">
+        <item >47</item>
+        <item >16</item>
+        <item >11</item>
+        <item >7</item>
+        <item >17</item>
+        <item >13</item>
+        <item >15</item>
+        <item >16</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_nine_level_twentythree">
+        <item >48</item>
+        <item >11</item>
+        <item >8</item>
+        <item >21</item>
+        <item >8</item>
+        <item >9</item>
+        <item >6</item>
+        <item >5</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_nine_level_twentyfour">
+        <item >37</item>
+        <item >6</item>
+        <item >11</item>
+        <item >19</item>
+        <item >0</item>
+        <item >4</item>
+        <item >1</item>
+        <item >2</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_nine_level_twentyfive">
+        <item >47</item>
+        <item >12</item>
+        <item >9</item>
+        <item >16</item>
+        <item >9</item>
+        <item >10</item>
+        <item >11</item>
+        <item >13</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_nine_level_twentysix">
+        <item >46</item>
+        <item >5</item>
+        <item >12</item>
+        <item >14</item>
+        <item >19</item>
+        <item >17</item>
+        <item >14</item>
+        <item >15</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_nine_level_twentyseven">
+        <item >51</item>
+        <item >7</item>
+        <item >15</item>
+        <item >27</item>
+        <item >2</item>
+        <item >1</item>
+        <item >4</item>
+        <item >3</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_nine_level_twentyeight">
+        <item >57</item>
+        <item >14</item>
+        <item >12</item>
+        <item >7</item>
+        <item >26</item>
+        <item >24</item>
+        <item >21</item>
+        <item >25</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_nine_level_twentynine">
+        <item >53</item>
+        <item >19</item>
+        <item >14</item>
+        <item >7</item>
+        <item >14</item>
+        <item >11</item>
+        <item >13</item>
+        <item >12</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_nine_level_thirty">
+        <item >59</item>
+        <item >17</item>
+        <item >11</item>
+        <item >8</item>
+        <item >23</item>
+        <item >24</item>
+        <item >27</item>
+        <item >25</item>
+    </integer-array>
+     <!-- Subtraction Age 7 to 9 End -->
+        
+    <!-- Subtraction Age 4 to 7 Start -->
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_seven_level_one">
+        <item >10</item>
+        <item >1</item>
+        <item >7</item>
+        <item >5</item>
+        <item >8</item>
+        <item >9</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_seven_level_two">
+        <item >14</item>
+        <item >2</item>
+        <item >13</item>
+        <item >15</item>
+        <item >12</item>
+        <item >11</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_seven_level_three">
+        <item >12</item>
+        <item >5</item>
+        <item >4</item>
+        <item >6</item>
+        <item >3</item>
+        <item >7</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_seven_level_four">
+        <item >18</item>
+        <item >4</item>
+        <item >15</item>
+        <item >14</item>
+        <item >16</item>
+        <item >17</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_seven_level_five">
+        <item >13</item>
+        <item >3</item>
+        <item >10</item>
+        <item >11</item>
+        <item >9</item>
+        <item >7</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_seven_level_six">
+        <item >19</item>
+        <item >2</item>
+        <item >14</item>
+        <item >16</item>
+        <item >17</item>
+        <item >15</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_seven_level_seven">
+        <item >11</item>
+        <item >6</item>
+        <item >6</item>
+        <item >5</item>
+        <item >7</item>
+        <item >4</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_seven_level_eight">
+        <item >15</item>
+        <item >9</item>
+        <item >7</item>
+        <item >5</item>
+        <item >8</item>
+        <item >6</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_seven_level_nine">
+        <item >17</item>
+        <item >9</item>
+        <item >8</item>
+        <item >9</item>
+        <item >7</item>
+        <item >6</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_seven_level_ten">
+        <item >19</item>
+        <item >8</item>
+        <item >12</item>
+        <item >11</item>
+        <item >13</item>
+        <item >9</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_seven_level_eleven">
+        <item >11</item>
+        <item >4</item>
+        <item >1</item>
+        <item >9</item>
+        <item >7</item>
+        <item >6</item>
+        <item >8</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_seven_level_twelve">
+        <item >16</item>
+        <item >6</item>
+        <item >2</item>
+        <item >6</item>
+        <item >8</item>
+        <item >9</item>
+        <item >7</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_seven_level_thirteen">
+        <item >18</item>
+        <item >2</item>
+        <item >5</item>
+        <item >10</item>
+        <item >12</item>
+        <item >13</item>
+        <item >11</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_seven_level_fourteen">
+        <item >14</item>
+        <item >8</item>
+        <item >6</item>
+        <item >1</item>
+        <item >4</item>
+        <item >2</item>
+        <item >0</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_seven_level_fifteen">
+        <item >12</item>
+        <item >2</item>
+        <item >9</item>
+        <item >2</item>
+        <item >1</item>
+        <item >3</item>
+        <item >4</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_seven_level_sixteen">
+        <item >17</item>
+        <item >1</item>
+        <item >7</item>
+        <item >8</item>
+        <item >7</item>
+        <item >9</item>
+        <item >10</item>
+    </integer-array>
+ 
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_seven_level_seventeen">
+        <item >14</item>
+        <item >3</item>
+        <item >8</item>
+        <item >2</item>
+        <item >4</item>
+        <item >1</item>
+        <item >3</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_seven_level_eighteen">
+        <item >14</item>
+        <item >3</item>
+        <item >2</item>
+        <item >9</item>
+        <item >6</item>
+        <item >7</item>
+        <item >8</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_seven_level_nineteen">
+        <item >19</item>
+        <item >1</item>
+        <item >3</item>
+        <item >14</item>
+        <item >16</item>
+        <item >15</item>
+        <item >13</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_seven_level_twenty">
+        <item >15</item>
+        <item >6</item>
+        <item >9</item>
+        <item >1</item>
+        <item >0</item>
+        <item >3</item>
+        <item >5</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_seven_level_twentyone">
+        <item >19</item>
+        <item >2</item>
+        <item >12</item>
+        <item >3</item>
+        <item >2</item>
+        <item >1</item>
+        <item >4</item>
+        <item >3</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_seven_level_twentytwo">
+        <item >15</item>
+        <item >3</item>
+        <item >6</item>
+        <item >4</item>
+        <item >7</item>
+        <item >2</item>
+        <item >6</item>
+        <item >3</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_seven_level_twentythree">
+        <item >17</item>
+        <item >3</item>
+        <item >6</item>
+        <item >1</item>
+        <item >7</item>
+        <item >5</item>
+        <item >4</item>
+        <item >6</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_seven_level_twentyfour">
+        <item >11</item>
+        <item >5</item>
+        <item >2</item>
+        <item >3</item>
+        <item >3</item>
+        <item >2</item>
+        <item >4</item>
+        <item >1</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_seven_level_twentyfive">
+        <item >17</item>
+        <item >12</item>
+        <item >1</item>
+        <item >4</item>
+        <item >1</item>
+        <item >4</item>
+        <item >2</item>
+        <item >0</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_seven_level_twentysix">
+        <item >15</item>
+        <item >4</item>
+        <item >2</item>
+        <item >7</item>
+        <item >2</item>
+        <item >4</item>
+        <item >7</item>
+        <item >5</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_seven_level_twentyseven">
+        <item >20</item>
+        <item >5</item>
+        <item >9</item>
+        <item >1</item>
+        <item >5</item>
+        <item >1</item>
+        <item >4</item>
+        <item >2</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_seven_level_twentyeight">
+        <item >19</item>
+        <item >3</item>
+        <item >2</item>
+        <item >4</item>
+        <item >8</item>
+        <item >11</item>
+        <item >9</item>
+        <item >10</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_seven_level_twentynine">
+        <item >14</item>
+        <item >9</item>
+        <item >1</item>
+        <item >2</item>
+        <item >2</item>
+        <item >1</item>
+        <item >0</item>
+        <item >4</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_seven_level_thirty">
+        <item >17</item>
+        <item >9</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >3</item>
+        <item >7</item>
+        <item >5</item>
+    </integer-array>
+     <!-- Subtraction Age 7 to 9 End -->
+
+    <!-- Subtraction Age 9 above Start -->
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_above_level_one">
+        <item >20</item>
+        <item >13</item>
+        <item >6</item>
+        <item >3</item>
+        <item >7</item>
+        <item >8</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_above_level_two">
+        <item >29</item>
+        <item >12</item>
+        <item >17</item>
+        <item >18</item>
+        <item >15</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_above_level_three">
+        <item >27</item>
+        <item >13</item>
+        <item >15</item>
+        <item >16</item>
+        <item >13</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_above_level_four">
+        <item >34</item>
+        <item >16</item>
+        <item >21</item>
+        <item >18</item>
+        <item >15</item>
+        <item >17</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_above_level_five">
+        <item >39</item>
+        <item >17</item>
+        <item >22</item>
+        <item >25</item>
+        <item >19</item>
+        <item >20</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_above_level_six">
+        <item >21</item>
+        <item >16</item>
+        <item >4</item>
+        <item >6</item>
+        <item >5</item>
+        <item >7</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_above_level_seven">
+        <item >25</item>
+        <item >13</item>
+        <item >12</item>
+        <item >17</item>
+        <item >15</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_above_level_eight">
+        <item >29</item>
+        <item >13</item>
+        <item >18</item>
+        <item >16</item>
+        <item >13</item>
+        <item >17</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_above_level_nine">
+        <item >27</item>
+        <item >16</item>
+        <item >12</item>
+        <item >13</item>
+        <item >9</item>
+        <item >11</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_above_level_ten">
+        <item >26</item>
+        <item >18</item>
+        <item >7</item>
+        <item >6</item>
+        <item >4</item>
+        <item >8</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_above_level_eleven">
+        <item >36</item>
+        <item >11</item>
+        <item >13</item>
+        <item >15</item>
+        <item >14</item>
+        <item >12</item>
+        <item >17</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_above_level_twelve">
+        <item >31</item>
+        <item >14</item>
+        <item >16</item>
+        <item >1</item>
+        <item >3</item>
+        <item >2</item>
+        <item >4</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_above_level_thirteen">
+        <item >41</item>
+        <item >21</item>
+        <item >19</item>
+        <item >4</item>
+        <item >1</item>
+        <item >3</item>
+        <item >2</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_above_level_fourteen">
+        <item >45</item>
+        <item >19</item>
+        <item >17</item>
+        <item >7</item>
+        <item >9</item>
+        <item >10</item>
+        <item >8</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_above_level_fifteen">
+        <item >44</item>
+        <item >27</item>
+        <item >12</item>
+        <item >5</item>
+        <item >1</item>
+        <item >7</item>
+        <item >4</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_above_level_sixteen">
+        <item >47</item>
+        <item >17</item>
+        <item >21</item>
+        <item >6</item>
+        <item >8</item>
+        <item >5</item>
+        <item >9</item>
+    </integer-array>
+ 
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_above_level_seventeen">
+        <item >44</item>
+        <item >16</item>
+        <item >13</item>
+        <item >11</item>
+        <item >13</item>
+        <item >15</item>
+        <item >17</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_above_level_eighteen">
+        <item >48</item>
+        <item >18</item>
+        <item >17</item>
+        <item >15</item>
+        <item >13</item>
+        <item >11</item>
+        <item >14</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_above_level_nineteen">
+        <item >42</item>
+        <item >23</item>
+        <item >13</item>
+        <item >7</item>
+        <item >4</item>
+        <item >6</item>
+        <item >8</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_above_level_twenty">
+        <item >47</item>
+        <item >24</item>
+        <item >18</item>
+        <item >5</item>
+        <item >4</item>
+        <item >7</item>
+        <item >8</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_above_level_twentyone">
+        <item >57</item>
+        <item >21</item>
+        <item >17</item>
+        <item >9</item>
+        <item >15</item>
+        <item >10</item>
+        <item >12</item>
+        <item >13</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_above_level_twentytwo">
+        <item >79</item>
+        <item >23</item>
+        <item >37</item>
+        <item >13</item>
+        <item >9</item>
+        <item >7</item>
+        <item >4</item>
+        <item >6</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_above_level_twentythree">
+        <item >81</item>
+        <item >47</item>
+        <item >19</item>
+        <item >11</item>
+        <item >5</item>
+        <item >1</item>
+        <item >4</item>
+        <item >3</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_above_level_twentyfour">
+        <item >62</item>
+        <item >17</item>
+        <item >23</item>
+        <item >14</item>
+        <item >8</item>
+        <item >7</item>
+        <item >9</item>
+        <item >6</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_above_level_twentyfive">
+        <item >83</item>
+        <item >21</item>
+        <item >37</item>
+        <item >13</item>
+        <item >13</item>
+        <item >17</item>
+        <item >14</item>
+        <item >12</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="subtraction_above_level_twentysix">
+        <item >94</item>
+        <item >37</item>
+        <item >28</item>
+        <item >16</item>
+        <item >17</item>
+        <item >13</item>
+        <item >14</item>
+        <item >18</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_above_level_twentyseven">
+        <item >97</item>
+        <item >38</item>
+        <item >19</item>
+        <item >24</item>
+        <item >14</item>
+        <item >11</item>
+        <item >16</item>
+        <item >13</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="subtraction_above_level_twentyeight">
+        <item >93</item>
+        <item >39</item>
+        <item >22</item>
+        <item >18</item>
+        <item >17</item>
+        <item >13</item>
+        <item >18</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="subtraction_above_level_twentynine">
+        <item >92</item>
+        <item >36</item>
+        <item >17</item>
+        <item >19</item>
+        <item >20</item>
+        <item >21</item>
+        <item >24</item>
+        <item >23</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="subtraction_above_level_thirty">
+        <item >99</item>
+        <item >27</item>
+        <item >34</item>
+        <item >21</item>
+        <item >19</item>
+        <item >14</item>
+        <item >17</item>
+        <item >18</item>
+    </integer-array>
+     <!-- Subtraction Age 9 above End -->
+        <string name="easy">Easy</string>
+        <string name="medium">Medium</string>
+        <string name="hard">Hard</string>
+        <string name="cross">x</string>
+
+    <!-- Multiplication Easy Start -->
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_easy_level_one">
+        <item >2</item>
+        <item >2</item>
+        <item >6</item>
+        <item >5</item>
+        <item >8</item>
+        <item >4</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_easy_level_two">
+        <item >3</item>
+        <item >4</item>
+        <item >13</item>
+        <item >15</item>
+        <item >12</item>
+        <item >11</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_easy_level_three">
+        <item >7</item>
+        <item >2</item>
+        <item >17</item>
+        <item >16</item>
+        <item >13</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_easy_level_four">
+        <item >5</item>
+        <item >3</item>
+        <item >14</item>
+        <item >15</item>
+        <item >16</item>
+        <item >17</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_easy_level_five">
+        <item >6</item>
+        <item >4</item>
+        <item >24</item>
+        <item >21</item>
+        <item >22</item>
+        <item >25</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_easy_level_six">
+        <item >4</item>
+        <item >5</item>
+        <item >16</item>
+        <item >18</item>
+        <item >20</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_easy_level_seven">
+        <item >8</item>
+        <item >3</item>
+        <item >26</item>
+        <item >24</item>
+        <item >27</item>
+        <item >22</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_easy_level_eight">
+        <item >6</item>
+        <item >7</item>
+        <item >47</item>
+        <item >45</item>
+        <item >46</item>
+        <item >42</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_easy_level_nine">
+        <item >4</item>
+        <item >8</item>
+        <item >32</item>
+        <item >33</item>
+        <item >30</item>
+        <item >36</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_easy_level_ten">
+        <item >9</item>
+        <item >7</item>
+        <item >62</item>
+        <item >63</item>
+        <item >61</item>
+        <item >65</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_easy_level_eleven">
+        <item >11</item>
+        <item >6</item>
+        <item >64</item>
+        <item >69</item>
+        <item >66</item>
+        <item >65</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_easy_level_twelve">
+        <item >11</item>
+        <item >3</item>
+        <item >27</item>
+        <item >33</item>
+        <item >36</item>
+        <item >31</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_easy_level_thirteen">
+        <item >13</item>
+        <item >4</item>
+        <item >56</item>
+        <item >50</item>
+        <item >54</item>
+        <item >52</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_easy_level_fourteen">
+        <item >7</item>
+        <item >12</item>
+        <item >86</item>
+        <item >80</item>
+        <item >82</item>
+        <item >84</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_easy_level_fifteen">
+        <item >8</item>
+        <item >14</item>
+        <item >119</item>
+        <item >112</item>
+        <item >114</item>
+        <item >113</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_easy_level_sixteen">
+        <item >6</item>
+        <item >17</item>
+        <item >107</item>
+        <item >108</item>
+        <item >102</item>
+        <item >103</item>
+    </integer-array>
+ 
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_easy_level_seventeen">
+        <item >18</item>
+        <item >5</item>
+        <item >95</item>
+        <item >92</item>
+        <item >94</item>
+        <item >90</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_easy_level_eighteen">
+        <item >16</item>
+        <item >4</item>
+        <item >64</item>
+        <item >69</item>
+        <item >66</item>
+        <item >62</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_easy_level_nineteen">
+        <item >15</item>
+        <item >3</item>
+        <item >44</item>
+        <item >46</item>
+        <item >45</item>
+        <item >43</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_easy_level_twenty">
+        <item >4</item>
+        <item >19</item>
+        <item >70</item>
+        <item >76</item>
+        <item >74</item>
+        <item >72</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_easy_level_twentyone">
+        <item >11</item>
+        <item >12</item>
+        <item >132</item>
+        <item >113</item>
+        <item >121</item>
+        <item >112</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_easy_level_twentytwo">
+        <item >16</item>
+        <item >14</item>
+        <item >226</item>
+        <item >224</item>
+        <item >227</item>
+        <item >222</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_easy_level_twentythree">
+        <item >15</item>
+        <item >17</item>
+        <item >255</item>
+        <item >225</item>
+        <item >227</item>
+        <item >245</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_easy_level_twentyfour">
+        <item >17</item>
+        <item >11</item>
+        <item >186</item>
+        <item >184</item>
+        <item >183</item>
+        <item >187</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_easy_level_twentyfive">
+        <item >18</item>
+        <item >13</item>
+        <item >236</item>
+        <item >232</item>
+        <item >231</item>
+        <item >234</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_easy_level_twentysix">
+        <item >14</item>
+        <item >17</item>
+        <item >238</item>
+        <item >237</item>
+        <item >232</item>
+        <item >234</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_easy_level_twentyseven">
+        <item >16</item>
+        <item >12</item>
+        <item >192</item>
+        <item >191</item>
+        <item >195</item>
+        <item >194</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_easy_level_twentyeight">
+        <item >19</item>
+        <item >13</item>
+        <item >253</item>
+        <item >251</item>
+        <item >243</item>
+        <item >247</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_easy_level_twentynine">
+        <item >14</item>
+        <item >19</item>
+        <item >266</item>
+        <item >262</item>
+        <item >264</item>
+        <item >268</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_easy_level_thirty">
+        <item >19</item>
+        <item >19</item>
+        <item >362</item>
+        <item >361</item>
+        <item >363</item>
+        <item >367</item>
+    </integer-array>
+     <!-- Multiplication Easy End -->
+
+    <!-- Multiplication Medium Start -->
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_medium_level_one">
+        <item >2</item>
+        <item >4</item>
+        <item >6</item>
+        <item >48</item>
+        <item >44</item>
+        <item >52</item>
+        <item >46</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_medium_level_two">
+        <item >5</item>
+        <item >3</item>
+        <item >7</item>
+        <item >106</item>
+        <item >104</item>
+        <item >105</item>
+        <item >102</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_medium_level_three">
+        <item >4</item>
+        <item >3</item>
+        <item >2</item>
+        <item >28</item>
+        <item >24</item>
+        <item >26</item>
+        <item >22</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_medium_level_four">
+        <item >6</item>
+        <item >3</item>
+        <item >5</item>
+        <item >98</item>
+        <item >92</item>
+        <item >96</item>
+        <item >90</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_medium_level_five">
+        <item >7</item>
+        <item >2</item>
+        <item >4</item>
+        <item >54</item>
+        <item >53</item>
+        <item >56</item>
+        <item >52</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_medium_level_six">
+        <item >8</item>
+        <item >3</item>
+        <item >6</item>
+        <item >144</item>
+        <item >142</item>
+        <item >146</item>
+        <item >141</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_medium_level_seven">
+        <item >5</item>
+        <item >4</item>
+        <item >2</item>
+        <item >46</item>
+        <item >44</item>
+        <item >40</item>
+        <item >48</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_medium_level_eight">
+        <item >6</item>
+        <item >7</item>
+        <item >8</item>
+        <item >328</item>
+        <item >334</item>
+        <item >330</item>
+        <item >336</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_medium_level_nine">
+        <item >7</item>
+        <item >9</item>
+        <item >4</item>
+        <item >253</item>
+        <item >252</item>
+        <item >255</item>
+        <item >254</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_medium_level_ten">
+        <item >9</item>
+        <item >9</item>
+        <item >9</item>
+        <item >727</item>
+        <item >729</item>
+        <item >721</item>
+        <item >726</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_medium_level_eleven">
+        <item >4</item>
+        <item >12</item>
+        <item >3</item>
+        <item >144</item>
+        <item >142</item>
+        <item >146</item>
+        <item >148</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_medium_level_twelve">
+        <item >5</item>
+        <item >16</item>
+        <item >7</item>
+        <item >554</item>
+        <item >556</item>
+        <item >560</item>
+        <item >562</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_medium_level_thirteen">
+        <item >7</item>
+        <item >14</item>
+        <item >4</item>
+        <item >396</item>
+        <item >394</item>
+        <item >388</item>
+        <item >392</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_medium_level_fourteen">
+        <item >6</item>
+        <item >11</item>
+        <item >2</item>
+        <item >136</item>
+        <item >124</item>
+        <item >126</item>
+        <item >132</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_medium_level_fifteen">
+        <item >2</item>
+        <item >17</item>
+        <item >4</item>
+        <item >132</item>
+        <item >134</item>
+        <item >136</item>
+        <item >130</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_medium_level_sixteen">
+        <item >4</item>
+        <item >16</item>
+        <item >9</item>
+        <item >573</item>
+        <item >576</item>
+        <item >575</item>
+        <item >574</item>
+    </integer-array>
+ 
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_medium_level_seventeen">
+        <item >8</item>
+        <item >13</item>
+        <item >3</item>
+        <item >312</item>
+        <item >314</item>
+        <item >308</item>
+        <item >315</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_medium_level_eighteen">
+        <item >9</item>
+        <item >3</item>
+        <item >16</item>
+        <item >431</item>
+        <item >434</item>
+        <item >435</item>
+        <item >432</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_medium_level_nineteen">
+        <item >18</item>
+        <item >2</item>
+        <item >5</item>
+        <item >180</item>
+        <item >179</item>
+        <item >176</item>
+        <item >181</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_medium_level_twenty">
+        <item >19</item>
+        <item >6</item>
+        <item >7</item>
+        <item >791</item>
+        <item >764</item>
+        <item >798</item>
+        <item >792</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_medium_level_twentyone">
+        <item >3</item>
+        <item >17</item>
+        <item >9</item>
+        <item >454</item>
+        <item >456</item>
+        <item >451</item>
+        <item >459</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_medium_level_twentytwo">
+        <item >4</item>
+        <item >13</item>
+        <item >2</item>
+        <item >106</item>
+        <item >104</item>
+        <item >105</item>
+        <item >102</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_medium_level_twentythree">
+        <item >5</item>
+        <item >13</item>
+        <item >7</item>
+        <item >455</item>
+        <item >454</item>
+        <item >456</item>
+        <item >452</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_medium_level_twentyfour">
+        <item >12</item>
+        <item >3</item>
+        <item >13</item>
+        <item >461</item>
+        <item >464</item>
+        <item >468</item>
+        <item >462</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_medium_level_twentyfive">
+        <item >15</item>
+        <item >2</item>
+        <item >6</item>
+        <item >183</item>
+        <item >180</item>
+        <item >185</item>
+        <item >184</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_medium_level_twentysix">
+        <item >14</item>
+        <item >8</item>
+        <item >7</item>
+        <item >783</item>
+        <item >782</item>
+        <item >785</item>
+        <item >784</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_medium_level_twentyseven">
+        <item >11</item>
+        <item >6</item>
+        <item >17</item>
+        <item >1122</item>
+        <item >1124</item>
+        <item >1118</item>
+        <item >1126</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_medium_level_twentyeight">
+        <item >3</item>
+        <item >16</item>
+        <item >18</item>
+        <item >863</item>
+        <item >864</item>
+        <item >865</item>
+        <item >862</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_medium_level_twentynine">
+        <item >2</item>
+        <item >19</item>
+        <item >11</item>
+        <item >412</item>
+        <item >416</item>
+        <item >418</item>
+        <item >414</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_medium_level_thirty">
+        <item >9</item>
+        <item >17</item>
+        <item >13</item>
+        <item >1989</item>
+        <item >1992</item>
+        <item >1990</item>
+        <item >1991</item>
+    </integer-array>
+     <!-- Multiplication Medium End -->
+
+    <!-- Multiplication hard Start -->
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_hard_level_one">
+        <item >4</item>
+        <item >5</item>
+        <item >7</item>
+        <item >9</item>
+        <item >1262</item>
+        <item >1258</item>
+        <item >1260</item>
+        <item >1264</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_hard_level_two">
+        <item >6</item>
+        <item >8</item>
+        <item >11</item>
+        <item >7</item>
+        <item >3696</item>
+        <item >3672</item>
+        <item >3684</item>
+        <item >3686</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_hard_level_three">
+        <item >5</item>
+        <item >12</item>
+        <item >3</item>
+        <item >2</item>
+        <item >366</item>
+        <item >362</item>
+        <item >358</item>
+        <item >360</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_hard_level_four">
+        <item >13</item>
+        <item >1</item>
+        <item >5</item>
+        <item >9</item>
+        <item >587</item>
+        <item >585</item>
+        <item >589</item>
+        <item >586</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_hard_level_five">
+        <item >16</item>
+        <item >2</item>
+        <item >6</item>
+        <item >5</item>
+        <item >960</item>
+        <item >958</item>
+        <item >957</item>
+        <item >964</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_hard_level_six">
+        <item >12</item>
+        <item >4</item>
+        <item >3</item>
+        <item >2</item>
+        <item >287</item>
+        <item >278</item>
+        <item >288</item>
+        <item >284</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_hard_level_seven">
+        <item >3</item>
+        <item >17</item>
+        <item >2</item>
+        <item >11</item>
+        <item >1122</item>
+        <item >1118</item>
+        <item >1124</item>
+        <item >1120</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_hard_level_eight">
+        <item >14</item>
+        <item >4</item>
+        <item >6</item>
+        <item >8</item>
+        <item >2687</item>
+        <item >2688</item>
+        <item >2684</item>
+        <item >2690</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_hard_level_nine">
+        <item >15</item>
+        <item >7</item>
+        <item >3</item>
+        <item >5</item>
+        <item >1570</item>
+        <item >1574</item>
+        <item >1572</item>
+        <item >1575</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_hard_level_ten">
+        <item >11</item>
+        <item >12</item>
+        <item >6</item>
+        <item >3</item>
+        <item >2374</item>
+        <item >2378</item>
+        <item >2377</item>
+        <item >2376</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_hard_level_eleven">
+        <item >2</item>
+        <item >4</item>
+        <item >6</item>
+        <item >8</item>
+        <item >382</item>
+        <item >388</item>
+        <item >384</item>
+        <item >386</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_hard_level_twelve">
+        <item >3</item>
+        <item >9</item>
+        <item >2</item>
+        <item >4</item>
+        <item >216</item>
+        <item >218</item>
+        <item >214</item>
+        <item >212</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_hard_level_thirteen">
+        <item >9</item>
+        <item >11</item>
+        <item >3</item>
+        <item >5</item>
+        <item >1482</item>
+        <item >1485</item>
+        <item >1484</item>
+        <item >1478</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_hard_level_fourteen">
+        <item >13</item>
+        <item >4</item>
+        <item >6</item>
+        <item >2</item>
+        <item >627</item>
+        <item >624</item>
+        <item >629</item>
+        <item >628</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_hard_level_fifteen">
+        <item >12</item>
+        <item >2</item>
+        <item >16</item>
+        <item >4</item>
+        <item >1536</item>
+        <item >1538</item>
+        <item >1537</item>
+        <item >1532</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_hard_level_sixteen">
+        <item >4</item>
+        <item >17</item>
+        <item >7</item>
+        <item >11</item>
+        <item >5234</item>
+        <item >5238</item>
+        <item >5237</item>
+        <item >5236</item>
+    </integer-array>
+ 
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_hard_level_seventeen">
+        <item >2</item>
+        <item >11</item>
+        <item >16</item>
+        <item >15</item>
+        <item >5284</item>
+        <item >5278</item>
+        <item >5280</item>
+        <item >5288</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_hard_level_eighteen">
+        <item >17</item>
+        <item >4</item>
+        <item >19</item>
+        <item >11</item>
+        <item >14218</item>
+        <item >14212</item>
+        <item >14208</item>
+        <item >14206</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_hard_level_nineteen">
+        <item >11</item>
+        <item >16</item>
+        <item >14</item>
+        <item >13</item>
+        <item >32017</item>
+        <item >32028</item>
+        <item >32032</item>
+        <item >32041</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_hard_level_twenty">
+        <item >19</item>
+        <item >15</item>
+        <item >17</item>
+        <item >13</item>
+        <item >62985</item>
+        <item >62978</item>
+        <item >62987</item>
+        <item >62981</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_hard_level_twentyone">
+        <item >16</item>
+        <item >12</item>
+        <item >17</item>
+        <item >19</item>
+        <item >62012</item>
+        <item >62016</item>
+        <item >62014</item>
+        <item >62018</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_hard_level_twentytwo">
+        <item >15</item>
+        <item >14</item>
+        <item >13</item>
+        <item >11</item>
+        <item >30026</item>
+        <item >30034</item>
+        <item >30025</item>
+        <item >30030</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_hard_level_twentythree">
+        <item >17</item>
+        <item >13</item>
+        <item >12</item>
+        <item >11</item>
+        <item >29175</item>
+        <item >29171</item>
+        <item >29172</item>
+        <item >29173</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_hard_level_twentyfour">
+        <item >11</item>
+        <item >16</item>
+        <item >14</item>
+        <item >10</item>
+        <item >24640</item>
+        <item >24620</item>
+        <item >24660</item>
+        <item >24680</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_hard_level_twentyfive">
+        <item >13</item>
+        <item >16</item>
+        <item >17</item>
+        <item >12</item>
+        <item >42438</item>
+        <item >42437</item>
+        <item >42434</item>
+        <item >42432</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="multiplication_hard_level_twentysix">
+        <item >18</item>
+        <item >11</item>
+        <item >13</item>
+        <item >16</item>
+        <item >41178</item>
+        <item >41184</item>
+        <item >41174</item>
+        <item >41188</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_hard_level_twentyseven">
+        <item >19</item>
+        <item >14</item>
+        <item >11</item>
+        <item >12</item>
+        <item >35114</item>
+        <item >35111</item>
+        <item >35112</item>
+        <item >35113</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="multiplication_hard_level_twentyeight">
+        <item >12</item>
+        <item >16</item>
+        <item >14</item>
+        <item >13</item>
+        <item >34914</item>
+        <item >34934</item>
+        <item >34924</item>
+        <item >34944</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="multiplication_hard_level_twentynine">
+        <item >14</item>
+        <item >17</item>
+        <item >12</item>
+        <item >11</item>
+        <item >31416</item>
+        <item >31412</item>
+        <item >31414</item>
+        <item >31418</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="multiplication_hard_level_thirty">
+        <item >19</item>
+        <item >11</item>
+        <item >13</item>
+        <item >15</item>
+        <item >40745</item>
+        <item >40765</item>
+        <item >40755</item>
+        <item >40775</item>
+    </integer-array>
+     <!-- Multiplication hard End -->
+        <string name="qiuz">Quiz</string>
+        <string name="instant">Instant</string>
+        <string name="normal">Normal</string>
+        <string name="timer">Timer</string>
+        
+        
+    <!-- Quiz Easy Start -->
+    <!-- Answer 4 -->
+    <integer-array name="quiz_easy_one">
+        <item >2</item>
+        <item >2</item>
+        <item >6</item>
+        <item >5</item>
+        <item >8</item>
+        <item >4</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_easy_two">
+        <item >3</item>
+        <item >1</item>
+        <item >2</item>
+        <item >5</item>
+        <item >3</item>
+        <item >1</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_easy_three">
+        <item >2</item>
+        <item >2</item>
+        <item >7</item>
+        <item >6</item>
+        <item >3</item>
+        <item >4</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_easy_four">
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >7</item>
+        <item >6</item>
+        <item >8</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_easy_five">
+        <item >4</item>
+        <item >3</item>
+        <item >1</item>
+        <item >2</item>
+        <item >4</item>
+        <item >3</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_easy_six">
+        <item >3</item>
+        <item >4</item>
+        <item >16</item>
+        <item >18</item>
+        <item >12</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_easy_seven">
+        <item >5</item>
+        <item >2</item>
+        <item >6</item>
+        <item >7</item>
+        <item >4</item>
+        <item >5</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_easy_eight">
+        <item >5</item>
+        <item >2</item>
+        <item >7</item>
+        <item >5</item>
+        <item >6</item>
+        <item >3</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_easy_nine">
+        <item >3</item>
+        <item >2</item>
+        <item >6</item>
+        <item >5</item>
+        <item >8</item>
+        <item >4</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_easy_ten">
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >2</item>
+        <item >1</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_easy_eleven">
+        <item >4</item>
+        <item >1</item>
+        <item >4</item>
+        <item >5</item>
+        <item >3</item>
+        <item >6</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_easy_twelve">
+        <item >4</item>
+        <item >2</item>
+        <item >6</item>
+        <item >8</item>
+        <item >12</item>
+        <item >10</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="quiz_easy_thirteen">
+        <item >9</item>
+        <item >2</item>
+        <item >10</item>
+        <item >13</item>
+        <item >12</item>
+        <item >11</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_easy_fourteen">
+        <item >6</item>
+        <item >4</item>
+        <item >3</item>
+        <item >0</item>
+        <item >4</item>
+        <item >2</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_easy_fifteen">
+        <item >6</item>
+        <item >4</item>
+        <item >22</item>
+        <item >24</item>
+        <item >20</item>
+        <item >26</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="quiz_easy_sixteen">
+        <item >8</item>
+        <item >5</item>
+        <item >17</item>
+        <item >14</item>
+        <item >13</item>
+        <item >12</item>
+    </integer-array>
+ 
+    <!-- Answer 4 -->
+    <integer-array name="quiz_easy_seventeen">
+        <item >8</item>
+        <item >5</item>
+        <item >5</item>
+        <item >2</item>
+        <item >4</item>
+        <item >3</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="quiz_easy_eighteen">
+        <item >7</item>
+        <item >3</item>
+        <item >21</item>
+        <item >27</item>
+        <item >24</item>
+        <item >23</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="quiz_easy_nineteen">
+        <item >7</item>
+        <item >2</item>
+        <item >10</item>
+        <item >11</item>
+        <item >9</item>
+        <item >8</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="quiz_easy_twenty">
+        <item >7</item>
+        <item >2</item>
+        <item >6</item>
+        <item >5</item>
+        <item >4</item>
+        <item >2</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="quiz_easy_twentyone">
+        <item >7</item>
+        <item >2</item>
+        <item >14</item>
+        <item >16</item>
+        <item >12</item>
+        <item >18</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_easy_twentytwo">
+        <item >4</item>
+        <item >6</item>
+        <item >12</item>
+        <item >10</item>
+        <item >11</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_easy_twentythree">
+        <item >8</item>
+        <item >2</item>
+        <item >6</item>
+        <item >4</item>
+        <item >5</item>
+        <item >3</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="quiz_easy_twentyfour">
+        <item >4</item>
+        <item >4</item>
+        <item >18</item>
+        <item >14</item>
+        <item >13</item>
+        <item >16</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_easy_twentyfive">
+        <item >5</item>
+        <item >3</item>
+        <item >6</item>
+        <item >9</item>
+        <item >7</item>
+        <item >8</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_easy_twentysix">
+        <item >11</item>
+        <item >2</item>
+        <item >13</item>
+        <item >12</item>
+        <item >15</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_easy_twentyseven">
+        <item >12</item>
+        <item >3</item>
+        <item >36</item>
+        <item >32</item>
+        <item >34</item>
+        <item >38</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_easy_twentyeight">
+        <item >16</item>
+        <item >2</item>
+        <item >20</item>
+        <item >17</item>
+        <item >19</item>
+        <item >18</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_easy_twentynine">
+        <item >14</item>
+        <item >3</item>
+        <item >11</item>
+        <item >9</item>
+        <item >12</item>
+        <item >8</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_easy_thirty">
+        <item >3</item>
+        <item >13</item>
+        <item >36</item>
+        <item >39</item>
+        <item >38</item>
+        <item >33</item>
+    </integer-array>
+     
+    <!-- Answer 4 -->
+    <integer-array name="quiz_easy_thirtyone">
+        <item >2</item>
+        <item >12</item>
+        <item >12</item>
+        <item >15</item>
+        <item >13</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_easy_thirtytwo">
+        <item >11</item>
+        <item >3</item>
+        <item >9</item>
+        <item >7</item>
+        <item >8</item>
+        <item >6</item>
+    </integer-array>
+    
+     <!-- Answer 2 -->
+    <integer-array name="quiz_easy_thirtythree">
+        <item >14</item>
+        <item >2</item>
+        <item >22</item>
+        <item >24</item>
+        <item >26</item>
+        <item >28</item>
+    </integer-array>
+    
+     <!-- Answer 4 -->
+    <integer-array name="quiz_easy_thirtyfour">
+        <item >3</item>
+        <item >16</item>
+        <item >42</item>
+        <item >46</item>
+        <item >44</item>
+        <item >48</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_easy_thirtyfive">
+        <item >17</item>
+        <item >2</item>
+        <item >19</item>
+        <item >18</item>
+        <item >21</item>
+        <item >23</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_easy_thirtysix">
+        <item >15</item>
+        <item >9</item>
+        <item >6</item>
+        <item >5</item>
+        <item >7</item>
+        <item >4</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_easy_thirtyseven">
+        <item >6</item>
+        <item >17</item>
+        <item >104</item>
+        <item >101</item>
+        <item >102</item>
+        <item >112</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_easy_thirtyeight">
+        <item >4</item>
+        <item >11</item>
+        <item >16</item>
+        <item >15</item>
+        <item >17</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_easy_thirtynine">
+        <item >12</item>
+        <item >7</item>
+        <item >7</item>
+        <item >4</item>
+        <item >6</item>
+        <item >5</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_easy_fourty">
+        <item >13</item>
+        <item >4</item>
+        <item >51</item>
+        <item >54</item>
+        <item >52</item>
+        <item >53</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_easy_fourtyone">
+        <item >3</item>
+        <item >16</item>
+        <item >18</item>
+        <item >21</item>
+        <item >19</item>
+        <item >20</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_easy_fourtytwo">
+        <item >19</item>
+        <item >3</item>
+        <item >16</item>
+        <item >17</item>
+        <item >15</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_easy_fourtythree">
+        <item >2</item>
+        <item >17</item>
+        <item >32</item>
+        <item >34</item>
+        <item >36</item>
+        <item >38</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_easy_fourtyfour">
+        <item >19</item>
+        <item >3</item>
+        <item >21</item>
+        <item >23</item>
+        <item >24</item>
+        <item >22</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_easy_fourtyfive">
+        <item >17</item>
+        <item >5</item>
+        <item >13</item>
+        <item >11</item>
+        <item >12</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_easy_fourtysix">
+        <item >4</item>
+        <item >17</item>
+        <item >68</item>
+        <item >66</item>
+        <item >64</item>
+        <item >62</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_easy_fourtyseven">
+        <item >17</item>
+        <item >7</item>
+        <item >23</item>
+        <item >25</item>
+        <item >24</item>
+        <item >26</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_easy_fourtyeight">
+        <item >18</item>
+        <item >5</item>
+        <item >12</item>
+        <item >11</item>
+        <item >15</item>
+        <item >13</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_easy_fourtynine">
+        <item >3</item>
+        <item >14</item>
+        <item >44</item>
+        <item >42</item>
+        <item >45</item>
+        <item >47</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_easy_fifty">
+        <item >19</item>
+        <item >6</item>
+        <item >13</item>
+        <item >12</item>
+        <item >14</item>
+        <item >11</item>
+    </integer-array>
+    <!-- Quiz Easy End -->
+    
+    
+    <string-array name="plus_plus">
+        <item >+</item>
+        <item >+</item>
+    </string-array>
+    <string-array name="plus_minus">
+        <item >+</item>
+        <item >-</item>
+    </string-array>
+    <string-array name="minus_plus">
+        <item >-</item>
+        <item >+</item>
+    </string-array>
+    <string-array name="minus_minus">
+        <item >-</item>
+        <item >-</item>
+    </string-array>
+    <string-array name="cross_cross">
+        <item >x</item>
+        <item >x</item>
+    </string-array>
+    <string-array name="plus_cross">
+        <item >+</item>
+        <item >x</item>
+    </string-array>
+    <string-array name="cross_plus">
+        <item >x</item>
+        <item >+</item>
+    </string-array>
+    <string-array name="minus_cross">
+        <item >-</item>
+        <item >x</item>
+    </string-array>
+    <string-array name="cross_minus">
+        <item >x</item>
+        <item >-</item>
+    </string-array>
+        
+    <!-- Quiz Medium Start -->
+    <!-- Answer 4 -->
+    <integer-array name="quiz_medium_one">
+        <item >2</item>
+        <item >3</item>
+        <item >6</item>
+        <item >13</item>
+        <item >14</item>
+        <item >12</item>
+        <item >11</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_medium_two">
+        <item >6</item>
+        <item >1</item>
+        <item >2</item>
+        <item >5</item>
+        <item >8</item>
+        <item >7</item>
+        <item >4</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_medium_three">
+        <item >2</item>
+        <item >3</item>
+        <item >1</item>
+        <item >4</item>
+        <item >8</item>
+        <item >6</item>
+        <item >5</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_medium_four">
+        <item >3</item>
+        <item >2</item>
+        <item >6</item>
+        <item >16</item>
+        <item >15</item>
+        <item >14</item>
+        <item >18</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_medium_five">
+        <item >5</item>
+        <item >1</item>
+        <item >4</item>
+        <item >1</item>
+        <item >8</item>
+        <item >16</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_medium_six">
+        <item >2</item>
+        <item >1</item>
+        <item >3</item>
+        <item >9</item>
+        <item >8</item>
+        <item >5</item>
+        <item >4</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_medium_seven">
+        <item >4</item>
+        <item >2</item>
+        <item >6</item>
+        <item >5</item>
+        <item >8</item>
+        <item >4</item>
+        <item >6</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_medium_eight">
+        <item >6</item>
+        <item >3</item>
+        <item >3</item>
+        <item >16</item>
+        <item >18</item>
+        <item >14</item>
+        <item >15</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_medium_nine">
+        <item >4</item>
+        <item >2</item>
+        <item >6</item>
+        <item >0</item>
+        <item >2</item>
+        <item >4</item>
+        <item >6</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_medium_ten">
+        <item >3</item>
+        <item >2</item>
+        <item >3</item>
+        <item >5</item>
+        <item >3</item>
+        <item >4</item>
+        <item >6</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_medium_eleven">
+        <item >4</item>
+        <item >2</item>
+        <item >1</item>
+        <item >4</item>
+        <item >6</item>
+        <item >5</item>
+        <item >7</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_medium_twelve">
+        <item >6</item>
+        <item >2</item>
+        <item >4</item>
+        <item >5</item>
+        <item >8</item>
+        <item >4</item>
+        <item >6</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="quiz_medium_thirteen">
+        <item >4</item>
+        <item >3</item>
+        <item >1</item>
+        <item >15</item>
+        <item >18</item>
+        <item >16</item>
+        <item >13</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_medium_fourteen">
+        <item >3</item>
+        <item >4</item>
+        <item >2</item>
+        <item >4</item>
+        <item >8</item>
+        <item >6</item>
+        <item >5</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_medium_fifteen">
+        <item >2</item>
+        <item >1</item>
+        <item >1</item>
+        <item >3</item>
+        <item >0</item>
+        <item >4</item>
+        <item >2</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="quiz_medium_sixteen">
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >0</item>
+        <item >2</item>
+        <item >1</item>
+        <item >3</item>
+    </integer-array>
+ 
+    <!-- Answer 4 -->
+    <integer-array name="quiz_medium_seventeen">
+        <item >3</item>
+        <item >2</item>
+        <item >4</item>
+        <item >26</item>
+        <item >28</item>
+        <item >22</item>
+        <item >24</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="quiz_medium_eighteen">
+        <item >4</item>
+        <item >2</item>
+        <item >2</item>
+        <item >10</item>
+        <item >16</item>
+        <item >14</item>
+        <item >18</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="quiz_medium_nineteen">
+        <item >5</item>
+        <item >3</item>
+        <item >3</item>
+        <item >0</item>
+        <item >8</item>
+        <item >12</item>
+        <item >11</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="quiz_medium_twenty">
+        <item >6</item>
+        <item >2</item>
+        <item >2</item>
+        <item >14</item>
+        <item >10</item>
+        <item >16</item>
+        <item >12</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="quiz_medium_twentyone">
+        <item >4</item>
+        <item >1</item>
+        <item >3</item>
+        <item >1</item>
+        <item >9</item>
+        <item >4</item>
+        <item >6</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_medium_twentytwo">
+        <item >7</item>
+        <item >3</item>
+        <item >2</item>
+        <item >15</item>
+        <item >13</item>
+        <item >14</item>
+        <item >16</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_medium_twentythree">
+        <item >7</item>
+        <item >4</item>
+        <item >3</item>
+        <item >25</item>
+        <item >24</item>
+        <item >28</item>
+        <item >26</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="quiz_medium_twentyfour">
+        <item >8</item>
+        <item >2</item>
+        <item >6</item>
+        <item >5</item>
+        <item >8</item>
+        <item >2</item>
+        <item >4</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_medium_twentyfive">
+        <item >8</item>
+        <item >2</item>
+        <item >4</item>
+        <item >16</item>
+        <item >13</item>
+        <item >14</item>
+        <item >12</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_medium_twentysix">
+        <item >11</item>
+        <item >2</item>
+        <item >3</item>
+        <item >10</item>
+        <item >12</item>
+        <item >13</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_medium_twentyseven">
+        <item >2</item>
+        <item >12</item>
+        <item >6</item>
+        <item >30</item>
+        <item >32</item>
+        <item >28</item>
+        <item >24</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_medium_twentyeight">
+        <item >6</item>
+        <item >2</item>
+        <item >7</item>
+        <item >8</item>
+        <item >6</item>
+        <item >4</item>
+        <item >5</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_medium_twentynine">
+        <item >13</item>
+        <item >2</item>
+        <item >14</item>
+        <item >12</item>
+        <item >8</item>
+        <item >14</item>
+        <item >10</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_medium_thirty">
+        <item >2</item>
+        <item >16</item>
+        <item >3</item>
+        <item >25</item>
+        <item >29</item>
+        <item >24</item>
+        <item >27</item>
+    </integer-array>
+     
+    <!-- Answer 4 -->
+    <integer-array name="quiz_medium_thirtyone">
+        <item >3</item>
+        <item >2</item>
+        <item >12</item>
+        <item >25</item>
+        <item >28</item>
+        <item >24</item>
+        <item >27</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_medium_thirtytwo">
+        <item >13</item>
+        <item >2</item>
+        <item >3</item>
+        <item >5</item>
+        <item >8</item>
+        <item >7</item>
+        <item >4</item>
+    </integer-array>
+    
+     <!-- Answer 2 -->
+    <integer-array name="quiz_medium_thirtythree">
+        <item >14</item>
+        <item >1</item>
+        <item >2</item>
+        <item >18</item>
+        <item >16</item>
+        <item >24</item>
+        <item >22</item>
+    </integer-array>
+    
+     <!-- Answer 4 -->
+    <integer-array name="quiz_medium_thirtyfour">
+        <item >15</item>
+        <item >3</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >8</item>
+        <item >6</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_medium_thirtyfive">
+        <item >19</item>
+        <item >2</item>
+        <item >7</item>
+        <item >5</item>
+        <item >3</item>
+        <item >4</item>
+        <item >2</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_medium_thirtysix">
+        <item >2</item>
+        <item >12</item>
+        <item >16</item>
+        <item >8</item>
+        <item >5</item>
+        <item >4</item>
+        <item >6</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_medium_thirtyseven">
+        <item >7</item>
+        <item >3</item>
+        <item >12</item>
+        <item >36</item>
+        <item >38</item>
+        <item >33</item>
+        <item >34</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_medium_thirtyeight">
+        <item >12</item>
+        <item >3</item>
+        <item >4</item>
+        <item >1</item>
+        <item >0</item>
+        <item >4</item>
+        <item >3</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_medium_thirtynine">
+        <item >16</item>
+        <item >2</item>
+        <item >3</item>
+        <item >28</item>
+        <item >25</item>
+        <item >24</item>
+        <item >29</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_medium_fourty">
+        <item >19</item>
+        <item >2</item>
+        <item >3</item>
+        <item >24</item>
+        <item >28</item>
+        <item >25</item>
+        <item >22</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_medium_fourtyone">
+        <item >17</item>
+        <item >6</item>
+        <item >4</item>
+        <item >14</item>
+        <item >18</item>
+        <item >15</item>
+        <item >16</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_medium_fourtytwo">
+        <item >6</item>
+        <item >12</item>
+        <item >5</item>
+        <item >13</item>
+        <item >15</item>
+        <item >16</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_medium_fourtythree">
+        <item >12</item>
+        <item >2</item>
+        <item >6</item>
+        <item >15</item>
+        <item >18</item>
+        <item >16</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_medium_fourtyfour">
+        <item >14</item>
+        <item >3</item>
+        <item >4</item>
+        <item >15</item>
+        <item >18</item>
+        <item >14</item>
+        <item >13</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_medium_fourtyfive">
+        <item >3</item>
+        <item >15</item>
+        <item >6</item>
+        <item >15</item>
+        <item >14</item>
+        <item >12</item>
+        <item >16</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_medium_fourtysix">
+        <item >2</item>
+        <item >17</item>
+        <item >4</item>
+        <item >15</item>
+        <item >18</item>
+        <item >14</item>
+        <item >13</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_medium_fourtyseven">
+        <item >11</item>
+        <item >2</item>
+        <item >5</item>
+        <item >15</item>
+        <item >14</item>
+        <item >17</item>
+        <item >18</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_medium_fourtyeight">
+        <item >3</item>
+        <item >11</item>
+        <item >5</item>
+        <item >39</item>
+        <item >36</item>
+        <item >34</item>
+        <item >38</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_medium_fourtynine">
+        <item >5</item>
+        <item >2</item>
+        <item >14</item>
+        <item >15</item>
+        <item >17</item>
+        <item >16</item>
+        <item >18</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_medium_fifty">
+        <item >14</item>
+        <item >3</item>
+        <item >6</item>
+        <item >36</item>
+        <item >34</item>
+        <item >38</item>
+        <item >32</item>
+    </integer-array>
+    <!-- Quiz Medium End -->
+    
+    <!-- Quiz Hard Start -->
+    <!-- Answer 4 -->
+    <integer-array name="quiz_hard_one">
+        <item >6</item>
+        <item >2</item>
+        <item >1</item>
+        <item >3</item>
+        <item >14</item>
+        <item >12</item>
+        <item >11</item>
+        <item >10</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_hard_two">
+        <item >6</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >14</item>
+        <item >15</item>
+        <item >12</item>
+        <item >11</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_hard_three">
+        <item >4</item>
+        <item >3</item>
+        <item >1</item>
+        <item >2</item>
+        <item >4</item>
+        <item >6</item>
+        <item >5</item>
+        <item >3</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_hard_four">
+        <item >2</item>
+        <item >2</item>
+        <item >1</item>
+        <item >3</item>
+        <item >9</item>
+        <item >6</item>
+        <item >8</item>
+        <item >5</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_hard_five">
+        <item >6</item>
+        <item >2</item>
+        <item >3</item>
+        <item >2</item>
+        <item >18</item>
+        <item >16</item>
+        <item >14</item>
+        <item >11</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_hard_six">
+        <item >7</item>
+        <item >1</item>
+        <item >4</item>
+        <item >3</item>
+        <item >8</item>
+        <item >5</item>
+        <item >7</item>
+        <item >6</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_hard_seven">
+        <item >3</item>
+        <item >2</item>
+        <item >1</item>
+        <item >3</item>
+        <item >8</item>
+        <item >4</item>
+        <item >6</item>
+        <item >7</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_hard_eight">
+        <item >1</item>
+        <item >3</item>
+        <item >2</item>
+        <item >6</item>
+        <item >0</item>
+        <item >4</item>
+        <item >2</item>
+        <item >1</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_hard_nine">
+        <item >4</item>
+        <item >9</item>
+        <item >2</item>
+        <item >3</item>
+        <item >7</item>
+        <item >4</item>
+        <item >6</item>
+        <item >8</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_hard_ten">
+        <item >5</item>
+        <item >2</item>
+        <item >1</item>
+        <item >3</item>
+        <item >13</item>
+        <item >12</item>
+        <item >16</item>
+        <item >11</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_hard_eleven">
+        <item >6</item>
+        <item >4</item>
+        <item >1</item>
+        <item >3</item>
+        <item >6</item>
+        <item >5</item>
+        <item >7</item>
+        <item >8</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_hard_twelve">
+        <item >4</item>
+        <item >2</item>
+        <item >3</item>
+        <item >1</item>
+        <item >3</item>
+        <item >5</item>
+        <item >6</item>
+        <item >7</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="quiz_hard_thirteen">
+        <item >5</item>
+        <item >2</item>
+        <item >6</item>
+        <item >3</item>
+        <item >18</item>
+        <item >16</item>
+        <item >13</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_hard_fourteen">
+        <item >6</item>
+        <item >1</item>
+        <item >7</item>
+        <item >2</item>
+        <item >12</item>
+        <item >16</item>
+        <item >14</item>
+        <item >11</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_hard_fifteen">
+        <item >8</item>
+        <item >1</item>
+        <item >3</item>
+        <item >2</item>
+        <item >10</item>
+        <item >13</item>
+        <item >12</item>
+        <item >11</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="quiz_hard_sixteen">
+        <item >9</item>
+        <item >2</item>
+        <item >3</item>
+        <item >6</item>
+        <item >2</item>
+        <item >3</item>
+        <item >0</item>
+        <item >1</item>
+    </integer-array>
+ 
+    <!-- Answer 4 -->
+    <integer-array name="quiz_hard_seventeen">
+        <item >7</item>
+        <item >2</item>
+        <item >3</item>
+        <item >2</item>
+        <item >1</item>
+        <item >2</item>
+        <item >4</item>
+        <item >3</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="quiz_hard_eighteen">
+        <item >2</item>
+        <item >1</item>
+        <item >6</item>
+        <item >3</item>
+        <item >11</item>
+        <item >14</item>
+        <item >18</item>
+        <item >16</item>
+    </integer-array>
+
+    <!-- Answer 3 -->
+    <integer-array name="quiz_hard_nineteen">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >16</item>
+        <item >12</item>
+        <item >14</item>
+        <item >11</item>
+    </integer-array>
+
+    <!-- Answer 2 -->
+    <integer-array name="quiz_hard_twenty">
+        <item >6</item>
+        <item >2</item>
+        <item >7</item>
+        <item >3</item>
+        <item >22</item>
+        <item >25</item>
+        <item >23</item>
+        <item >27</item>
+    </integer-array>
+
+    <!-- Answer 1 -->
+    <integer-array name="quiz_hard_twentyone">
+        <item >4</item>
+        <item >2</item>
+        <item >3</item>
+        <item >3</item>
+        <item >21</item>
+        <item >0</item>
+        <item >15</item>
+        <item >6</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_hard_twentytwo">
+        <item >5</item>
+        <item >4</item>
+        <item >2</item>
+        <item >1</item>
+        <item >13</item>
+        <item >12</item>
+        <item >16</item>
+        <item >14</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_hard_twentythree">
+        <item >3</item>
+        <item >6</item>
+        <item >5</item>
+        <item >2</item>
+        <item >21</item>
+        <item >28</item>
+        <item >26</item>
+        <item >24</item>
+    </integer-array>
+
+    <!-- Answer 4 -->
+    <integer-array name="quiz_hard_twentyfour">
+        <item >7</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >23</item>
+        <item >22</item>
+        <item >24</item>
+        <item >21</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_hard_twentyfive">
+        <item >8</item>
+        <item >5</item>
+        <item >3</item>
+        <item >4</item>
+        <item >3</item>
+        <item >4</item>
+        <item >1</item>
+        <item >2</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_hard_twentysix">
+        <item >12</item>
+        <item >6</item>
+        <item >13</item>
+        <item >2</item>
+        <item >44</item>
+        <item >43</item>
+        <item >42</item>
+        <item >41</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_hard_twentyseven">
+        <item >13</item>
+        <item >2</item>
+        <item >6</item>
+        <item >3</item>
+        <item >8</item>
+        <item >6</item>
+        <item >5</item>
+        <item >3</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_hard_twentyeight">
+        <item >6</item>
+        <item >3</item>
+        <item >12</item>
+        <item >11</item>
+        <item >32</item>
+        <item >36</item>
+        <item >35</item>
+        <item >31</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_hard_twentynine">
+        <item >17</item>
+        <item >2</item>
+        <item >11</item>
+        <item >2</item>
+        <item >56</item>
+        <item >54</item>
+        <item >50</item>
+        <item >52</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_hard_thirty">
+        <item >14</item>
+        <item >3</item>
+        <item >12</item>
+        <item >2</item>
+        <item >19</item>
+        <item >18</item>
+        <item >17</item>
+        <item >14</item>
+    </integer-array>
+     
+    <!-- Answer 4 -->
+    <integer-array name="quiz_hard_thirtyone">
+        <item >14</item>
+        <item >2</item>
+        <item >1</item>
+        <item >3</item>
+        <item >15</item>
+        <item >14</item>
+        <item >11</item>
+        <item >13</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_hard_thirtytwo">
+        <item >16</item>
+        <item >2</item>
+        <item >4</item>
+        <item >6</item>
+        <item >33</item>
+        <item >32</item>
+        <item >30</item>
+        <item >31</item>
+    </integer-array>
+    
+     <!-- Answer 2 -->
+    <integer-array name="quiz_hard_thirtythree">
+        <item >12</item>
+        <item >6</item>
+        <item >3</item>
+        <item >2</item>
+        <item >16</item>
+        <item >12</item>
+        <item >14</item>
+        <item >10</item>
+    </integer-array>
+    
+     <!-- Answer 4 -->
+    <integer-array name="quiz_hard_thirtyfour">
+        <item >4</item>
+        <item >6</item>
+        <item >13</item>
+        <item >2</item>
+        <item >25</item>
+        <item >28</item>
+        <item >26</item>
+        <item >24</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_hard_thirtyfive">
+        <item >7</item>
+        <item >4</item>
+        <item >2</item>
+        <item >11</item>
+        <item >6</item>
+        <item >4</item>
+        <item >2</item>
+        <item >7</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_hard_thirtysix">
+        <item >12</item>
+        <item >3</item>
+        <item >2</item>
+        <item >11</item>
+        <item >29</item>
+        <item >24</item>
+        <item >26</item>
+        <item >28</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_hard_thirtyseven">
+        <item >3</item>
+        <item >6</item>
+        <item >11</item>
+        <item >14</item>
+        <item >18</item>
+        <item >13</item>
+        <item >15</item>
+        <item >11</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_hard_thirtyeight">
+        <item >6</item>
+        <item >3</item>
+        <item >11</item>
+        <item >17</item>
+        <item >11</item>
+        <item >12</item>
+        <item >13</item>
+        <item >10</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_hard_thirtynine">
+        <item >18</item>
+        <item >4</item>
+        <item >2</item>
+        <item >11</item>
+        <item >1</item>
+        <item >2</item>
+        <item >4</item>
+        <item >0</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_hard_fourty">
+        <item >5</item>
+        <item >6</item>
+        <item >18</item>
+        <item >11</item>
+        <item >28</item>
+        <item >25</item>
+        <item >23</item>
+        <item >21</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_hard_fourtyone">
+        <item >16</item>
+        <item >2</item>
+        <item >3</item>
+        <item >12</item>
+        <item >18</item>
+        <item >15</item>
+        <item >17</item>
+        <item >16</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_hard_fourtytwo">
+        <item >12</item>
+        <item >6</item>
+        <item >3</item>
+        <item >11</item>
+        <item >39</item>
+        <item >36</item>
+        <item >34</item>
+        <item >35</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_hard_fourtythree">
+        <item >17</item>
+        <item >2</item>
+        <item >3</item>
+        <item >15</item>
+        <item >6</item>
+        <item >8</item>
+        <item >2</item>
+        <item >4</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_hard_fourtyfour">
+        <item >13</item>
+        <item >3</item>
+        <item >2</item>
+        <item >11</item>
+        <item >6</item>
+        <item >4</item>
+        <item >5</item>
+        <item >8</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_hard_fourtyfive">
+        <item >13</item>
+        <item >2</item>
+        <item >1</item>
+        <item >12</item>
+        <item >24</item>
+        <item >22</item>
+        <item >23</item>
+        <item >21</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_hard_fourtysix">
+        <item >18</item>
+        <item >3</item>
+        <item >12</item>
+        <item >4</item>
+        <item >6</item>
+        <item >4</item>
+        <item >8</item>
+        <item >7</item>
+    </integer-array>
+    
+    <!-- Answer 3 -->
+    <integer-array name="quiz_hard_fourtyseven">
+        <item >12</item>
+        <item >3</item>
+        <item >4</item>
+        <item >16</item>
+        <item >4</item>
+        <item >7</item>
+        <item >8</item>
+        <item >9</item>
+    </integer-array>
+    
+    <!-- Answer 4 -->
+    <integer-array name="quiz_hard_fourtyeight">
+        <item >16</item>
+        <item >4</item>
+        <item >2</item>
+        <item >17</item>
+        <item >8</item>
+        <item >6</item>
+        <item >4</item>
+        <item >7</item>
+    </integer-array>
+    
+    <!-- Answer 2 -->
+    <integer-array name="quiz_hard_fourtynine">
+        <item >19</item>
+        <item >2</item>
+        <item >14</item>
+        <item >3</item>
+        <item >26</item>
+        <item >27</item>
+        <item >25</item>
+        <item >22</item>
+    </integer-array>
+    
+    <!-- Answer 1 -->
+    <integer-array name="quiz_hard_fifty">
+        <item >19</item>
+        <item >12</item>
+        <item >6</item>
+        <item >3</item>
+        <item >13</item>
+        <item >18</item>
+        <item >11</item>
+        <item >14</item>
+    </integer-array>
+    <!-- Quiz Hard End -->
+
+    <string-array name="plus_minus_plus">
+        <item >+</item>
+        <item >-</item>
+        <item >+</item>
+    </string-array>
+    <string-array name="cross_plus_cross">
+        <item >x</item>
+        <item >+</item>
+        <item >x</item>
+    </string-array>
+    <string-array name="minus_plus_cross">
+        <item >-</item>
+        <item >+</item>
+        <item >x</item>
+    </string-array>
+    <string-array name="cross_minus_plus">
+        <item >x</item>
+        <item >-</item>
+        <item >+</item>
+    </string-array>
+    <string-array name="minus_plus_minus">
+        <item >-</item>
+        <item >+</item>
+        <item >-</item>
+    </string-array>
+    <string-array name="cross_plus_minus">
+        <item >x</item>
+        <item >+</item>
+        <item >-</item>
+    </string-array>
+    <string-array name="plus_cross_minus">
+        <item >+</item>
+        <item >x</item>
+        <item >-</item>
+    </string-array>
+    <string-array name="plus_minus_cross">
+        <item >+</item>
+        <item >-</item>
+        <item >x</item>
+    </string-array>
+    <string-array name="cross_minus_cross">
+        <item >x</item>
+        <item >-</item>
+        <item >x</item>
+    </string-array>
+    <string-array name="plus_cross_plus">
+        <item >+</item>
+        <item >x</item>
+        <item >+</item>
+    </string-array>
+    <string-array name="cross_cross_minus">
+        <item >x</item>
+        <item >x</item>
+        <item >-</item>
+    </string-array>
+    <string-array name="plus_plus_cross">
+        <item >+</item>
+        <item >+</item>
+        <item >x</item>
+    </string-array>
+    <string-array name="cross_minus_minus">
+        <item >x</item>
+        <item >-</item>
+        <item >-</item>
+    </string-array>
+    <string-array name="cross_plus_plus">
+        <item >x</item>
+        <item >+</item>
+        <item >+</item>
+    </string-array>
+        <string name="skip">Skip</string>
+        <string name="catch_eggs">Catch the Eggs</string>
+        <string name="fill_basket">Fill the Basket</string>
+        <string name="mystery">Mystery Numbers</string>
+        <string name="clear">C</string>
+        <string name="question">\?</string>
+        <string name="rate_us">Rate us!</string>
+
+    
+</resources>

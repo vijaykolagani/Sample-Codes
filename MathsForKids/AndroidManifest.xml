@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mathsforkids"
+    android:versionCode="5"
+    android:versionName="1.0.5" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="17"/>
+    
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.mathsforkids.MainActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".addition.AdditionAgeSelection"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        
+        <activity android:name=".addition.four.AdditionFourLevelSelect"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".addition.four.AdditionFour"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+     
+        <activity android:name=".addition.seven.AdditionSevenLevelSelect"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".addition.seven.AdditionSeven"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        
+        <activity android:name=".addition.nine.AdditionNineLevelSelect"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".addition.nine.AdditionNineLevelOneToTen"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".addition.nine.AdditionNineLevelElevenToTwenty"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".addition.nine.AdditionNineLevelTwentyOneToThirty"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+      
+        <activity android:name=".addition.above.AdditionAboveLevelSelect"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+       	<activity android:name=".addition.above.AdditionAboveLevelOneToTen"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".addition.above.AdditionAboveLevelElevenToTwenty"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".addition.above.AdditionAboveLevelTwentyOneToThirty"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+
+        <activity android:name=".subtraction.SubtractionAgeSelection"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+
+        <activity android:name=".subtraction.four.SubtractionFourLevelSelect"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".subtraction.four.SubtractionFour"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+
+        <activity android:name=".subtraction.seven.SubtractionSevenLevelSelect"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".subtraction.seven.SubtractionSevenLevelOneToTen"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".subtraction.seven.SubtractionSevenLevelElevenToTwenty"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".subtraction.seven.SubtractionSevenLevelTwentyOneToThirty"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+
+        <activity android:name=".subtraction.nine.SubtractionNineLevelSelect"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".subtraction.nine.SubtractionNineLevelOneToTen"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".subtraction.nine.SubtractionNineLevelElevenToTwenty"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".subtraction.nine.SubtractionNineLevelTwentyOneToThirty"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        
+        <activity android:name=".subtraction.above.SubtractionAboveLevelSelect"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".subtraction.above.SubtractionAboveLevelOneToTen"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".subtraction.above.SubtractionAboveLevelElevenToTwenty"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".subtraction.above.SubtractionAboveLevelTwentyOneToThirty"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        
+        <activity android:name=".multiplication.MultiplicationModeSelection"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        
+        <activity android:name=".multiplication.easy.MultiplicationEasy"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".multiplication.easy.MultiplicationEasyLevelSelect"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        
+        <activity android:name=".multiplication.medium.MultiplicationMedium"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".multiplication.medium.MultiplicationMediumLevelSelect"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        
+        <activity android:name=".multiplication.hard.MultiplicationHard"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".multiplication.hard.MultiplicationHardLevelSelect"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        
+        <activity android:name=".quiz.QuizModeSelection"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+     
+        <activity android:name=".quiz.normal.QuizNormalDifficultySelection"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".quiz.normal.QuizNormalEasy"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".quiz.normal.QuizNormalMedium"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".quiz.normal.QuizNormalHard"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        
+        <activity android:name=".quiz.instant.QuizInstantDifficultySelection"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".quiz.instant.QuizInstantEasy"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".quiz.instant.QuizInstantMedium"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".quiz.instant.QuizInstantHard"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        
+        <activity android:name=".quiz.timer.QuizTimerDifficultySelection"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".quiz.timer.QuizTimerEasy"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".quiz.timer.QuizTimerMedium"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".quiz.timer.QuizTimerHard"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        
+        <activity android:name=".games.Games"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".games.catcheggs.CatchTheEggs"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity android:name=".games.fillbasket.FillTheBasket"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        
+        <activity android:name=".mystery.MysteryNumbers"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+                
+        </application>
+
+</manifest>

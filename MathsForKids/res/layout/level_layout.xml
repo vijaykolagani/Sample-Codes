@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/level_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nature_bg"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/row_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/one"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_one_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_one"
+                android:layout_alignRight="@+id/level_one"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/two"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_two_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_two"
+                android:layout_alignRight="@+id/level_two"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/three"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_three_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_three"
+                android:layout_alignRight="@+id/level_three"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/four"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_four_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_four"
+                android:layout_alignRight="@+id/level_four"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/five"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_five_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_five"
+                android:layout_alignRight="@+id/level_five"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/six"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_six_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_six"
+                android:layout_alignRight="@+id/level_six"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/seven"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_seven_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_seven"
+                android:layout_alignRight="@+id/level_seven"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/eight"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_eight_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_eight"
+                android:layout_alignRight="@+id/level_eight"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/nine"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_nine_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_nine"
+                android:layout_alignRight="@+id/level_nine"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/ten"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_ten_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_ten"
+                android:layout_alignRight="@+id/level_ten"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_eleven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/eleven"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_eleven_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_eleven"
+                android:layout_alignRight="@+id/level_eleven"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_twelve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/twleve"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_twelve_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_twelve"
+                android:layout_alignRight="@+id/level_twelve"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_thirteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/thirteen"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_thirteen_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_thirteen"
+                android:layout_alignRight="@+id/level_thirteen"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_fourteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/fourteen"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_fourteen_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_fourteen"
+                android:layout_alignRight="@+id/level_fourteen"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_fifteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/fifteen"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_fifteen_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_fifteen"
+                android:layout_alignRight="@+id/level_fifteen"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_sixteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/sixteen"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_sixteen_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_sixteen"
+                android:layout_alignRight="@+id/level_sixteen"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_seventeen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/seventeen"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_seventeen_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_seventeen"
+                android:layout_alignRight="@+id/level_seventeen"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_eighteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/eighteen"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_eighteen_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_eighteen"
+                android:layout_alignRight="@+id/level_eighteen"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_nineteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/nineteen"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_nineteen_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_nineteen"
+                android:layout_alignRight="@+id/level_nineteen"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_twenty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/twenty"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_twenty_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_twenty"
+                android:layout_alignRight="@+id/level_twenty"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_twentyone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/twentyone"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_twentyone_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_twentyone"
+                android:layout_alignRight="@+id/level_twentyone"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_twentytwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/twentytwo"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_twentytwo_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_twentytwo"
+                android:layout_alignRight="@+id/level_twentytwo"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_twentythree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/twentythree"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_twentythree_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_twentythree"
+                android:layout_alignRight="@+id/level_twentythree"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_twentyfour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/twentyfour"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_twentyfour_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_twentyfour"
+                android:layout_alignRight="@+id/level_twentyfour"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_twentyfive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/twentyfive"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_twentyfive_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_twentyfive"
+                android:layout_alignRight="@+id/level_twentyfive"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_twentysix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/twentysix"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_twentysix_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_twentysix"
+                android:layout_alignRight="@+id/level_twentysix"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_twentyseven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/twentyseven"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_twentyseven_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_twentyseven"
+                android:layout_alignRight="@+id/level_twentyseven"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_twentyeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/twentyeight"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_twentyeight_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_twentyeight"
+                android:layout_alignRight="@+id/level_twentyeight"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_twentynine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/twentynine"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_twentynine_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_twentynine"
+                android:layout_alignRight="@+id/level_twentynine"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/level_thirty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/level_select_state"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/thirty"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="50dp" />
+
+            <ImageView
+                android:id="@+id/level_thirty_tick"
+                android:layout_width="@dimen/tick_width"
+                android:layout_height="@dimen/tick_height"
+                android:layout_alignBottom="@+id/level_thirty"
+                android:layout_alignRight="@+id/level_thirty"
+                android:src="@drawable/tick_mark" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

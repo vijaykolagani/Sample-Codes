@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/success"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="@dimen/medal_width"
+            android:layout_height="@dimen/medal_height"
+            android:src="@drawable/tick_mark" />
+
+        <TextView
+            android:id="@+id/correct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Correct : 0"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="@dimen/medal_width"
+            android:layout_height="@dimen/medal_height"
+            android:src="@drawable/wrong_mark" />
+
+        <TextView
+            android:id="@+id/wrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Wrong : 0"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <ImageView
+            android:id="@+id/ImageView03"
+            android:layout_width="@dimen/medal_width"
+            android:layout_height="@dimen/medal_height"
+            android:src="@drawable/next" />
+
+        <TextView
+            android:id="@+id/skipped"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Skipped : 0"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="@drawable/dialog_button_state"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="8dp"
+        android:text="@string/ok"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:width="80dp" />
+
+</LinearLayout>

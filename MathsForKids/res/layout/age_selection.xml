@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/age_selection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nature_bg"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/age_menu_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="70dp"
+        android:background="@drawable/menu_backdround"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:id="@+id/age_menu_vertical_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/tv_zero_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/menu_button_state"
+                android:clickable="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="5dp"
+                android:text="@string/age_zero_four"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:width="100dp" />
+
+            <TextView
+                android:id="@+id/tv_seven_nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/menu_button_state"
+                android:clickable="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="5dp"
+                android:text="@string/age_seven_nine"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:width="100dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/age_menu_vertical_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/tv_four_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/menu_button_state"
+                android:clickable="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="5dp"
+                android:text="@string/age_four_seven"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:width="100dp" />
+
+            <TextView
+                android:id="@+id/tv_nine_above"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/menu_button_state"
+                android:clickable="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="5dp"
+                android:text="@string/age_nine_above"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:width="100dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
