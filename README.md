@@ -110,7 +110,7 @@ It lets you meet with the like minded sports and fitness enthusiasts, share your
 Reference Website for the Application 
 http://www.365hops.com/social/event_search.php
 
-#MIT Medaia Lab Assignement ; Flash Light
+#MIT Medaia Lab Assignement : Flash Light
 
 This was an assignment for one of the android course by MIT Media labs.This Assignement consists of the Android Application which need to work on the falsh light.
  
