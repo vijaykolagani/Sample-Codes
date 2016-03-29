@@ -65,7 +65,7 @@ There are totally 12 different types of eggs which you can catch, some of them w
 PLay Store Link
 https://play.google.com/store/apps/details?id=com.savetheeggs.free
 
-Taxi Place
+# Taxi Place
 
 We have seen our friends and families struggling to get a cheaper and trusted outstation cabs rides, so we made it our mission to bring all trusted and reputed taxi agencies from all around the world under one platform.
 We guarantee to provide, on-road safety to our customers. For this we have partnered with most trusted and reliable cab agencies.
