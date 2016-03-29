@@ -101,3 +101,18 @@ https://play.google.com/store/apps/details?id=com.savetheeggs.free
 We have seen our friends and families struggling to get a cheaper and trusted outstation cabs rides, so we made it our mission to bring all trusted and reputed taxi agencies from all around the world under one platform.
 We guarantee to provide, on-road safety to our customers. For this we have partnered with most trusted and reliable cab agencies.
 
+# 365Hops 
+This was an Freelancing Project
+
+365hops is a social platform for people interested in sports, adventure and fitness. This is a location and interest based network which connects you to the people around your area who share same interests as you. Apart from people, we also bring you the events happening around you in sports and adventure domain and discussions on live matches from Cricket to Football. 
+It lets you meet with the like minded sports and fitness enthusiasts, share your thoughts, find people for a sports date or adventure trip or a work out session. 
+
+Reference Website for the Application 
+http://www.365hops.com/social/event_search.php
+
+#MIT Medaia Lab Assignement ; Flash Light
+
+This was an assignment for one of the android course by MIT Media labs.This Assignement consists of the Android Application which need to work on the falsh light.
+ 
+
+
