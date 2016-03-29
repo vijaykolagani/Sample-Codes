@@ -36,6 +36,13 @@ This Yoga Trainer is specially designed in such a way that it is used to every o
 It also gives you an in-depth overview of the benefits of each Yoga Posture.
 This Yoga Trainer provides you a Timer Control through which you can easily manage the time you spent doing Yoga. The Timer will automatically notifies you when the time which is set by you is expired
 
+
+![alt tag](https://cloud.githubusercontent.com/assets/18095327/14097874/17a7cb22-f544-11e5-8fe7-8e6f216b5c8c.png)
+![alt tag](https://cloud.githubusercontent.com/assets/18095327/14097875/17a85c04-f544-11e5-9524-dd0fc09c2982.png)
+![alt tag](https://cloud.githubusercontent.com/assets/18095327/14097873/17a750fc-f544-11e5-8944-93c36db9c4e0.png)
+![alt tag](https://cloud.githubusercontent.com/assets/18095327/14097877/17aa7df4-f544-11e5-952a-4fc91a27fa2b.png)
+![alt tag](https://cloud.githubusercontent.com/assets/18095327/14097876/17a9aa00-f544-11e5-9fb1-461edbf48944.png)
+
 PLay Store Link
 https://play.google.com/store/apps/details?id=syminc.yogatrainer.free
 
