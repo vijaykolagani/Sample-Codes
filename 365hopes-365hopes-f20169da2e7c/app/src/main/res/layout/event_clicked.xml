@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gray_bg" >
+
+    <ScrollView
+        android:id="@+id/eventClicked_optionScroller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/eventClicked_coverImage"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:src="@drawable/mock_image" />
+
+            <TextView
+                android:id="@+id/eventClicked_simonViewHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/eventClicked_coverImage"
+                android:background="@drawable/image_top_black_header"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Simon Lodge"
+                android:textColor="@android:color/white"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/eventClicked_orangBgText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/eventClicked_simonViewHeading"
+                android:layout_marginTop="19dp"
+                android:background="@drawable/events"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="Place to stay"
+                android:textColor="@android:color/white"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:id="@+id/eventClicked_aboutMeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/eventClicked_coverImage"
+                android:background="@drawable/profile_bar" >
+
+                <TextView
+                    android:id="@+id/eventClicked_textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Divya Parihar\n2 hrs ago" />
+
+                <ImageView
+                    android:id="@+id/eventClicked_speakerImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/speaker_icon" />
+
+                <TextView
+                    android:id="@+id/eventClicked_broadcastText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Broadcasted\n2near Delhi" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/eventClicked_profileIconMask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/eventClicked_priceRelativeLayout"
+                android:layout_alignLeft="@+id/eventClicked_coverImage"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/profile_icon_border_mask" />
+
+            <ImageView
+                android:id="@+id/eventClicked_profileIconBorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/eventClicked_priceRelativeLayout"
+                android:layout_alignLeft="@+id/eventClicked_coverImage"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/profile_icon_border" />
+
+            <RelativeLayout
+                android:id="@+id/eventClicked_priceRelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/eventClicked_aboutMeLayout" >
+
+                <LinearLayout
+                    android:id="@+id/eventClicked_priceLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white" >
+
+                    <TextView
+                        android:id="@+id/eventClicked_approxPriceText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="Approx Price"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/eventClicked_ApproxPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="Rs 3500"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eventClicked_activityLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eventClicked_priceLayout"
+                    android:layout_marginTop="3dp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/eventClicked_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="Activities"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/eventClicked_gpsImage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/marker_icon" />
+
+                        <ImageView
+                            android:id="@+id/eventClicked_gpsImage1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/marker_icon" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eventClicked_dateLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eventClicked_activityLayout"
+                    android:layout_marginTop="3dp"
+                    android:background="@android:color/white" >
+
+                    <ImageView
+                        android:id="@+id/eventClicked_foodImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/food_icon" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/eventClicked_dated"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Date"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/eventClicked_datedText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="center"
+                            android:text="Selected"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eventClicked_placeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eventClicked_dateLayout"
+                    android:layout_marginTop="3dp"
+                    android:background="@android:color/white" >
+
+                    <ImageView
+                        android:id="@+id/eventClicked_placeImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/household_room" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/eventClicked_placed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Where"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/eventClicked_placedText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="center"
+                            android:text="Leh Ladakh, Jk"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eventClicked_durationLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eventClicked_placeLayout"
+                    android:layout_marginTop="3dp"
+                    android:background="@android:color/white" >
+
+                    <ImageView
+                        android:id="@+id/eventClicked_roomTypeImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/bed_icon" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/eventClicked_duration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Duration"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/eventClicked_durationText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="center"
+                            android:text="9 days , 8 night"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eventClicked_difficultyLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eventClicked_durationLayout"
+                    android:layout_marginTop="3dp"
+                    android:background="@android:color/white" >
+
+                    <ImageView
+                        android:id="@+id/eventClicked_difficultyImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/bed_icon" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/eventClicked_difficultyText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Difficulty"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/eventClicked_difficult"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:gravity="center"
+                            android:text="Difficult"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eventClicked_beenThereLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eventClicked_difficultyLayout"
+                    android:layout_marginTop="6dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:id="@+id/eventClicked_beenThereRelativeLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" >
+
+                        <ImageView
+                            android:id="@+id/eventClicked_beenThereIcon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/beenthere_icon" />
+
+                        <TextView
+                            android:id="@+id/eventClicked_beenThereText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/eventClicked_beenThereIcon"
+                            android:gravity="center"
+                            android:text="5"
+                            android:textColor="@color/green"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/eventClicked_beenThereVerify"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/eventClicked_beenThereIcon"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Been there verify"
+                            android:textSize="10dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/eventClicked_beenThereRelativeLayout" >
+
+                        <ImageView
+                            android:id="@+id/eventClicked_commentIcon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/comment_icon" />
+
+                        <TextView
+                            android:id="@+id/eventClicked_commentText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/eventClicked_commentIcon"
+                            android:gravity="center"
+                            android:text="15"
+                            android:textColor="@color/green"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:id="@+id/eventClicked_comment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/eventClicked_commentIcon"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Comment"
+                            android:textSize="10dp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eventClicked_commentLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eventClicked_beenThereLayout"
+                    android:layout_marginTop="6dp"
+                    android:background="@android:color/white" >
+
+                    <TextView
+                        android:id="@+id/eventClicked_comments"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="Comments"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/eventClicked_commentImagePanel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/eventClicked_dateLayout"
+                    android:layout_alignRight="@+id/eventClicked_dateLayout"
+                    android:layout_below="@+id/eventClicked_beenThereLayout"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/white" >
+
+                    <TextView
+                        android:id="@+id/eventClicked_addComments"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="35dp"
+                        android:gravity="center"
+                        android:text="Comments"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/eventClicked_lineAfterComments"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/eventClicked_addComments"
+                        android:background="@android:color/darker_gray" >
+                    </View>
+                </RelativeLayout>
+                <!-- //TODO adding list view here for comments -->
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

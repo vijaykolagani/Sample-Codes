@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e7e6">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar_main"
+        android:indeterminate="true"
+        android:layout_gravity="center"
+        android:visibility="visible"/>
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvExp"
+        android:layout_above="@+id/btMore"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add More"
+        android:id="@+id/btMore"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

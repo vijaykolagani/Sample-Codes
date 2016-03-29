@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:classes="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:background="@drawable/broadcast"
+            android:layout_margin="5dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="3dp">
+
+            <com.appzollo.classes.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Broadcast your plans with people around"
+                android:id="@+id/textView"
+                android:textColor="#ffffff"
+                classes:fontName="seguisb.ttf"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/top_underline"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/linearLayout"
+        android:layout_above="@+id/iv_minimize"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/imageView2"
+                android:background="@drawable/creatplan_icon"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+            <LinearLayout
+                android:id="@+id/ll_createPlan"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#282625"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp">
+                <com.appzollo.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Create your plan sticker"
+                    android:id="@+id/tv_plan"
+                    classes:fontName="segoeuib.ttf"
+                    android:textColor="#fff"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <com.appzollo.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Broadcast your plans to get new mates"
+                    android:id="@+id/tv_name"
+                    classes:fontName="segoeui.ttf"
+                    android:textColor="#ddd"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/linearLayout2"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/imageView3"
+                android:background="@drawable/shareevent_icon"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp" />
+            <LinearLayout
+                android:id="@+id/ll_shareEvent"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#282625"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp">
+
+                <com.appzollo.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Share a new event"
+                    android:id="@+id/textView3"
+                    android:textColor="#fff"
+                    classes:fontName="segoeuib.ttf"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <com.appzollo.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Create an event to get audience for you trip"
+                    android:id="@+id/textView4"
+                    android:textColor="#ddd"
+                    classes:fontName="segoeuil.ttf"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/linearLayout4"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/imageView5"
+                android:background="@drawable/tagplace_icon"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp" />
+            <LinearLayout
+                android:id="@+id/ll_tagVisit"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#282625"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp">
+
+                <com.appzollo.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Tag a place to visit"
+                    android:id="@+id/textView7"
+                    android:textColor="#fff"
+                    classes:fontName="segoeuib.ttf"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <com.appzollo.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Found an awesome place to see, share on your map"
+                    android:id="@+id/textView8"
+                    android:textColor="#ddd"
+                    classes:fontName="segoeuil.ttf"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/linearLayout5"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/imageView6"
+                android:background="@drawable/placestay_icon"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp" />
+            <LinearLayout
+                android:id="@+id/ll_tagStay"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#282625"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp">
+                <com.appzollo.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Tag a place to stay"
+                    android:id="@+id/textView9"
+                    android:textColor="#fff"
+                    classes:fontName="segoeuib.ttf"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <com.appzollo.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Found an awesome place to stay, share on your map"
+                    android:id="@+id/textView10"
+                    android:textColor="#ddd"
+                    classes:fontName="segoeuil.ttf"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_minimize"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/minusmenu_icon" />
+</RelativeLayout>

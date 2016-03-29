@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <declare-styleable name="RobotoTextView">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <attr name="typeface" format="enum">
+        <enum name="segoeui" value="0"/>
+        <enum name="segoeuib" value="1"/>
+        <enum name="segoeuii" value="2"/>
+        <enum name="segoeuil" value="3"/>
+        <enum name="segoeuisl" value="4"/>
+        <enum name="segoeuiz" value="5"/>
+        <enum name="seguili" value="6"/>
+        <enum name="seguisb" value="7"/>
+        <enum name="seguisbi" value="8"/>
+        <enum name="seguisli" value="9"/>
+
+    </attr>
+    <declare-styleable name="Fonts">
+        <attr name="font" format="string" />
+        <attr name="android:textStyle" />
+    </declare-styleable>
+</resources>

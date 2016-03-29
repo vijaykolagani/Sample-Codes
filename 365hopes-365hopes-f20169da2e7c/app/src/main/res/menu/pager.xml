@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.appzollo.PagerActivity" >
+    <item
+        android:id="@+id/device_search"
+        android:icon="@drawable/magnifier_icon"
+        android:title="Search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:actionViewClass="com.actionbarsherlock.widget.SearchView"/>
+
+</menu>

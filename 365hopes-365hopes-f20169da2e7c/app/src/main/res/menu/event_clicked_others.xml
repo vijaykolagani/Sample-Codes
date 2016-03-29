@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.appzollo.profilefragments.PlanStickerClick">
+
+    <item
+        android:id="@+id/action_wrong_location"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/wrong_location_tag" />
+    <item
+        android:id="@+id/action_report"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/report_abuse" />
+</menu>

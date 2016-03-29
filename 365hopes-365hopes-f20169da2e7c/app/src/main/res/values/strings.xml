@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">365Hops</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">365Hops</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pager">365Hops</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="plan_sticker"> Plan Sticker </string>
+    <string name="place_stay">Place to stay</string>
+    <string name="place_visit">Place to visit</string>
+    <string name="events">Events</string>
+    <string name="bt_events">EVENTS</string>
+    <string name="bed">Bed</string>
+    <string name="food">Food</string>
+    <string name="bus">Bus</string>
+    <string name="title_activity_login">365Hops</string>
+    <string name="title_activity_createPlan">Add your place</string>
+    <string name="app_id">727034557363029</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="make_offline">Make Offline</string>
+    <string name="wrong_location_tag">Wrong Location Tag</string>
+    <string name="report_abuse">Report Abuse</string>
+
+    <string-array name="events_array">
+        <item>All</item>
+        <item>Adventure</item>
+        <item>Local Tours</item>
+        <item>Cultural Tour</item>
+        <item>Historical Tour</item>
+        <item>Wilidlife</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="events_list">
+        <item>Bungee Jumping</item>
+        <item>Camping</item>
+        <item>Cycling</item>
+        <item>Fishing Tours</item>
+        <item>Flying Fox</item>
+        <item>Hot Air Ballooning</item>
+        <item>Jeep Safari</item>
+        <item>Kayaking</item>
+        <item>Motorcycling</item>
+        <item>Mountaineering</item>
+        <item>Paintball</item>
+        <item>Paragliding</item>
+        <item>Parasailing</item>
+        <item>Rafting</item>
+        <item>Rock Climbing</item>
+        <item>Running</item>
+        <item>Scuba Diving</item>
+        <item>Skiing</item>
+        <item>Sky Diving</item>
+        <item>Snorkelling</item>
+        <item>Trekking</item>
+        <item>Wall Climbing</item>
+        <item>Water Sports</item>
+        <item>Wild Life Safari</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="country_array">
+        <item>+91</item>
+        <item>+90</item>
+    </string-array>
+    <string-array name="no_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="days">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="nights">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <string name="title_activity_create_plan_sticker">CreatePlanSticker</string>
+    <string name="title_activity_event_clicked">EventClicked</string>
+    <string name="title_activity_tag_place">Create your plan</string>
+    <string name="title_activity_share_new_event">Create your trip</string>
+    <string name="title_activity_place_to_visit">" "</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_inbox">Inbox</string>
+    <string name="title_activity_followers">Followers</string>
+    <string name="map_api_key">AIzaSyCmrdS1FzTTdV1dyzIamK_Ay3icMDn5Nuo</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_enquiries">Received Queries</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="title_activity_my_credits">My Travel Credits</string>
+    <string name="title_activity_add_intrest">AddIntrest</string>
+    <string name="title_activity_inbox_thread">" "</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_find_people">FindPeople</string>
+    <string name="title_activity_how_it_works">HowItWorks</string>
+    <string name="title_activity_faq">FAQ</string>
+    <string name="title_activity_privacy">Privacy</string>
+    <string name="title_activity_cancellation">Cancellation</string>
+    <string name="title_activity_terms">Terms</string>
+    <string name="title_activity_create_trip_one">CreateTripOne</string>
+    <string name="title_activity_compose">Compose</string>
+
+</resources>

@@ -1,0 +1,136 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <com.appzollo.classes.ScrollViewExt
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_login" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:background="@drawable/loginimage_1"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:background="@drawable/loginimage_2"
+                android:layout_gravity="center_horizontal"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:background="@drawable/loginimage_3"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+    </com.appzollo.classes.ScrollViewExt>
+    <RelativeLayout
+        android:id="@+id/rl_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll_connect"
+            android:gravity="center"
+            android:paddingTop="29px"
+            android:visibility="visible">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Connect with"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_gravity="center_vertical"
+                android:textColor="#969696"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp" />
+
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_365logo"
+                android:layout_marginRight="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="hops"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginRight="20dp"
+                android:textColor="#555" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_social"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_connect"
+            android:visibility="gone"
+            android:background="#d6d7d2"
+            android:orientation="vertical"
+            android:padding="78px">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/ll_fb"
+                android:layout_below="@+id/ll_connect"
+                android:layout_marginBottom="31px"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:src="@drawable/fb_btn"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/iv_fb"
+                    android:focusableInTouchMode="false"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp" />
+
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/iv_google"
+                    android:focusableInTouchMode="false"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/gmail_btn" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_below="@+id/ll_fb"
+                android:layout_weight="1"
+                android:visibility="visible">
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/mail_btn"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/iv_email"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

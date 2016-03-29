@@ -1,0 +1,477 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gray_bg" >
+
+    <TextView
+        android:id="@+id/places_feeds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/places_events"
+        android:layout_alignBottom="@+id/places_events"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:paddingLeft="15dp"
+        android:text="Feeds"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/places_events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/places_events"
+        android:layout_alignBottom="@+id/places_events"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:paddingRight="15dp"
+        android:text="Events"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/places_menuImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/places_feeds"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/top_header_line" />
+
+    <TextView
+        android:id="@+id/places_places"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Places"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/places_planSticker_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/places_feeds"
+        android:layout_below="@+id/places_menuImage"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/check_box" />
+
+    <TextView
+        android:id="@+id/places_planSticker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/places_planSticker_check"
+        android:layout_below="@+id/places_menuImage"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/places_planSticker_check"
+        android:gravity="center_vertical"
+        android:text="Plan Sticker"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/places_eventSticker_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/places_planSticker"
+        android:layout_alignRight="@+id/places_places"
+        android:layout_below="@+id/places_menuImage"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/check_box" />
+
+    <TextView
+        android:id="@+id/places_eventText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/places_eventSticker_check"
+        android:layout_alignTop="@+id/places_planSticker"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/places_eventSticker_check"
+        android:gravity="center_vertical"
+        android:text="Events"
+        android:textSize="18dp" />
+
+    <ScrollView
+        android:id="@+id/places_eventScroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/places_eventText"
+        android:layout_marginTop="3dp" >
+
+        <RelativeLayout
+            android:id="@+id/places_maintileLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/places_mainTile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/middle_pannel_bg" />
+
+            <ImageView
+                android:id="@+id/places_coverImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/places_adventureText"
+                android:layout_alignRight="@+id/places_adventureText"
+                android:src="@drawable/mock_image" />
+
+            <TextView
+                android:id="@+id/places_adventureText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/places_coverImage"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/image_top_black_header"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Adventure at Avani Betta"
+                android:textColor="@android:color/white"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/places_eventSideText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/places_coverImage"
+                android:layout_below="@+id/places_adventureText"
+                android:layout_marginTop="19dp"
+                android:background="@drawable/events"
+                android:gravity="center"
+                android:paddingRight="10dp"
+                android:text="Place to Stay"
+                android:textColor="@android:color/white"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:id="@+id/places_priceLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/places_coverImage"
+                android:layout_marginLeft="10dp" >
+
+                <TextView
+                    android:id="@+id/places_approxPriceText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="Approx Price"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/places_costText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="Rs 3500"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/places_lineAfterCost"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignLeft="@+id/places_priceLayout"
+                android:layout_alignRight="@+id/places_coverImage"
+                android:layout_below="@+id/places_priceLayout"
+                android:background="@android:color/darker_gray" >
+            </View>
+
+            <LinearLayout
+                android:id="@+id/places_dateTimeLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/places_priceLayout"
+                android:layout_alignRight="@+id/places_priceLayout"
+                android:layout_below="@+id/places_priceLayout"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp" >
+
+                    <ImageView
+                        android:id="@+id/places_locationIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="4dp"
+                        android:src="@drawable/marker_icon" />
+
+                    <TextView
+                        android:id="@+id/places_daysNightText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_toRightOf="@+id/places_locationIcon"
+                        android:text=" 20km"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/places_stateText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/places_daysNightText"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_toRightOf="@+id/places_locationIcon"
+                        android:text="from Mumbai"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/places_locationText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Type"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/places_typeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/places_locationText"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Home Stay"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/places_calendarIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="4dp"
+                        android:src="@drawable/calender_icon" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/places_profileLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/places_dateTimeLayout"
+                android:layout_alignRight="@+id/places_coverImage"
+                android:layout_below="@+id/places_dateTimeLayout"
+                android:background="@drawable/profile_bar" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="8dp" >
+
+                    <TextView
+                        android:id="@+id/places_nameTimetext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Divya Parihar" />
+
+                    <TextView
+                        android:id="@+id/places_Timetext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/places_nameTimetext"
+                        android:text="2 hrs ago" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp" >
+
+                    <ImageView
+                        android:id="@+id/places_speakerIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:src="@drawable/speaker_icon" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp" >
+
+                    <TextView
+                        android:id="@+id/places_broadcastDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Broadcasted" />
+
+                    <TextView
+                        android:id="@+id/places_broadcastplace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/places_broadcastDate"
+                        android:text="near Delhi" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/places_iconMask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/places_profileLayout"
+                android:layout_below="@+id/places_lineAfterCost"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/profile_icon_border_mask" />
+
+            <ImageView
+                android:id="@+id/places_iconBorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/places_profileLayout"
+                android:layout_below="@+id/places_lineAfterCost"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/profile_icon_border" />
+
+            <LinearLayout
+                android:id="@+id/places_beenThereLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/places_profileLayout"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/places_beenThereRelativeLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/places_beenThereIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/interest_icon" />
+
+                    <TextView
+                        android:id="@+id/places_beenThereText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/places_beenThereIcon"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textColor="@color/green"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/places_beenThereVerify"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/places_beenThereIcon"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="Show Interest"
+                        android:textSize="10dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/places_beenThereRelativeLayout" >
+
+                    <ImageView
+                        android:id="@+id/places_commentIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/comment_icon" />
+
+                    <TextView
+                        android:id="@+id/places_commentText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/places_commentIcon"
+                        android:gravity="center"
+                        android:text="15"
+                        android:textColor="@color/green"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/places_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/places_commentIcon"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="Comment"
+                        android:textSize="10dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/places_commentImagePanel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/places_beenThereLayout"
+                android:src="@drawable/middle_pannel_bg" />
+
+            <TextView
+                android:id="@+id/places_addComments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/places_commentImagePanel"
+                android:layout_alignTop="@+id/places_commentImagePanel"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:text="Comments"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/places_lineAfterComments"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignLeft="@+id/places_lineAfterCost"
+                android:layout_alignRight="@+id/places_lineAfterCost"
+                android:layout_below="@+id/places_addComments"
+                android:background="@android:color/darker_gray" >
+            </View>
+
+            <!-- //TODO adding list view here for comments -->
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

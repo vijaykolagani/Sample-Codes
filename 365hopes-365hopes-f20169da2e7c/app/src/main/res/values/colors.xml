@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#fff</color>
+    <color name="pager_title">#2c3e50</color>
+    <item name="green" type="color">#32CD32</item>
+    <item name="blue" type="color">#4682B4</item>
+    <item name="transparentBlack" type="color">#99000000</item>
+    <item name="bg" type="color">#e5e6e6</item>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<familyset>
+
+    <!-- Some Font. Can be referenced with 'someFont' or 'aspergit' -->
+    <family>
+        <nameset>
+            <name>seguisb</name>
+        </nameset>
+        <fileset>
+            <file>seguisb.ttf</file>
+
+        </fileset>
+    </family>
+
+
+
+</familyset>

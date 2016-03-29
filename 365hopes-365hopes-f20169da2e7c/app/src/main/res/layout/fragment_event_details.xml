@@ -1,0 +1,886 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:classes="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/image_top_black_header"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image_top_black_header"
+        android:gravity="center_vertical">
+
+        <com.appzollo.classes.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_heading"
+            android:text=""
+            classes:fontName="seguisb.ttf"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:padding="2dp" />
+    </LinearLayout>
+
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/event_scroll_view">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gray_bg"
+        android:orientation="vertical"
+      >
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar_main"
+            android:layout_gravity="center"
+            android:indeterminate="true" />
+
+
+        <LinearLayout
+            android:id="@+id/sticker_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <FrameLayout
+                android:id="@+id/fl_framelayout"
+                android:layout_width="fill_parent"
+
+                android:layout_height="286dp">
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/bt_events"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@drawable/events"
+                        android:text="@string/events"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="right"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/iv_bus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/bus"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bus_disabled" />
+
+                    <ImageView
+                        android:id="@+id/iv_food"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/food"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/dinner_disabled" />
+
+                    <ImageView
+                        android:id="@+id/iv_bed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/bed"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/sleep_disabled" />
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:indeterminate="true" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <com.appzollo.classes.MyTextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Approx Price "
+                    classes:fontName="segoeuib.ttf"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_amt_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:textColor="#999"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:paddingBottom="8dp">
+
+                <FrameLayout
+                    android:id="@+id/fl_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/profile_bar"
+                    android:paddingLeft="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="false"
+                    android:layout_centerInParent="true">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="55dp"
+                            android:layout_weight="1">
+
+                            <com.appzollo.classes.MyTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textSize="17sp"
+                                android:singleLine="true"
+                                classes:fontName="latosb.ttf"
+                                android:id="@+id/tv_name"
+                                android:textStyle="bold" />
+
+                            <com.appzollo.classes.MyTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2 hrs ago"
+                                classes:fontName="latom.ttf"
+                                android:textColor="#999"
+                                android:id="@+id/tv_last_active" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_marginRight="10dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/iv_broadcast1"
+                                android:src="@drawable/speaker_icon" />
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:paddingLeft="10dp">
+
+                                <com.appzollo.classes.MyTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Broadcasted"
+                                    classes:fontName="seguisb.ttf"
+                                    android:id="@+id/tv_broadcasted_plansticker"
+                                    android:textColor="#999"
+                                    android:textSize="16sp" />
+
+                                <com.appzollo.classes.MyTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=""
+                                    android:maxWidth="100dp"
+                                    android:singleLine="true"
+                                    classes:fontName="seguisb.ttf"
+                                    android:id="@+id/tv_cast_place" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/profile_icon_border"
+                    android:padding="2dp"
+                    android:layout_gravity="left|top"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="10dp" >
+                    <com.appzollo.classes.RoundedImageView
+                        android:id="@+id/iv_profile_icon1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <com.appzollo.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="Activities"
+                    classes:fontName="segoeuib.ttf"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/llSegemnts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+</HorizontalScrollView>
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="#e2e2e2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/dtae_calender" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <com.appzollo.classes.MyTextView
+                        android:id="@+id/tv_date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:text="Date"
+                        classes:fontName="segoeuib.ttf"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <com.appzollo.classes.MyTextView
+                        android:id="@+id/tv_date_selected"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        classes:fontName="seguisb.ttf"
+                        android:text=" "
+                        android:layout_weight="0.6"
+                        android:gravity="right"
+                        android:textColor="#999"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageLine"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e2e2e2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/where_nav" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <com.appzollo.classes.MyTextView
+                        android:id="@+id/tv_where"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Where"
+                        android:textSize="16sp"
+                        android:layout_weight="0.4"
+                        classes:fontName="segoeuib.ttf"
+                        android:textStyle="bold" />
+
+                    <com.appzollo.classes.MyTextView
+                        android:id="@+id/tv_places"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text=" "
+                        android:layout_weight="0.6"
+                        android:gravity="right"
+                        android:textColor="#999"
+                        classes:fontName="seguisb.ttf"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageLine1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e2e2e2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/duration_watch" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <com.appzollo.classes.MyTextView
+                        android:id="@+id/tv_duration"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:text="Duration"
+                        classes:fontName="segoeuib.ttf"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <com.appzollo.classes.MyTextView
+                        android:id="@+id/tv_durationTime"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text=" "
+                        android:layout_weight="0.6"
+                        android:gravity="right"
+                        android:textColor="#999"
+                        classes:fontName="seguisb.ttf"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageLine2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e2e2e2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/difficulty_star" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <com.appzollo.classes.MyTextView
+                        android:id="@+id/tv_difficulty"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:text="Difficulty"
+                        classes:fontName="segoeuib.ttf"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <com.appzollo.classes.MyTextView
+                        android:id="@+id/tv_difficulty_level"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text=" "
+                        android:layout_weight="0.6"
+                        android:textColor="#999"
+                        android:gravity="right"
+                        classes:fontName="seguisb.ttf"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageLine3"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="#e2e2e2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_interest"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/bt_interest"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawableLeft="@drawable/interest_icon"
+                        android:text=" "
+                        android:clickable="false" />
+
+                    <com.appzollo.classes.MyTextView
+                        android:id="@+id/tv_interest"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Show Interest"
+                        android:textSize="16sp"
+                        classes:fontName="latom.ttf"
+                        android:clickable="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/bt_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:drawableLeft="@drawable/comment_icon"
+                        android:text=" " />
+
+                    <com.appzollo.classes.MyTextView
+                        android:id="@+id/tv_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Comment"
+                        classes:fontName="latom.ttf"
+                        android:clickable="false"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageLine5"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginTop="34px"
+                android:background="#e2e2e2" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/comments_layout"
+                android:visibility="gone">
+                <LinearLayout
+                    android:id="@+id/comments_layout1"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                <com.appzollo.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COMMENTS"
+                    classes:fontName="latosb.ttf"
+                    android:id="@+id/textView17"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="50dp" />
+                    </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <EditText
+                        android:id="@+id/etComment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+                    <Button
+                        android:id="@+id/btSend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Send"/>
+                    </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/bt_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#437185"
+                    android:text="Details" />
+
+                <Button
+                    android:id="@+id/bt_cost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#eeffffff"
+                    android:text="Cost" />
+
+                <Button
+                    android:id="@+id/bt_action"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#eeffffff"
+                    android:text="Actions" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_details"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                <!-- <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:layout_marginLeft="11dp"
+     android:layout_marginRight="11dp"
+     android:layout_marginTop="11dp">
+     <TextView
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Day 01"
+         android:textStyle="bold"
+         />
+
+     <TextView
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="The movement you land at the Leh airport, one of the highest airports in the world,you will feel the fresh and crisp air, and  a drastic drop in the temparature. The town has just begun shedding off the thick winter slumber"
+        />
+     </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_marginTop="10dp"
+                     android:layout_marginRight="11dp"
+                     android:layout_marginLeft="11dp">
+                     <TextView
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:text="Day 02"
+                         android:textStyle="bold"
+                         />
+
+                     <TextView
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:text="The movement you land at the Leh airport, one of the highest airports in the world,you will feel the fresh and crisp air, and  a drastic drop in the temparature. The town has just begun shedding off the thick winter slumber"
+                         />
+                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_marginTop="10dp"
+                     android:layout_marginLeft="11dp"
+                     android:layout_marginRight="11dp"
+                     android:layout_marginBottom="10dp">
+                     <TextView
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:text="Day 03"
+                         android:textStyle="bold"
+                         />
+
+                     <TextView
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:text="The movement you land at the Leh airport, one of the highest airports in the world,you will feel the fresh and crisp air, and  a drastic drop in the temparature. The town has just begun shedding off the thick winter slumber"
+                          />
+                 </LinearLayout>-->
+                <com.appzollo.classes.MyTextView
+                    android:id="@+id/tv_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    classes:fontName="segoeui.ttf"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_cost"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/tv_cost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                
+                <FrameLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/food_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginLeft="60dp"
+                        android:id="@+id/tv_extra_food"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/bed_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginLeft="60dp"
+                        android:id="@+id/tv_extra_accm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/bus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginLeft="60dp"
+                        android:id="@+id/tv_extra_travel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </FrameLayout>
+                <FrameLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/navigator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginLeft="60dp"
+                        android:id="@+id/tv_safety_travel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </FrameLayout>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_actions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/tv_action"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageLinee"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#e2e2e2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.11"
+                        android:background="#447289"
+                        android:text="Book"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Similar options"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="30dp"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:id="@+id/ll_container">
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/et_add_date"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/xalender_box"
+    android:padding="10dp"
+    android:drawableRight="@drawable/calender_icon"
+    tools:showIn="@layout/add_trip_details" />

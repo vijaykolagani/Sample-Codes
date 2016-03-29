@@ -1,0 +1,86 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center">
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+            android:gravity="center">
+            <CheckBox
+                android:id="@+id/cb_plan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:button="@drawable/checkbox_style"
+                android:text="@string/plan_sticker"
+                android:checked="true"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <CheckBox
+                android:id="@+id/cb_events"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:button="@drawable/checkbox_style"
+                android:text="@string/events"
+                android:checked="true"/>
+        </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Events Found"
+        android:id="@+id/tv_no_events"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar_main"
+        android:indeterminate="true"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <com.appzollo.classes.ScrollViewExt
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:id="@+id/scrollview1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/event_layout"
+        android:gravity="center_horizontal">
+
+
+
+
+    </LinearLayout>
+</com.appzollo.classes.ScrollViewExt>
+</LinearLayout>

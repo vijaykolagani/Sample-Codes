@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:classes="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sticker_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/middle_pannel_bg"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp">
+
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="286dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:id="@+id/fl_eventpic"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/image_top_black_header"
+            android:gravity="center_vertical">
+
+            <com.appzollo.classes.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_heading"
+                android:textColor="#fff"
+                classes:fontName="segoeui.ttf"
+                android:textSize="18sp"
+                android:padding="2dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_events"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:padding="3dp"
+                android:background="@drawable/events"
+                android:text="@string/events"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/iv_bus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/bus"
+                android:layout_margin="5dp"
+                android:background="@drawable/bus_disabled" />
+
+            <ImageView
+                android:id="@+id/iv_food"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/food"
+                android:layout_margin="5dp"
+                android:background="@drawable/dinner_disabled" />
+
+            <ImageView
+                android:id="@+id/iv_bed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/bed"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/sleep_disabled" />
+        </LinearLayout>
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_gravity="center"
+            android:indeterminate="true" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_weight="1">
+
+        <com.appzollo.classes.MyTextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Approx Price "
+            classes:fontName="segoeuib.ttf"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_amt_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Rs 3000"
+            android:textColor="#999"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:background="#999"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="7dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1">
+
+        <com.appzollo.classes.MyTextView
+            android:id="@+id/tv_days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5 nights and 2 days"
+            classes:fontName="segoeuib.ttf"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+                <com.appzollo.classes.MyTextView
+                    android:id="@+id/tv_place"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/marker_icon"
+                    android:drawablePadding="5dp"
+                    android:text="Hill forest,"
+                    android:textSize="14sp"
+                    classes:fontName="segoeuib.ttf"
+                    android:textStyle="bold"
+                    android:singleLine="true" />
+
+                <com.appzollo.classes.MyTextView
+                    android:id="@+id/tv_place_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#999"
+                    classes:fontName="segoeui.ttf"
+                    android:singleLine="true" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/calender_icon"/>
+                <com.appzollo.classes.MyTextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="21 Jan 2014 -\n 25 Jan2015"
+                    android:gravity="top"
+                    classes:fontName="segoeuib.ttf"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:padding="2dp"/>
+                </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:paddingBottom="10dp">
+
+        <FrameLayout
+            android:id="@+id/fl_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile_bar"
+            android:paddingLeft="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp">
+
+                    <com.appzollo.classes.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Prasad"
+                        android:singleLine="true"
+                        android:id="@+id/tv_name"
+                        android:textSize="17sp"
+                        classes:fontName="latosb.ttf"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 hrs ago"
+                        android:textColor="#999"
+                        android:id="@+id/tv_last_active" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/iv_broadcast1"
+                        android:src="@drawable/speaker_icon" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:paddingLeft="10dp">
+
+                        <com.appzollo.classes.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Broadcasted"
+                            android:id="@+id/tv_broadcasted_plansticker"
+                            android:textColor="#999"
+                            classes:fontName="segoeui.ttf"
+                            android:textSize="16sp" />
+
+                        <com.appzollo.classes.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxWidth="100dp"
+                            android:singleLine="true"
+                            classes:fontName="segoeui.ttf"
+                            android:id="@+id/tv_cast_place" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile_icon_border"
+            android:padding="2dp"
+            android:layout_gravity="left|top"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp" >
+        <com.appzollo.classes.RoundedImageView
+            android:id="@+id/iv_profile_icon1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:paddingBottom="30dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/ll_intrest">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/bt_interest"
+                android:drawableLeft="@drawable/interest_icon"
+                android:background="@null" />
+
+            <com.appzollo.classes.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show Interest"
+                android:id="@+id/tv_interest"
+                classes:fontName="latom.ttf"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/llComment">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:id="@+id/bt_comment"
+                android:drawableLeft="@drawable/comment_icon"
+                android:background="@null" />
+
+            <com.appzollo.classes.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comment"
+                android:id="@+id/tv_comment"
+                classes:fontName="latom.ttf"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_id"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_userid"
+        android:visibility="gone"/>
+ `
+</LinearLayout>

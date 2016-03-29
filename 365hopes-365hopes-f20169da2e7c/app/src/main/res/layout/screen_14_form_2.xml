@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:classes="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddd">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.appzollo.classes.MyTextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="25dp"
+                        android:text="When"
+                        classes:fontName="seguisb.ttf"
+                        android:textColor="#666"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="15dp"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <EditText
+                            android:id="@+id/et_date_from"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/xalender_box"
+                            android:padding="10dp"
+                            android:drawableRight="@drawable/calender_icon"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="To"
+                            android:id="@+id/textView3"
+                            android:layout_gravity="center"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/et_date_two"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/xalender_box"
+                            android:padding="10dp"
+                            android:layout_gravity="right"
+                            android:drawableRight="@drawable/calender_icon"/>
+
+                    </FrameLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#bbb" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.appzollo.classes.MyTextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Activity"
+                        android:textColor="#666"
+                        classes:fontName="seguisb.ttf"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="15dp"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/spSegments"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="2dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/activity_box"
+                                android:padding="10dp"
+                                android:drawableRight="@drawable/dropdown"/>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#bbb" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="30dp">
+
+                    <com.appzollo.classes.MyTextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Add pictures of your place (optional) "
+                        android:textColor="#666"
+                        android:textSize="18dp"
+                        classes:fontName="seguisb.ttf"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical|center_horizontal" />
+                 <Gallery
+                     android:id="@+id/gallery"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:background="#000"
+                     android:spacing="2dp">
+
+                     </Gallery>
+                    <HorizontalScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#000"
+                        android:visibility="gone">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="64dp"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#000"
+                        android:id="@+id/ll_image"/>
+                    </HorizontalScrollView>
+
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="10dp">
+
+                        <LinearLayout
+                            android:id="@+id/llGallery"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="2dp"
+                            android:layout_marginRight="6dp"
+                            android:layout_marginLeft="6dp"
+                            android:background="@drawable/camera_pressedstate">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/bt_galllery"
+                                android:background="#00000000"
+                                android:text="Gallery"
+                                android:gravity="center"
+                                android:textColor="#ffffff"
+                                android:drawablePadding="5dp"
+                                android:drawableRight="@drawable/gallery"
+                                android:layout_marginTop="5dp" />
+                            </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/llCamera"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="2dp"
+                            android:background="@drawable/camera_pressedstate">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/bt_camera"
+                            android:text="Camera"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            android:drawablePadding="5dp"
+                            android:background="#00000000"
+                            android:drawableRight="@drawable/camera"
+                            android:layout_marginTop="5dp" />
+
+                            </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/llCancel"
+            android:background="@drawable/cancel_pressed_state">
+            <Button
+                android:id="@+id/bt_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/cross"
+                android:text="Cancel"
+                android:background="#00000000"
+                android:clickable="false"
+                android:drawablePadding="5dp"
+                android:gravity="left|center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llDone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/done_pressed_state">
+
+            <Button
+                android:id="@+id/bt_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Done"
+                android:gravity="left|center"
+                android:drawablePadding="5dp"
+                android:clickable="false"
+                android:background="#00000000"
+                android:textColor="#fff"
+                android:drawableLeft="@drawable/checkmark" />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

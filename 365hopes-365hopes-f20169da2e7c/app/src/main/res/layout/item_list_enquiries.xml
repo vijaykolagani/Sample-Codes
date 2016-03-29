@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:classes="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e7e6"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.appzollo.classes.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Coorg Camping and Kayaking"
+            android:textStyle="bold"
+            classes:fontName="segoeuib.ttf"
+            android:id="@+id/tv_title" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <com.appzollo.classes.RoundedImageView
+            android:id="@+id/iv_profile_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/profile_icon_border"
+            android:src="@drawable/profile_icon_border_mask"
+            android:layout_gravity="left|top"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <com.appzollo.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Kunal, Bangalore"
+                    classes:fontName="segoeuib.ttf"
+                    android:id="@+id/tv_name"
+                    android:layout_weight="1" />
+
+                <com.appzollo.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="on 4th Oct,2014"
+                    classes:fontName="seguisb.ttf"
+                    android:textColor="#999"
+                    android:id="@+id/tv_date" />
+
+            </LinearLayout>
+
+            <com.appzollo.classes.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91-971667889"
+                android:id="@+id/tv_number"
+                classes:fontName="segoeuib.ttf"
+                android:layout_margin="3dp"
+                android:textStyle="bold" />
+
+            <com.appzollo.classes.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:id="@+id/tv_email"
+                classes:fontName="segoeuib.ttf"
+                android:layout_margin="3dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.appzollo.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Expected People"
+                    android:layout_gravity="right"
+                    android:textColor="#4e4e4e"
+                    classes:fontName="seguisb.ttf"
+                    android:layout_marginRight="10dp" />
+                <com.appzollo.classes.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="7"
+                    android:layout_gravity="right"
+                    android:textColor="#4e4e4e"
+                    android:id="@+id/tv_people"
+                    classes:fontName="seguisb.ttf"
+                    android:layout_marginRight="10dp" />
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
