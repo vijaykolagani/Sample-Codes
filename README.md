@@ -6,6 +6,8 @@ Message Translator allows you to translate a message in 20 different languages.
 The Translated message can be send via SMS and Share via EMAIL or any Social Networking sites(E.g. Facebook, Twitter ,Linkedin etc..)
 No Pain of copying the translated message to your message composer. Message Translator will automatically adds to translated message to your message composer.
 
+![alt tag](https://cloud.githubusercontent.com/assets/18095327/14097422/9c23b646-f53e-11e5-89f4-bf6cc80344df.jpg)
+
 PLay Store Link
 https://play.google.com/store/apps/details?id=afictive.messagetranslator
 
