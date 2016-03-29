@@ -1,0 +1,308 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cacaca"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/LayoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:background="#666666"
+        android:padding="5dp" >
+
+        <Spinner
+            android:id="@+id/spSource"
+            android:layout_width="126dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:prompt="@string/choose" />
+
+        <Button
+            android:id="@+id/reverse"
+            android:layout_width="70dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.2"
+            android:background="#00ffffff"
+            android:text="&lt; >"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <Spinner
+            android:id="@+id/spDest"
+            android:layout_width="138dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="0.4"
+            android:prompt="@string/choose" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/LayoutBottom"
+        android:layout_below="@+id/LayoutTop" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/sourceLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/linearLayout1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp" >
+
+                <TextView
+                    android:id="@+id/langS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Source"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/tvSource"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/langS"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:textAppearance="?android:attr/textAppearanceMedium" >
+                </TextView>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/menuLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/sourceLayout"
+                android:layout_gravity="center_horizontal|center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/listen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:background="@android:drawable/ic_lock_silent_mode_off" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/send"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_weight="1"
+                        android:background="#aa000000"
+                        android:src="@android:drawable/sym_action_email"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/mail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/listen"
+                        android:background="@android:drawable/ic_dialog_email" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/share"
+                        android:layout_width="37dp"
+                        android:layout_height="34dp"
+                        android:background="@android:drawable/ic_menu_share" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/copy"
+                        android:layout_width="37dp"
+                        android:layout_height="34dp"
+                        android:background="@drawable/ic_action_copy" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/feedback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Feedback"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/destLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/menuLayout"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/shape"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp" >
+
+                <TextView
+                    android:id="@+id/langD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Destination"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/tvDestination"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/langD"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:textAppearance="?android:attr/textAppearanceMedium" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/DictionaryLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="2dp" >
+
+                <com.svaoaowsx.kkpqiooew40407.AdView
+                    xmlns:ap="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/myAdView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    ap:animation="fade"
+                    ap:banner_type="inappad"
+                    ap:canShowMR="false"
+                    ap:placementType="interstitial"
+                    ap:test_mode="false" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/target"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:padding="5dp" >
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="40dp"
+                    android:layout_height="32dp"
+                    android:background="@android:drawable/ic_menu_close_clear_cancel" />
+
+                <EditText
+                    android:id="@+id/etSource"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="0.49"
+                    android:ems="10"
+                    android:hint="Enter Text Here"
+                    >
+
+                    <requestFocus />
+                </EditText>
+
+                <Button
+                    android:id="@+id/translate"
+                    android:layout_width="48dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/ic_btn_search_go" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/LayoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#666666"
+        android:padding="10dp" >
+
+        <ImageButton
+            android:id="@+id/speak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ffffff"
+            android:src="@drawable/ic_btn_speak_now" />
+
+        <ImageButton
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ffffff"
+            android:src="@drawable/sms" />
+    </LinearLayout>
+
+</RelativeLayout>
